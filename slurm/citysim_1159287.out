@@ -1,0 +1,105 @@
+[INFO] Module OpenMPI/5.0.3 loaded.
+
+Lmod is automatically replacing "impi/2021.13.0" with "OpenMPI/5.0.3".
+
+[INFO] Module OpenMPI/5.0.3 loaded.
+
+Inactive Modules:
+  1) imkl-FFTW/2024.2.0
+
+[2026-06-17T16:19:51.816] error: Can't propagate RLIMIT_NPROC of 2060088 from submit host: Invalid argument
+[2026-06-17T16:19:51.849] error: Can't propagate RLIMIT_NPROC of 2060088 from submit host: Invalid argument
+[2026-06-17T16:19:51.854] error: Can't propagate RLIMIT_NPROC of 2060088 from submit host: Invalid argument
+[2026-06-17T16:19:51.873] error: Can't propagate RLIMIT_NPROC of 2060088 from submit host: Invalid argument
+[2026-06-17T16:19:51.863] error: Can't propagate RLIMIT_NPROC of 2060088 from submit host: Invalid argument
+[2026-06-17T16:19:51.886] error: Can't propagate RLIMIT_NPROC of 2060088 from submit host: Invalid argument
+[2026-06-17T16:19:51.863] error: Can't propagate RLIMIT_NPROC of 2060088 from submit host: Invalid argument
+[2026-06-17T16:19:51.863] error: Can't propagate RLIMIT_NPROC of 2060088 from submit host: Invalid argument
+[2026-06-17T16:19:51.863] error: Can't propagate RLIMIT_NPROC of 2060088 from submit host: Invalid argument
+[2026-06-17T16:19:51.898] error: Can't propagate RLIMIT_NPROC of 2060088 from submit host: Invalid argument
+[2026-06-17T16:19:51.900] error: Can't propagate RLIMIT_NPROC of 2060088 from submit host: Invalid argument
+[2026-06-17T16:19:51.902] error: Can't propagate RLIMIT_NPROC of 2060088 from submit host: Invalid argument
+[2026-06-17T16:19:51.902] error: Can't propagate RLIMIT_NPROC of 2060088 from submit host: Invalid argument
+[2026-06-17T16:19:51.905] error: Can't propagate RLIMIT_NPROC of 2060088 from submit host: Invalid argument
+[2026-06-17T16:19:51.905] error: Can't propagate RLIMIT_NPROC of 2060088 from submit host: Invalid argument
+[2026-06-17T16:19:51.905] error: Can't propagate RLIMIT_NPROC of 2060088 from submit host: Invalid argument
+[2026-06-17T16:19:51.905] error: Can't propagate RLIMIT_NPROC of 2060088 from submit host: Invalid argument
+[2026-06-17T16:19:51.905] error: Can't propagate RLIMIT_NPROC of 2060088 from submit host: Invalid argument
+[2026-06-17T16:19:51.911] error: Can't propagate RLIMIT_NPROC of 2060088 from submit host: Invalid argument
+[2026-06-17T16:19:51.910] error: Can't propagate RLIMIT_NPROC of 2060088 from submit host: Invalid argument
+[2026-06-17T16:19:51.914] error: Can't propagate RLIMIT_NPROC of 2060088 from submit host: Invalid argument
+[2026-06-17T16:19:51.909] error: Can't propagate RLIMIT_NPROC of 2060088 from submit host: Invalid argument
+[2026-06-17T16:19:51.917] error: Can't propagate RLIMIT_NPROC of 2060088 from submit host: Invalid argument
+[2026-06-17T16:19:51.966] error: Can't propagate RLIMIT_NPROC of 2060088 from submit host: Invalid argument
+[2026-06-17T16:19:51.966] error: Can't propagate RLIMIT_NPROC of 2060088 from submit host: Invalid argument
+[2026-06-17T16:19:51.967] error: Can't propagate RLIMIT_NPROC of 2060088 from submit host: Invalid argument
+[2026-06-17T16:19:51.967] error: Can't propagate RLIMIT_NPROC of 2060088 from submit host: Invalid argument
+[2026-06-17T16:19:51.967] error: Can't propagate RLIMIT_NPROC of 2060088 from submit host: Invalid argument
+[2026-06-17T16:19:51.979] error: Can't propagate RLIMIT_NPROC of 2060088 from submit host: Invalid argument
+[2026-06-17T16:19:51.979] error: Can't propagate RLIMIT_NPROC of 2060088 from submit host: Invalid argument
+[2026-06-17T16:19:51.979] error: Can't propagate RLIMIT_NPROC of 2060088 from submit host: Invalid argument
+[2026-06-17T16:19:51.979] error: Can't propagate RLIMIT_NPROC of 2060088 from submit host: Invalid argument
+[2026-06-17T16:19:51.979] error: Can't propagate RLIMIT_NPROC of 2060088 from submit host: Invalid argument
+[2026-06-17T16:19:51.997] error: Can't propagate RLIMIT_NPROC of 2060088 from submit host: Invalid argument
+[2026-06-17T16:19:52.001] error: Can't propagate RLIMIT_NPROC of 2060088 from submit host: Invalid argument
+Initializing the logger
+Starting mass simulation with 40 workers.
+Loading city scenario from path /home/gzi37280/CityScenarioGenerator/scenarios/scenario_juelich
+Using database file: /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/bin/release/net9.0/linux-x64/publish/profilegenerator.db3
+Calling MPI Scatter to distribute scenario parts.
+Worker 0 on n23m0410.hpc.itc.rwth-aachen.de is responsible for 237 houses and 450 POIs.
+Reusing existing database file profilegenerator.worker_0.db3
+CitySimulation.CitySimWrapperException: Exception on worker 2 from target 'DEA_DENW40AL10003WBt-5914' during initialization.
+ ---> Common.DataIntegrityException: The house DEA_DENW40AL10003WBt-5914 has no housetype. Please fix.
+   at CalculationController.Integrity.HouseChecker.Run(Simulator sim, CheckingOptions options) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CalculationController/Integrity/HouseChecker.cs:line 52
+   at CalculationController.Integrity.BasicChecker.RunCheck(Simulator sim, Int32 step, CheckingOptions options) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CalculationController/Integrity/BasicChecker.cs:line 20
+   at CalculationController.Integrity.SimIntegrityChecker.Run(Simulator sim, CheckingOptions options) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CalculationController/Integrity/SimIntegrityChecker.cs:line 147
+   at CalculationController.CalcFactories.CalcManagerFactory.GetCalcManager(CalcStartParameterSet csps) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CalculationController/CalcFactories/CalcManagerFactory.cs:line 105
+   at CitySimulation.LPGMassSimulator.PrepareHousesForSimulation(String baseResultDir, Int32 rank) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 177
+   --- End of inner exception stack trace ---
+   at CitySimulation.LPGMassSimulator.PrepareHousesForSimulation(String baseResultDir, Int32 rank) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 182
+   at CitySimulation.LPGMassSimulator..ctor(Intracommunicator comm, Int32 rank, ScenarioPart scenarioPart, MPILogger logger) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 84
+   at CitySimulation.Worker.InitLPGSimulator() in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 126
+   at CitySimulation.Worker..ctor(Intracommunicator comm, String[] args) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 69
+   at CitySimulation.Program.RunNewWorker(Intracommunicator comm, String[] args) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Program.cs:line 42
+   at CitySimulation.Program.<>c__DisplayClass1_0.<CreateMPIRunAction>b__0(Intracommunicator comm) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Program.cs:line 26
+   at MPI.Environment.Run(String[]& args, Threading threading, Action`1 action, Boolean cleanupEnvironment)
+CitySimulation.CitySimWrapperException: Exception on worker 5 from target 'DEA_DENW40AL10003Y55-8533' during initialization.
+ ---> Common.DataIntegrityException: The house DEA_DENW40AL10003Y55-8533 has no housetype. Please fix.
+[2026-06-17T16:20:11.694] error: *** STEP 1159287.0 ON n23m0410 CANCELLED AT 2026-06-17T16:20:11 DUE to SIGNAL Killed ***
+   at CalculationController.Integrity.HouseChecker.Run(Simulator sim, CheckingOptions options) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CalculationController/Integrity/HouseChecker.cs:line 52
+   at CalculationController.Integrity.BasicChecker.RunCheck(Simulator sim, Int32 step, CheckingOptions options) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CalculationController/Integrity/BasicChecker.cs:line 20
+   at CalculationController.Integrity.SimIntegrityChecker.Run(Simulator sim, CheckingOptions options) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CalculationController/Integrity/SimIntegrityChecker.cs:line 147
+   at CalculationController.CalcFactories.CalcManagerFactory.GetCalcManager(CalcStartParameterSet csps) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CalculationController/CalcFactories/CalcManagerFactory.cs:line 105
+   at CitySimulation.LPGMassSimulator.PrepareHousesForSimulation(String baseResultDir, Int32 rank) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 177
+   --- End of inner exception stack trace ---
+srun: Job step aborted: Waiting up to 92 seconds for job step to finish.
+   at CitySimulation.LPGMassSimulator.PrepareHousesForSimulation(String baseResultDir, Int32 rank) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 182
+   at CitySimulation.LPGMassSimulator..ctor(Intracommunicator comm, Int32 rank, ScenarioPart scenarioPart, MPILogger logger) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 84
+   at CitySimulation.Worker.InitLPGSimulator() in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 126
+   at CitySimulation.Worker..ctor(Intracommunicator comm, String[] args) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 69
+   at CitySimulation.Program.RunNewWorker(Intracommunicator comm, String[] args) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Program.cs:line 42
+srun: error: r23m0090: task 15: Killed
+   at CitySimulation.Program.<>c__DisplayClass1_srun: error: r23m0058: task 6: Killed
+srun: error: r23m0051: task 5: Killed
+srun: error: r23m0201: task 20: Killed
+srun: error: r23m0210: task 27: Killed
+srun: error: r23m0092: task 16: Killed
+srun: error: r23m0218: task 38: Killed
+srun: error: r23m0062: task 12: Killed
+srun: error: r23m0200: task 19: Killed
+srun: error: r23m0216: task 33: Killed
+srun: error: r23m0207: task 22: Killed
+srun: error: r23m0197: task 18: Killed
+srun: error: r23m0206: task 21: Killed
+srun: error: r23m0195: task 17: Killed
+srun: error: r23m0030: task 4: Killed
+srun: error: r23m0219: task 39: Killed
+srun: error: r23m0027: task 2: Exited with exit code 1
+srun: error: r23m0027: task 3: Killed
+srun: error: r23m0078: tasks 13-14: Killed
+srun: error: n23m0410: tasks 0-1: Killed
+srun: error: r23m0217: tasks 34-37: Killed
+srun: error: r23m0060: tasks 7-11: Killed
+srun: error: r23m0215: tasks 28-32: Killed
+srun: error: r23m0209: tasks 23-26: Killed

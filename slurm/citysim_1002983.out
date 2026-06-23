@@ -1,0 +1,110 @@
+[INFO] Module OpenMPI/5.0.3 loaded.
+
+Lmod is automatically replacing "impi/2021.13.0" with "OpenMPI/5.0.3".
+
+[INFO] Module OpenMPI/5.0.3 loaded.
+
+Inactive Modules:
+  1) imkl-FFTW/2024.2.0
+
+[2026-06-11T18:03:58.525] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-11T18:03:58.554] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-11T18:03:58.574] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-11T18:03:58.554] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-11T18:03:58.589] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-11T18:03:58.589] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-11T18:03:58.655] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-11T18:03:58.658] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-11T18:03:58.658] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-11T18:03:58.667] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-11T18:03:58.679] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-11T18:03:58.696] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-11T18:03:58.700] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-11T18:03:58.700] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+Initializing the logger
+Starting mass simulation with 40 workers.
+Loading city scenario from path /home/gzi37280/CityScenarioGenerator/scenarios/scenario_juelich
+Using database file: /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/bin/release/net9.0/linux-x64/publish/profilegenerator.db3
+Calling MPI Scatter to distribute scenario parts.
+Worker 0 on n23m0033.hpc.itc.rwth-aachen.de is responsible for 237 houses and 450 POIs.
+Reusing existing database file profilegenerator.worker_0.db3
+CitySimulation.CitySimWrapperException: Exception on worker 11 from target 'DEA_DENW40AL10003SVu-1313' during initialization.
+ ---> Common.DataIntegrityException: The house DEA_DENW40AL10003SVu-1313 has no housetype. Please fix.
+   at CalculationController.Integrity.HouseChecker.Run(Simulator sim, CheckingOptions options) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CalculationController/Integrity/HouseChecker.cs:line 52
+CitySimulation.CitySimWrapperException: Exception on worker 15 from target 'DEA_DENW40AL10003WQj-6583' during initialization.
+ ---> Common.DataIntegrityException: The house DEA_DENW40AL10003WQj-6583 has no housetype. Please fix.
+CitySimulation.CitySimWrapperException: Exception on worker 12 from target 'DEA_DENW40AL10003TVO-2662' during initialization.
+ ---> Common.DataIntegrityException: The house DEA_DENW40AL10003TVO-2662 has no housetype. Please fix.
+   at CalculationController.Integrity.BasicChecker.RunCheck(Simulator sim, Int32 step, CheckingOptions options) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CalculationController/Integrity/BasicChecker.cs:line 20
+   at CalculationController.Integrity.HouseChecker.Run(Simulator sim, CheckingOptions options) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CalculationController/Integrity/HouseChecker.cs:line 52
+   at CalculationController.Integrity.HouseChecker.Run(Simulator sim, CheckingOptions options) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CalculationController/Integrity/HouseChecker.cs:line 52
+   at CalculationController.Integrity.SimIntegrityChecker.Run(Simulator sim, CheckingOptions options) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CalculationController/Integrity/SimIntegrityChecker.cs:line 147
+   at CalculationController.Integrity.BasicChecker.RunCheck(Simulator sim, Int32 step, CheckingOptions options) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CalculationController/Integrity/BasicChecker.cs:line 20
+   at CalculationController.Integrity.BasicChecker.RunCheck(Simulator sim, Int32 step, CheckingOptions options) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CalculationController/Integrity/BasicChecker.cs:line 20
+   at CalculationController.CalcFactories.CalcManagerFactory.GetCalcManager(CalcStartParameterSet csps) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CalculationController/CalcFactories/CalcManagerFactory.cs:line 105
+   at CalculationController.Integrity.SimIntegrityChecker.Run(Simulator sim, CheckingOptions options) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CalculationController/Integrity/SimIntegrityChecker.cs:line 147
+   at CalculationController.Integrity.SimIntegrityChecker.Run(Simulator sim, CheckingOptions options) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CalculationController/Integrity/SimIntegrityChecker.cs:line 147
+   at CitySimulation.LPGMassSimulator.PrepareHousesForSimulation(String baseResultDir, Int32 rank) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 177
+   --- End of inner exception stack trace ---
+   at CalculationController.CalcFactories.CalcManagerFactory.GetCalcManager(CalcStartParameterSet csps) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CalculationController/CalcFactories/CalcManagerFactory.cs:line 105
+   at CalculationController.CalcFactories.CalcManagerFactory.GetCalcManager(CalcStartParameterSet csps) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CalculationController/CalcFactories/CalcManagerFactory.cs:line 105
+   at CitySimulation.LPGMassSimulator.PrepareHousesForSimulation(String baseResultDir, Int32 rank) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 182
+   at CitySimulation.LPGMassSimulator..ctor(Intracommunicator comm, Int32 rank, ScenarioPart scenarioPart, MPILogger logger) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 84
+   at CitySimulation.LPGMassSimulator.PrepareHousesForSimulation(String baseResultDir, Int32 rank) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 177
+   --- End of inner exception stack trace ---
+   at CitySimulation.LPGMassSimulator.PrepareHousesForSimulation(String baseResultDir, Int32 rank) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 177
+   --- End of inner exception stack trace ---
+   at CitySimulation.Worker.InitLPGSimulator() in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 126
+   at CitySimulation.LPGMassSimulator.PrepareHousesForSimulation(String baseResultDir, Int32 rank) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 182
+   at CitySimulation.LPGMassSimulator..ctor(Intracommunicator comm, Int32 rank, ScenarioPart scenarioPart, MPILogger logger) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 84
+   at CitySimulation.LPGMassSimulator.PrepareHousesForSimulation(String baseResultDir, Int32 rank) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 182
+   at CitySimulation.LPGMassSimulator..ctor(Intracommunicator comm, Int32 rank, ScenarioPart scenarioPart, MPILogger logger) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 84
+   at CitySimulation.Worker..ctor(Intracommunicator comm, String[] args) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 69
+   at CitySimulation.Program.RunNewWorker(Intracommunicator comm, String[] args) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Program.cs:line 42
+   at CitySimulation.Worker.InitLPGSimulator() in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 126
+   at CitySimulation.Worker.InitLPGSimulator() in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 126
+   at CitySimulation.Program.<>c__DisplayClass1_0.<CreateMPIRunAction>b__0(Intracommunicator comm) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Program.cs:line 26
+   at MPI.Environment.Run(String[]& args, Threading threading, Action`1 action, Boolean cleanupEnvironment)
+   at CitySimulation.Worker..ctor(Intracommunicator comm, String[] args) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 69
+   at CitySimulation.Program.RunNewWorker(Intracommunicator comm, String[] args) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Program.cs:line 42
+   at CitySimulation.Worker..ctor(Intracommunicator comm, String[] args) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 69
+   at CitySimulation.Program.RunNewWorker(Intracommunicator comm, String[] args) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Program.cs:line 42
+   at CitySimulation.Program.<>c__DisplayClass1_0.<CreateMPIRunAction>b__0(Intracommunicator comm) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Program.cs:line 26
+   at MPI.Environment.Run(String[]& args, Threading threading, Action`1 action, Boolean cleanupEnvironment)
+   at CitySimulation.Program.<>c__DisplayClass1_0.<CreateMPIRunAction>b__0(Intracommunicator comm) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Program.cs:line 26
+   at MPI.Environment.Run(String[]& args, Threading threading, Action`1 action, Boolean cleanupEnvironment)
+srun: Job step aborted: Waiting up to 92 seconds for job step to finish.
+[2026-06-11T18:04:17.745] error: *** STEP 1002983.0 ON n23m0033 CANCELLED AT 2026-06-11T18:04:17 DUE to SIGNAL Killed ***
+srun: error: n23m0069: task 2: Killed
+srun: error: n23m0396: task 34: Killed
+srun: error: n23m0285: task 17: Killed
+srun: error: n23m0183: task 11: Exited with exit code 1
+srun: error: n23m0389: task 29: Killed
+srun: error: n23m0402: task 36: Killed
+srun: error: n23m0142: task 6: Killed
+srun: error: n23m0405: task 37: Killed
+srun: error: n23m0206: task 14: Killed
+srun: error: n23m0214: task 15: Exited with exit code 1
+srun: error: n23m0382: task 25: Killed
+srun: error: n23m0072: task 3: Killed
+srun: error: n23m0168: task 8: Killed
+srun: error: r23m0077: task 39: Killed
+srun: error: n23m0185: task 12: Exited with exit code 1
+srun: error: n23m0321: task 20: Killed
+srun: error: n23m0397: task 35: Killed
+srun: error: n23m0051: task 1: Killed
+srun: error: n23m0251: task 16: Killed
+srun: error: n23m0167: task 7: Killed
+srun: error: n23m0191: task 13: Killed
+srun: error: n23m0177: task 10: Killed
+srun: error: r23m0010: task 38: Killed
+srun: error: n23m0175: task 9: Killed
+srun: error: n23m0383: task 26: Killed
+srun: error: n23m0033: task 0: Killed
+srun: error: n23m0388: tasks 27-28: Killed
+srun: error: n23m0390: tasks 30-31: Killed
+srun: error: n23m0381: tasks 23-24: Killed
+srun: error: n23m0139: tasks 4-5: Killed
+srun: error: n23m0393: tasks 32-33: Killed
+srun: error: n23m0300: tasks 18-19: Killed
+srun: error: n23m0341: tasks 21-22: Killed

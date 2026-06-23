@@ -1,0 +1,30 @@
+[INFO] Module OpenMPI/5.0.3 loaded.
+
+Lmod is automatically replacing "impi/2021.13.0" with "OpenMPI/5.0.3".
+
+[INFO] Module OpenMPI/5.0.3 loaded.
+
+Inactive Modules:
+  1) imkl-FFTW/2024.2.0
+
+Initializing the logger
+Starting mass simulation with 2 workers.
+Loading city scenario from path /home/gzi37280/CityScenarioGenerator/scenarios/test_scenario
+Using database file: /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/bin/release/net9.0/linux-x64/publish/profilegenerator.db3
+Found 1 files in the routes subdirectory.
+Calling MPI Scatter to distribute scenario parts.
+Worker 0 on n23m0194.hpc.itc.rwth-aachen.de is responsible for 1 houses and 28 POIs.
+Reusing existing database file profilegenerator.worker_0.db3
+Preparing house DEA_DENW40AL10003Rxm-0 for calculation
+In total, this worker simulates 2 persons in 2 households.
+Finished initialization in  00:00:20.0999720
+Calling MPI Barrier
+MPI Barrier is over after 00:00:50.0714305
+Main loop: 00:00:04.8390257, MPI communication: 00:00:03.1747493 (65.61 %), speed: 2975.81 steps/second, 5951.61 household steps/second, 5951.61 person steps/second
+Calling MPI Barrier
+MPI Barrier is over after 00:00:00.0003261
+Finished main simulation in 00:00:54.9137232
+Calling MPI Barrier
+MPI Barrier is over after 00:00:00.0071490
+Finished postprocessing in  00:00:00.8902978
+Finished city simulation in 00:01:15.9049116

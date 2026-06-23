@@ -1,0 +1,69 @@
+[INFO] Module OpenMPI/5.0.3 loaded.
+
+Lmod is automatically replacing "impi/2021.13.0" with "OpenMPI/5.0.3".
+
+[INFO] Module OpenMPI/5.0.3 loaded.
+
+Inactive Modules:
+  1) imkl-FFTW/2024.2.0
+
+[2026-06-23T10:27:02.534] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-23T10:27:02.547] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-23T10:27:02.547] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-23T10:27:02.549] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-23T10:27:02.552] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-23T10:27:02.555] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-23T10:27:02.561] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-23T10:27:02.562] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-23T10:27:02.567] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-23T10:27:02.575] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-23T10:27:02.585] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-23T10:27:02.592] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-23T10:27:02.592] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-23T10:27:02.594] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-23T10:27:02.594] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-23T10:27:02.595] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-23T10:27:02.799] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-23T10:27:02.799] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-23T10:27:02.799] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-23T10:27:04.421] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+Initializing the logger
+Starting mass simulation with 40 workers.
+Loading city scenario from path /home/gzi37280/CityScenarioGenerator/scenarios/scenario_juelich-grosse-rurstr
+Using database file: /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/bin/release/net9.0/linux-x64/publish/profilegenerator.db3
+Found 1 files in the routes subdirectory.
+Calling MPI Scatter to distribute scenario parts.
+Worker 0 on n23m0049.hpc.itc.rwth-aachen.de is responsible for 1 houses and 6 POIs.
+No reusable database found. Creating a new one: profilegenerator.worker_0.db3
+Generating house DEA_DENW40AL10003TBD-14 from templates
+Finished generating all houses
+Preparing house DEA_DENW40AL10003TBD-14 for calculation
+CitySimulation.CitySimWrapperException: Exception on worker 35 from target 'DEA_DENW40AL10003Y0h-73' during initialization.
+ ---> Automation.ResultFiles.LPGException: The result filename /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/bin/release/net9.0/linux-x64/publish/city_simulation_results/scenario_juelich-grosse-rurstr/Houses/DEA_DENW40AL10003Y0h-73/Temporary Files/OnlineDeviceEnergyUsage.Sums.Electricity.dat was longer than 250 characters which is a problem for Windows. Maybe chose a shorter directory name or nest less deep and try again?
+   at Common.FileFactoryAndTracker.MakeFile[T](String fileName, String description, Boolean displayResultFileEntry, ResultFileID rfid1, HouseholdKey householdKey, TargetDirectory targetDirectory, TimeSpan timeResolution, CalcOption enablingOption, LoadTypeInformation lti, PersonInformation pi, String additionalFileIndex) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/Common/FileFactoryAndTracker.cs:line 340
+   at CalculationEngine.OnlineDeviceLogging.OnlineDeviceActivationProcessor.RegisterDevice(CalcLoadTypeDto loadType, CalcDeviceDto devicedto) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CalculationEngine/OnlineDeviceLogging/OnlineDeviceActivationProcessor.cs:line 260
+   at CalculationEngine.HouseholdElements.CalcDevice..ctor(List`1 powerUsage, CalcLocation calcLocation, CalcDeviceDto calcDeviceDto, CalcRepo calcRepo) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CalculationEngine/HouseholdElements/CalcDevice.cs:line 129
+   at CalculationController.CalcFactories.CalcLocationFactory.MakeCalcLocations(List`1 locations, DtoCalcLocationDict locdict, CalcRepo calcRepo) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CalculationController/CalcFactories/CalcLocationFactory.cs:line 61
+   at CalculationController.CalcFactories.CalcModularHouseholdFactory.MakeCalcModularHousehold(CalcHouseholdDto householdDto, DtoCalcLocationDict& dtoCalcLocationDict, String houseName, String houseDescription, List`1 affordanceTaggingSets, CalcRepo calcRepo) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CalculationController/CalcFactories/CalcModularHouseholdFactory.cs:line 141
+   at CalculationController.CalcFactories.CalcHouseFactory.MakeCalcHouse(CalcHouseDto calcHouseDto, CalcRepo calcRepo, List`1 affordanceTaggingSets) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CalculationController/CalcFactories/CalcHouseFactory.cs:line 95
+   at CalculationController.CalcFactories.CalcManagerFactory.MakeCalcHouseObject(Simulator sim, CalcStartParameterSet csps, ICalcObject hh, ILifetimeScope scope, CalcVariableDtoFactory cvrdto, CalcVariableRepository variableRepository, List`1 affordanceTaggingSets, CalcObjectType& cot, CalcRepo calcRepo) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CalculationController/CalcFactories/CalcManagerFactory.cs:line 280
+   at CalculationController.CalcFactories.CalcManagerFactory.GetCalcManager(CalcStartParameterSet csps) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CalculationController/CalcFactories/CalcManagerFactory.cs:line 148
+   at CitySimulation.LPGMassSimulator.PrepareHousesForSimulation(String baseResultDir, Int32 rank) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 177
+   --- End of inner exception stack trace ---
+   at CitySimulation.LPGMassSimulator.PrepareHousesForSimulation(String baseResultDir, Int32 rank) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 182
+   at CitySimulation.LPGMassSimulator..ctor(Intracommunicator comm, Int32 rank, ScenarioPart scenarioPart, MPILogger logger) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 84
+   at CitySimulation.Worker.InitLPGSimulator() in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 126
+   at CitySimulation.Worker..ctor(Intracommunicator comm, String[] args) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 69
+   at CitySimulation.Program.RunNewWorker(Intracommunicator comm, String[] args) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Program.cs:line 42
+   at CitySimulation.Program.<>c__DisplayClass1_0.<CreateMPIRunAction>b__0(Intracommunicator comm) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Program.cs:line 26
+   at MPI.Environment.Run(String[]& args, Threading threading, Action`1 action, Boolean cleanupEnvironment)
+srun: Job step aborted: Waiting up to 92 seconds for job step to finish.
+[2026-06-23T10:29:01.469] error: *** STEP 1285016.0 ON n23m0049 CANCELLED AT 2026-06-23T10:29:01 DUE to SIGNAL Killed ***
+srun: error: r23m0045: tasks 38-39: Killed
+srun: error: n23m0050: tasks 2-4: Killed
+srun: error: n23m0239: tasks 5-13: Killed
+srun: error: n23m0276: tasks 22-34,36-37: Killed
+srun: error: n23m0276: task 35: Exited with exit code 1
+srun: error: n23m0272: tasks 18-21: Killed
+srun: error: n23m0247: tasks 14-17: Killed
+srun: error: n23m0049: tasks 0-1: Killed

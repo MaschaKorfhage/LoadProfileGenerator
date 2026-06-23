@@ -1,0 +1,68 @@
+[INFO] Module OpenMPI/5.0.3 loaded.
+
+Lmod is automatically replacing "impi/2021.13.0" with "OpenMPI/5.0.3".
+
+[INFO] Module OpenMPI/5.0.3 loaded.
+
+Inactive Modules:
+  1) imkl-FFTW/2024.2.0
+
+Initializing the logger
+Starting mass simulation with 40 workers.
+Loading city scenario from path /home/gzi37280/CityScenarioGenerator/scenarios/scenario_juelich
+Using database file: /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/bin/release/net9.0/linux-x64/publish/profilegenerator.db3
+Calling MPI Scatter to distribute scenario parts.
+Worker 0 on n23m0096.hpc.itc.rwth-aachen.de is responsible for 237 houses and 450 POIs.
+No reusable database found. Creating a new one: profilegenerator.worker_0.db3
+Generating house DEA_DENW40AL10003TRR-2496 from templates
+CitySimulation.CitySimWrapperException: Exception on worker 36 from target 'DEA_DENW40AL3Dk0002T-9371' during initialization (template generation).
+ ---> Automation.ResultFiles.LPGPBadParameterException: Point of interest preferences were given, but no route data was provided.
+   at SimulationEngineLib.HouseJobProcessor.TravelRouteSetBuilderCity.CreateTravelRouteSetFromPoiPreferences(HouseholdData householdData, ModularHousehold household, HouseCreationAndCalculationJob hj, TransportationDeviceSet transportationDeviceSet, String houseName) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/SimulationEngineLib/HouseJobProcessor/TravelRouteSetBuilderCity.cs:line 98
+   at SimulationEngineLib.HouseJobProcessor.HouseGenerator.DetermineTravelRouteSet(Simulator sim, HouseholdData householdData, ModularHousehold household, HouseCreationAndCalculationJob hj, String houseName, IReadOnlyDictionary`2 locationReplacements, TransportationDeviceSet transportationDeviceSet) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/SimulationEngineLib/HouseJobProcessor/HouseGenerator.cs:line 568
+   at SimulationEngineLib.HouseJobProcessor.HouseGenerator.CreateSingleHouse(HouseCreationAndCalculationJob hj, Simulator sim, Random random) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/SimulationEngineLib/HouseJobProcessor/HouseGenerator.cs:line 475
+   at SimulationEngineLib.HouseJobProcessor.HouseGenerator.GetHouseReference(HouseCreationAndCalculationJob hcj, Simulator sim, Random random) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/SimulationEngineLib/HouseJobProcessor/HouseGenerator.cs:line 407
+   at CitySimulation.LPGMassSimulator.ReadAndGenerateHouse(ResidentialBuildingConfig target, HouseGenerator houseGenerator) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 133
+   --- End of inner exception stack trace ---
+   at CitySimulation.LPGMassSimulator.ReadAndGenerateHouse(ResidentialBuildingConfig target, HouseGenerator houseGenerator) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 138
+   at CitySimulation.LPGMassSimulator.GenerateHouses() in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 95
+   at CitySimulation.LPGMassSimulator..ctor(Intracommunicator comm, Int32 rank, ScenarioPart scenarioPart, MPILogger logger) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 68
+   at CitySimulation.Worker.InitLPGSimulator() in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 126
+   at CitySimulation.Worker..ctor(Intracommunicator comm, String[] args) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 69
+   at CitySimulation.Program.RunNewWorker(Intracommunicator comm, String[] args) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Program.cs:line 42
+   at CitySimulation.Program.<>c__DisplayClass1_0.<CreateMPIRunAction>b__0(Intracommunicator comm) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Program.cs:line 26
+   at MPI.Environment.Run(String[]& args, Threading threading, Action`1 action, Boolean cleanupEnvironment)
+srun: Job step aborted: Waiting up to 92 seconds for job step to finish.
+[2026-06-17T17:52:27.942] error: *** STEP 1161899.0 ON n23m0096 CANCELLED AT 2026-06-17T17:52:27 DUE to SIGNAL Killed ***
+srun: error: r23m0201: task 36: Exited with exit code 1
+srun: error: n23m0139: task 21: Killed
+srun: error: n23m0124: task 19: Killed
+srun: error: r23m0196: task 22: Killed
+srun: error: n23m0126: task 20: Killed
+srun: error: n23m0096: task 0: Killed
+srun: error: r23m0212: tasks 37-38: Killed
+srun: error: n23m0097: tasks 1-5: Killed
+srun: error: n23m0101: tasks 6-9: Killed
+srun: error: r23m0198: tasks 28-29: Killed
+srun: error: r23m0199: tasks 30-35: Killed
+[2026-06-17T17:52:28.985] error:  mpi/pmix_v5: _errhandler: r23m0212 [14]: pmixp_client_v2.c:230: Error handler invoked: status = -61, source = [slurm.pmix.1161899.0:38]
+srun: error: n23m0105: task 15: Killed
+srun: error: n23m0103: task 11: Killed
+[2026-06-17T17:52:30.293] error:  mpi/pmix_v5: _errhandler: n23m0105 [4]: pmixp_client_v2.c:230: Error handler invoked: status = -61, source = [slurm.pmix.1161899.0:15]
+[2026-06-17T17:52:30.308] error:  mpi/pmix_v5: _errhandler: n23m0103 [3]: pmixp_client_v2.c:230: Error handler invoked: status = -61, source = [slurm.pmix.1161899.0:11]
+srun: error: r23m0197: tasks 23-27: Killed
+srun: error: r23m0212: task 39: Killed
+srun: error: n23m0118: task 18: Killed
+srun: error: n23m0105: task 16: Killed
+srun: First task exited 5s ago
+srun: StepId=1161899.0 tasks 10,12-14,17: running
+srun: StepId=1161899.0 tasks 0-9,11,15-16,18-39: exited abnormally
+srun: Terminating StepId=1161899.0
+srun: error: n23m0103: task 12: Killed
+[2026-06-17T17:52:33.880] error:  mpi/pmix_v5: _errhandler: n23m0105 [4]: pmixp_client_v2.c:230: Error handler invoked: status = -61, source = [slurm.pmix.1161899.0:16]
+[2026-06-17T17:52:33.960] error:  mpi/pmix_v5: _errhandler: n23m0103 [3]: pmixp_client_v2.c:230: Error handler invoked: status = -61, source = [slurm.pmix.1161899.0:12]
+srun: error: n23m0105: task 14: Killed
+srun: error: n23m0103: task 10: Killed
+[2026-06-17T17:52:36.960] error:  mpi/pmix_v5: _errhandler: n23m0105 [4]: pmixp_client_v2.c:230: Error handler invoked: status = -61, source = [slurm.pmix.1161899.0:14]
+[2026-06-17T17:52:37.030] error:  mpi/pmix_v5: _errhandler: n23m0103 [3]: pmixp_client_v2.c:230: Error handler invoked: status = -61, source = [slurm.pmix.1161899.0:10]
+srun: error: n23m0105: task 17: Killed
+srun: error: n23m0103: task 13: Killed

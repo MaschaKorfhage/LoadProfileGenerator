@@ -1,0 +1,13 @@
+[INFO] Module OpenMPI/5.0.3 loaded.
+
+Lmod is automatically replacing "impi/2021.13.0" with "OpenMPI/5.0.3".
+
+[INFO] Module OpenMPI/5.0.3 loaded.
+
+Inactive Modules:
+  1) imkl-FFTW/2024.2.0
+
+srun: StepId=1285017.0 aborted before step completely launched.
+srun: Job step aborted: Waiting up to 92 seconds for job step to finish.
+[2026-06-23T10:27:03.192] error: *** STEP 1285017.0 ON n23m0276 CANCELLED AT 2026-06-23T10:27:03 DUE to SIGNAL Terminated ***
+[2026-06-23T10:27:03.199] error: *** JOB 1285017 ON n23m0276 CANCELLED AT 2026-06-23T10:27:03 DUE to SIGNAL Terminated ***

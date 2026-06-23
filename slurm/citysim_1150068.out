@@ -1,0 +1,69 @@
+[INFO] Module OpenMPI/5.0.3 loaded.
+
+Lmod is automatically replacing "impi/2021.13.0" with "OpenMPI/5.0.3".
+
+[INFO] Module OpenMPI/5.0.3 loaded.
+
+Inactive Modules:
+  1) imkl-FFTW/2024.2.0
+
+[2026-06-17T11:09:03.485] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-17T11:09:04.101] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-17T11:09:04.101] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-17T11:09:04.101] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-17T11:09:04.101] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-17T11:09:04.101] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-17T11:09:04.101] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-17T11:09:04.106] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-17T11:09:04.776] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+Initializing the logger
+Starting mass simulation with 40 workers.
+Loading city scenario from path /home/gzi37280/CityScenarioGenerator/scenarios/scenario_juelich
+Using database file: /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/bin/release/net9.0/linux-x64/publish/profilegenerator.db3
+Calling MPI Scatter to distribute scenario parts.
+Worker 0 on n23m0172.hpc.itc.rwth-aachen.de is responsible for 237 houses and 450 POIs.
+Reusing existing database file profilegenerator.worker_0.db3
+Preparing house DEA_DENW40AL10003TRR-2496 for calculation
+Exception during simulator initialization:
+CitySimulation.CitySimWrapperException: Exception on worker 0 from target 'DEA_DENW40AL10003TRR-2496' during initialization.
+ ---> Common.DataIntegrityException: The house DEA_DENW40AL10003TRR-2496 has no housetype. Please fix.
+   at CalculationController.Integrity.HouseChecker.Run(Simulator sim, CheckingOptions options) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CalculationController/Integrity/HouseChecker.cs:line 52
+   at CalculationController.Integrity.BasicChecker.RunCheck(Simulator sim, Int32 step, CheckingOptions options) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CalculationController/Integrity/BasicChecker.cs:line 20
+   at CalculationController.Integrity.SimIntegrityChecker.Run(Simulator sim, CheckingOptions options) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CalculationController/Integrity/SimIntegrityChecker.cs:line 147
+   at CalculationController.CalcFactories.CalcManagerFactory.GetCalcManager(CalcStartParameterSet csps) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CalculationController/CalcFactories/CalcManagerFactory.cs:line 105
+   at CitySimulation.LPGMassSimulator.PrepareHousesForSimulation(String baseResultDir, Int32 rank) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 177
+   --- End of inner exception stack trace ---
+   at CitySimulation.LPGMassSimulator.PrepareHousesForSimulation(String baseResultDir, Int32 rank) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 182
+   at CitySimulation.LPGMassSimulator..ctor(Intracommunicator comm, Int32 rank, ScenarioPart scenarioPart, MPILogger logger) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 84
+   at CitySimulation.Worker.InitLPGSimulator() in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 126
+   at CitySimulation.Worker..ctor(Intracommunicator comm, String[] args) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 69
+CitySimulation.CitySimWrapperException: Exception on worker 0 from target 'DEA_DENW40AL10003TRR-2496' during initialization.
+ ---> Common.DataIntegrityException: The house DEA_DENW40AL10003TRR-2496 has no housetype. Please fix.
+   at CalculationController.Integrity.HouseChecker.Run(Simulator sim, CheckingOptions options) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CalculationController/Integrity/HouseChecker.cs:line 52
+   at CalculationController.Integrity.BasicChecker.RunCheck(Simulator sim, Int32 step, CheckingOptions options) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CalculationController/Integrity/BasicChecker.cs:line 20
+   at CalculationController.Integrity.SimIntegrityChecker.Run(Simulator sim, CheckingOptions options) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CalculationController/Integrity/SimIntegrityChecker.cs:line 147
+   at CalculationController.CalcFactories.CalcManagerFactory.GetCalcManager(CalcStartParameterSet csps) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CalculationController/CalcFactories/CalcManagerFactory.cs:line 105
+   at CitySimulation.LPGMassSimulator.PrepareHousesForSimulation(String baseResultDir, Int32 rank) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 177
+   --- End of inner exception stack trace ---
+   at CitySimulation.LPGMassSimulator.PrepareHousesForSimulation(String baseResultDir, Int32 rank) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 182
+   at CitySimulation.LPGMassSimulator..ctor(Intracommunicator comm, Int32 rank, ScenarioPart scenarioPart, MPILogger logger) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 84
+   at CitySimulation.Worker.InitLPGSimulator() in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 126
+   at CitySimulation.Worker..ctor(Intracommunicator comm, String[] args) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 69
+   at CitySimulation.Program.RunNewWorker(Intracommunicator comm, String[] args) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Program.cs:line 42
+   at CitySimulation.Program.<>c__DisplayClass1_0.<CreateMPIRunAction>b__0(Intracommunicator comm) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Program.cs:line 26
+   at MPI.Environment.Run(String[]& args, Threading threading, Action`1 action, Boolean cleanupEnvironment)
+srun: Job step aborted: Waiting up to 92 seconds for job step to finish.
+[2026-06-17T11:09:20.753] error: *** STEP 1150068.0 ON n23m0172 CANCELLED AT 2026-06-17T11:09:20 DUE to SIGNAL Killed ***
+srun: error: r23m0216: task 36: Killed
+srun: error: r23m0210: task 35: Killed
+srun: error: r23m0218: task 38: Killed
+srun: error: r23m0217: task 37: Killed
+srun: error: r23m0219: task 39: Killed
+srun: error: r23m0209: tasks 32-34: Killed
+srun: error: r23m0207: tasks 29-31: Killed
+srun: error: n23m0185: tasks 19-21: Killed
+srun: error: n23m0172: task 0: Exited with exit code 1
+srun: error: n23m0172: tasks 1-5: Killed
+srun: error: r23m0201: tasks 22-28: Killed
+srun: error: n23m0183: tasks 14-18: Killed
+srun: error: n23m0182: tasks 6-13: Killed

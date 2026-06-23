@@ -1,0 +1,177 @@
+[2026-06-11T15:50:50.523] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+Abort(1090319) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init_thread: Unknown error class, error stack:
+MPIR_Init_thread(192): 
+MPID_Init(1558)......: 
+MPIR_pmi_init(169)...: PMI2_Job_GetId returned 14
+Abort(1090319) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init_thread: Unknown error class, error stack:
+MPIR_Init_thread(192): 
+MPID_Init(1558)......: 
+MPIR_pmi_init(169)...: PMI2_Job_GetId returned 14
+Abort(1090319) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init_thread: Unknown error class, error stack:
+MPIR_Init_thread(192): 
+MPID_Init(1558)......: 
+MPIR_pmi_init(169)...: PMI2_Job_GetId returned 14
+Abort(1090319) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init_thread: Unknown error class, error stack:
+MPIR_Init_thread(192): 
+MPID_Init(1558)......: 
+MPIR_pmi_init(169)...: PMI2_Job_GetId returned 14
+Abort(1090319) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init_thread: Unknown error class, error stack:
+MPIR_Init_thread(192): 
+MPID_Init(1558)......: 
+MPIR_pmi_init(169)...: PMI2_Job_GetId returned 14
+Abort(1090319) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init_thread: Unknown error class, error stack:
+MPIR_Init_thread(192): 
+MPID_Init(1558)......: 
+MPIR_pmi_init(169)...: PMI2_Job_GetId returned 14
+Abort(1090319) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init_thread: Unknown error class, error stack:
+MPIR_Init_thread(192): 
+MPID_Init(1558)......: 
+MPIR_pmi_init(169)...: PMI2_Job_GetId returned 14
+srun: error: n23m0061: task 9: Exited with exit code 1
+srun: error: r23m0195: task 37: Exited with exit code 1
+Abort(1090319) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init_thread: Unknown error class, error stack:
+MPIR_Init_thread(192): 
+MPID_Init(1558)......: 
+MPIR_pmi_init(169)...: PMI2_Job_GetId returned 14
+Abort(1090319) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init_thread: Unknown error class, error stack:
+MPIR_Init_thread(192): 
+MPID_Init(1558)......: 
+MPIR_pmi_init(169)...: PMI2_Job_GetId returned 14
+Abort(1090319) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init_thread: Unknown error class, error stack:
+MPIR_Init_thread(192): 
+MPID_Init(1558)......: 
+MPIR_pmi_init(169)...: PMI2_Job_GetId returned 14
+Abort(1090319) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init_thread: Unknown error class, error stack:
+MPIR_Init_thread(192): 
+MPID_Init(1558)......: 
+MPIR_pmi_init(169)...: PMI2_Job_GetId returned 14
+srun: error: r23m0219: task 39: Exited with exit code 1
+srun: error: n23m0057: task 8: Exited with exit code 1
+srun: error: r23m0206: task 38: Exited with exit code 1
+srun: error: n23m0050: task 6: Exited with exit code 1
+Abort(1090319) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init_thread: Unknown error class, error stack:
+MPIR_Init_thread(192): 
+MPID_Init(1558)......: 
+MPIR_pmi_init(169)...: PMI2_Job_GetId returned 14
+srun: error: n23m0052: task 7: Exited with exit code 1
+srun: error: n23m0043: tasks 1-5: Exited with exit code 1
+Abort(1090319) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init_thread: Unknown error class, error stack:
+MPIR_Init_thread(192): 
+MPID_Init(1558)......: 
+MPIR_pmi_init(169)...: PMI2_Job_GetId returned 14
+Abort(1090319) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init_thread: Unknown error class, error stack:
+MPIR_Init_thread(192): 
+MPID_Init(1558)......: 
+MPIR_pmi_init(169)...: PMI2_Job_GetId returned 14
+Abort(1090319) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init_thread: Unknown error class, error stack:
+MPIR_Init_thread(192): 
+MPID_Init(1558)......: 
+MPIR_pmi_init(169)...: PMI2_Job_GetId returned 14
+Abort(1090319) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init_thread: Unknown error class, error stack:
+MPIR_Init_thread(192): 
+MPID_Init(1558)......: 
+MPIR_pmi_init(169)...: PMI2_Job_GetId returned 14
+Abort(1090319) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init_thread: Unknown error class, error stack:
+MPIR_Init_thread(192): 
+MPID_Init(1558)......: 
+MPIR_pmi_init(169)...: PMI2_Job_GetId returned 14
+Abort(1090319) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init_thread: Unknown error class, error stack:
+MPIR_Init_thread(192): 
+MPID_Init(1558)......: 
+MPIR_pmi_init(169)...: PMI2_Job_GetId returned 14
+Abort(1090319) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init_thread: Unknown error class, error stack:
+MPIR_Init_thread(192): 
+MPID_Init(1558)......: 
+MPIR_pmi_init(169)...: PMI2_Job_GetId returned 14
+Abort(1090319) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init_thread: Unknown error class, error stack:
+MPIR_Init_thread(192): 
+MPID_Init(1558)......: 
+MPIR_pmi_init(169)...: PMI2_Job_GetId returned 14
+Abort(1090319) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init_thread: Unknown error class, error stack:
+MPIR_Init_thread(192): 
+MPID_Init(1558)......: 
+MPIR_pmi_init(169)...: PMI2_Job_GetId returned 14
+Abort(1090319) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init_thread: Unknown error class, error stack:
+MPIR_Init_thread(192): 
+MPID_Init(1558)......: 
+MPIR_pmi_init(169)...: PMI2_Job_GetId returned 14
+Abort(1090319) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init_thread: Unknown error class, error stack:
+MPIR_Init_thread(192): 
+MPID_Init(1558)......: 
+MPIR_pmi_init(169)...: PMI2_Job_GetId returned 14
+Abort(1090319) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init_thread: Unknown error class, error stack:
+MPIR_Init_thread(192): 
+MPID_Init(1558)......: 
+MPIR_pmi_init(169)...: PMI2_Job_GetId returned 14
+Abort(1090319) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init_thread: Unknown error class, error stack:
+MPIR_Init_thread(192): 
+MPID_Init(1558)......: 
+MPIR_pmi_init(169)...: PMI2_Job_GetId returned 14
+Abort(1090319) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init_thread: Unknown error class, error stack:
+MPIR_Init_thread(192): 
+MPID_Init(1558)......: 
+MPIR_pmi_init(169)...: PMI2_Job_GetId returned 14
+Abort(1090319) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init_thread: Unknown error class, error stack:
+MPIR_Init_thread(192): 
+MPID_Init(1558)......: 
+MPIR_pmi_init(169)...: PMI2_Job_GetId returned 14
+Abort(1090319) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init_thread: Unknown error class, error stack:
+MPIR_Init_thread(192): 
+MPID_Init(1558)......: 
+MPIR_pmi_init(169)...: PMI2_Job_GetId returned 14
+srun: error: n23m0141: tasks 10-25: Exited with exit code 1
+Abort(1090319) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init_thread: Unknown error class, error stack:
+MPIR_Init_thread(192): 
+MPID_Init(1558)......: 
+MPIR_pmi_init(169)...: PMI2_Job_GetId returned 14
+Abort(1090319) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init_thread: Unknown error class, error stack:
+MPIR_Init_thread(192): 
+MPID_Init(1558)......: 
+MPIR_pmi_init(169)...: PMI2_Job_GetId returned 14
+Abort(1090319) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init_thread: Unknown error class, error stack:
+MPIR_Init_thread(192): 
+MPID_Init(1558)......: 
+MPIR_pmi_init(169)...: PMI2_Job_GetId returned 14
+Abort(1090319) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init_thread: Unknown error class, error stack:
+MPIR_Init_thread(192): 
+MPID_Init(1558)......: 
+MPIR_pmi_init(169)...: PMI2_Job_GetId returned 14
+Abort(1090319) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init_thread: Unknown error class, error stack:
+MPIR_Init_thread(192): 
+MPID_Init(1558)......: 
+MPIR_pmi_init(169)...: PMI2_Job_GetId returned 14
+Abort(1090319) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init_thread: Unknown error class, error stack:
+MPIR_Init_thread(192): 
+MPID_Init(1558)......: 
+MPIR_pmi_init(169)...: PMI2_Job_GetId returned 14
+Abort(1090319) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init_thread: Unknown error class, error stack:
+MPIR_Init_thread(192): 
+MPID_Init(1558)......: 
+MPIR_pmi_init(169)...: PMI2_Job_GetId returned 14
+Abort(1090319) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init_thread: Unknown error class, error stack:
+MPIR_Init_thread(192): 
+MPID_Init(1558)......: 
+MPIR_pmi_init(169)...: PMI2_Job_GetId returned 14
+Abort(1090319) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init_thread: Unknown error class, error stack:
+MPIR_Init_thread(192): 
+MPID_Init(1558)......: 
+MPIR_pmi_init(169)...: PMI2_Job_GetId returned 14
+Abort(1090319) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init_thread: Unknown error class, error stack:
+MPIR_Init_thread(192): 
+MPID_Init(1558)......: 
+MPIR_pmi_init(169)...: PMI2_Job_GetId returned 14
+Abort(1090319) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init_thread: Unknown error class, error stack:
+MPIR_Init_thread(192): 
+MPID_Init(1558)......: 
+MPIR_pmi_init(169)...: PMI2_Job_GetId returned 14
+Abort(1090319) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init_thread: Unknown error class, error stack:
+MPIR_Init_thread(192): 
+MPID_Init(1558)......: 
+MPIR_pmi_init(169)...: PMI2_Job_GetId returned 14
+srun: error: n23m0032: task 0: Exited with exit code 1
+srun: error: r23m0128: task 26: Exited with exit code 1
+srun: error: r23m0158: task 34: Exited with exit code 1
+srun: error: r23m0163: task 36: Exited with exit code 1
+srun: error: r23m0162: task 35: Exited with exit code 1
+srun: error: r23m0147: tasks 27-29: Exited with exit code 1
+srun: error: r23m0148: tasks 30-33: Exited with exit code 1

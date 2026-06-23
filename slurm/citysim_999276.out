@@ -1,0 +1,41 @@
+[INFO] Module OpenMPI/5.0.3 loaded.
+
+Lmod is automatically replacing "impi/2021.13.0" with "OpenMPI/5.0.3".
+
+[INFO] Module OpenMPI/5.0.3 loaded.
+
+Inactive Modules:
+  1) imkl-FFTW/2024.2.0
+
+ln: failed to create symbolic link 'input/test_scenario': File exists
+[2026-06-11T15:55:13.155] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+Initializing the logger
+Starting mass simulation with 40 workers.
+Loading city scenario from path /home/gzi37280/CityScenarioGenerator/scenarios/test_scenario
+Automation.ResultFiles.LPGPBadParameterException: Starting a city simulation with 40 workers, but found 2 existing database files. The city simulation can only reuse existing databases when using the same number of workers. Please either start the simulation again with 40 workers or delete the existing database directory: C:\LPG\Results\test/Databases
+   at CitySimulation.Scenarios.CityScenarioImport.CanUseExistingDatabases(String resultDir, Int32 numWorkers, String pathToDb) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Scenarios/CityScenarioImport.cs:line 258
+   at CitySimulation.Scenarios.CityScenarioImport.ReadScenarioFromConfigDirectory(String inputDirectoryPath, Int32 numWorkers, MPILogger logger) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Scenarios/CityScenarioImport.cs:line 51
+   at CitySimulation.Worker.LoadAndDistributeScenario(String inputPath) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 104
+   at CitySimulation.Worker..ctor(Intracommunicator comm, String[] args) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 61
+   at CitySimulation.Program.RunNewWorker(Intracommunicator comm, String[] args) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Program.cs:line 42
+   at CitySimulation.Program.<>c__DisplayClass1_0.<CreateMPIRunAction>b__0(Intracommunicator comm) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Program.cs:line 26
+   at MPI.Environment.Run(String[]& args, Threading threading, Action`1 action, Boolean cleanupEnvironment)
+srun: Job step aborted: Waiting up to 92 seconds for job step to finish.
+[2026-06-11T15:55:14.942] error: *** STEP 999276.0 ON n23m0032 CANCELLED AT 2026-06-11T15:55:14 DUE to SIGNAL Killed ***
+srun: error: n23m0061: task 8: Killed
+srun: error: n23m0032: task 0: Exited with exit code 1
+srun: error: r23m0195: task 37: Killed
+srun: error: n23m0050: task 5: Killed
+srun: error: r23m0162: task 35: Killed
+srun: error: n23m0052: task 6: Killed
+srun: error: n23m0057: task 7: Killed
+srun: error: r23m0128: task 26: Killed
+srun: error: r23m0206: task 38: Killed
+srun: error: r23m0158: task 34: Killed
+srun: error: n23m0142: task 25: Killed
+srun: error: r23m0163: task 36: Killed
+srun: error: r23m0219: task 39: Killed
+srun: error: n23m0043: tasks 1-4: Killed
+srun: error: r23m0147: tasks 27-29: Killed
+srun: error: r23m0148: tasks 30-33: Killed
+srun: error: n23m0141: tasks 9-24: Killed

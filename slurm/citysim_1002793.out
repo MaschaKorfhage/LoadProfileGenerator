@@ -1,0 +1,51 @@
+[INFO] Module OpenMPI/5.0.3 loaded.
+
+Lmod is automatically replacing "impi/2021.13.0" with "OpenMPI/5.0.3".
+
+[INFO] Module OpenMPI/5.0.3 loaded.
+
+Inactive Modules:
+  1) imkl-FFTW/2024.2.0
+
+[2026-06-11T17:58:53.246] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-11T17:58:53.251] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-11T17:58:53.251] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-11T17:58:53.338] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-11T17:58:53.338] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-11T17:58:53.476] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-11T17:58:53.478] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-11T17:58:53.479] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-11T17:58:53.479] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-11T17:58:53.480] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-11T17:58:53.480] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-11T17:58:53.483] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-11T17:58:53.483] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-11T17:58:53.483] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+Initializing the logger
+Starting mass simulation with 40 workers.
+Loading city scenario from path /home/gzi37280/CityScenarioGenerator/scenarios/test_scenario
+Automation.ResultFiles.LPGPBadParameterException: Starting a city simulation with 40 workers, but found 2 existing database files. The city simulation can only reuse existing databases when using the same number of workers. Please either start the simulation again with 40 workers or delete the existing database directory: C:\LPG\Results\test/Databases
+   at CitySimulation.Scenarios.CityScenarioImport.CanUseExistingDatabases(String resultDir, Int32 numWorkers, String pathToDb) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Scenarios/CityScenarioImport.cs:line 258
+   at CitySimulation.Scenarios.CityScenarioImport.ReadScenarioFromConfigDirectory(String inputDirectoryPath, Int32 numWorkers, MPILogger logger) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Scenarios/CityScenarioImport.cs:line 51
+   at CitySimulation.Worker.LoadAndDistributeScenario(String inputPath) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 104
+   at CitySimulation.Worker..ctor(Intracommunicator comm, String[] args) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 61
+   at CitySimulation.Program.RunNewWorker(Intracommunicator comm, String[] args) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Program.cs:line 42
+   at CitySimulation.Program.<>c__DisplayClass1_0.<CreateMPIRunAction>b__0(Intracommunicator comm) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Program.cs:line 26
+   at MPI.Environment.Run(String[]& args, Threading threading, Action`1 action, Boolean cleanupEnvironment)
+[2026-06-11T17:58:54.421] error: *** STEP 1002793.0 ON n23m0032 CANCELLED AT 2026-06-11T17:58:54 DUE to SIGNAL Killed ***
+srun: Job step aborted: Waiting up to 92 seconds for job step to finish.
+srun: error: r23m0206: task 38: Killed
+srun: error: n23m0050: task 13: Killed
+srun: error: r23m0098: task 37: Killed
+srun: error: n23m0032: task 0: Exited with exit code 1
+srun: error: r23m0071: task 30: Killed
+srun: error: r23m0092: task 34: Killed
+srun: error: r23m0219: task 39: Killed
+srun: error: n23m0047: tasks 10-12: Killed
+srun: error: r23m0096: tasks 35-36: Killed
+srun: error: r23m0061: tasks 26-27: Killed
+srun: error: n23m0052: tasks 23-25: Killed
+srun: error: r23m0065: tasks 28-29: Killed
+srun: error: r23m0077: tasks 31-33: Killed
+srun: error: n23m0051: tasks 14-22: Killed
+srun: error: n23m0033: tasks 1-9: Killed

@@ -1,0 +1,57 @@
+[INFO] Module OpenMPI/5.0.3 loaded.
+
+Lmod is automatically replacing "impi/2021.13.0" with "OpenMPI/5.0.3".
+
+[INFO] Module OpenMPI/5.0.3 loaded.
+
+Inactive Modules:
+  1) imkl-FFTW/2024.2.0
+
+[2026-06-17T17:44:48.668] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-17T17:44:48.796] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-17T17:44:48.796] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-17T17:44:48.796] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-17T17:44:48.796] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-17T17:44:48.796] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-17T17:44:48.796] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-17T17:44:48.796] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+Initializing the logger
+Starting mass simulation with 40 workers.
+Loading city scenario from path /home/gzi37280/CityScenarioGenerator/scenarios/scenario_juelich
+Using database file: /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/bin/release/net9.0/linux-x64/publish/profilegenerator.db3
+Calling MPI Scatter to distribute scenario parts.
+Worker 0 on n23m0022.hpc.itc.rwth-aachen.de is responsible for 237 houses and 450 POIs.
+No reusable database found. Creating a new one: profilegenerator.worker_0.db3
+Generating house DEA_DENW40AL10003TRR-2496 from templates
+CitySimulation.CitySimWrapperException: Exception on worker 21 from target 'DEA_DENW40AL10003TBD-1774' during initialization (template generation).
+ ---> Automation.ResultFiles.LPGPBadParameterException: Point of interest preferences were given, but no route data was provided.
+   at SimulationEngineLib.HouseJobProcessor.TravelRouteSetBuilderCity.CreateTravelRouteSetFromPoiPreferences(HouseholdData householdData, ModularHousehold household, HouseCreationAndCalculationJob hj, TransportationDeviceSet transportationDeviceSet, String houseName) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/SimulationEngineLib/HouseJobProcessor/TravelRouteSetBuilderCity.cs:line 98
+   at SimulationEngineLib.HouseJobProcessor.HouseGenerator.DetermineTravelRouteSet(Simulator sim, HouseholdData householdData, ModularHousehold household, HouseCreationAndCalculationJob hj, String houseName, IReadOnlyDictionary`2 locationReplacements, TransportationDeviceSet transportationDeviceSet) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/SimulationEngineLib/HouseJobProcessor/HouseGenerator.cs:line 568
+   at SimulationEngineLib.HouseJobProcessor.HouseGenerator.CreateSingleHouse(HouseCreationAndCalculationJob hj, Simulator sim, Random random) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/SimulationEngineLib/HouseJobProcessor/HouseGenerator.cs:line 475
+   at SimulationEngineLib.HouseJobProcessor.HouseGenerator.GetHouseReference(HouseCreationAndCalculationJob hcj, Simulator sim, Random random) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/SimulationEngineLib/HouseJobProcessor/HouseGenerator.cs:line 407
+   at CitySimulation.LPGMassSimulator.ReadAndGenerateHouse(ResidentialBuildingConfig target, HouseGenerator houseGenerator) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 133
+   --- End of inner exception stack trace ---
+   at CitySimulation.LPGMassSimulator.ReadAndGenerateHouse(ResidentialBuildingConfig target, HouseGenerator houseGenerator) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 138
+   at CitySimulation.LPGMassSimulator.GenerateHouses() in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 95
+   at CitySimulation.LPGMassSimulator..ctor(Intracommunicator comm, Int32 rank, ScenarioPart scenarioPart, MPILogger logger) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 68
+   at CitySimulation.Worker.InitLPGSimulator() in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 126
+   at CitySimulation.Worker..ctor(Intracommunicator comm, String[] args) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 69
+   at CitySimulation.Program.RunNewWorker(Intracommunicator comm, String[] args) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Program.cs:line 42
+   at CitySimulation.Program.<>c__DisplayClass1_0.<CreateMPIRunAction>b__0(Intracommunicator comm) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Program.cs:line 26
+   at MPI.Environment.Run(String[]& args, Threading threading, Action`1 action, Boolean cleanupEnvironment)
+srun: Job step aborted: Waiting up to 92 seconds for job step to finish.
+[2026-06-17T17:45:39.971] error: *** STEP 1161593.0 ON n23m0022 CANCELLED AT 2026-06-17T17:45:39 DUE to SIGNAL Killed ***
+srun: error: r23m0196: task 21: Exited with exit code 1
+srun: error: n23m0065: task 17: Killed
+srun: error: n23m0059: task 9: Killed
+srun: error: r23m0201: task 35: Killed
+srun: error: n23m0033: task 5: Killed
+srun: error: n23m0023: tasks 3-4: Killed
+srun: error: r23m0212: tasks 36-39: Killed
+srun: error: r23m0198: tasks 27-28: Killed
+srun: error: n23m0068: tasks 18-20: Killed
+srun: error: n23m0047: tasks 6-8: Killed
+srun: error: n23m0022: tasks 0-2: Killed
+srun: error: r23m0197: tasks 22-26: Killed
+srun: error: r23m0199: tasks 29-34: Killed
+srun: error: n23m0062: tasks 10-16: Killed

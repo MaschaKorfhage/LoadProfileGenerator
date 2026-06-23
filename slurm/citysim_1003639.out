@@ -1,0 +1,24 @@
+[INFO] Module OpenMPI/5.0.3 loaded.
+
+Lmod is automatically replacing "impi/2021.13.0" with "OpenMPI/5.0.3".
+
+[INFO] Module OpenMPI/5.0.3 loaded.
+
+Inactive Modules:
+  1) imkl-FFTW/2024.2.0
+
+Initializing the logger
+Starting mass simulation with 2 workers.
+Loading city scenario from path /home/gzi37280/CityScenarioGenerator/scenarios/scenario_juelich
+Automation.ResultFiles.LPGPBadParameterException: Starting a city simulation with 2 workers, but found 40 existing database files. The city simulation can only reuse existing databases when using the same number of workers. Please either start the simulation again with 2 workers or delete the existing database directory: city_simulation_results/scenario_juelich/Databases
+   at CitySimulation.Scenarios.CityScenarioImport.CanUseExistingDatabases(String resultDir, Int32 numWorkers, String pathToDb) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Scenarios/CityScenarioImport.cs:line 258
+   at CitySimulation.Scenarios.CityScenarioImport.ReadScenarioFromConfigDirectory(String inputDirectoryPath, Int32 numWorkers, MPILogger logger) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Scenarios/CityScenarioImport.cs:line 51
+   at CitySimulation.Worker.LoadAndDistributeScenario(String inputPath) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 104
+   at CitySimulation.Worker..ctor(Intracommunicator comm, String[] args) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 61
+   at CitySimulation.Program.RunNewWorker(Intracommunicator comm, String[] args) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Program.cs:line 42
+   at CitySimulation.Program.<>c__DisplayClass1_0.<CreateMPIRunAction>b__0(Intracommunicator comm) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Program.cs:line 26
+   at MPI.Environment.Run(String[]& args, Threading threading, Action`1 action, Boolean cleanupEnvironment)
+[2026-06-11T18:16:54.158] error: *** STEP 1003639.0 ON r23m0195 CANCELLED AT 2026-06-11T18:16:54 DUE to SIGNAL Killed ***
+srun: Job step aborted: Waiting up to 92 seconds for job step to finish.
+srun: error: r23m0215: task 1: Killed
+srun: error: r23m0195: task 0: Exited with exit code 1

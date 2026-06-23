@@ -1,0 +1,82 @@
+[INFO] Module OpenMPI/5.0.3 loaded.
+
+Lmod is automatically replacing "impi/2021.13.0" with "OpenMPI/5.0.3".
+
+[INFO] Module OpenMPI/5.0.3 loaded.
+
+Inactive Modules:
+  1) imkl-FFTW/2024.2.0
+
+[2026-06-17T17:41:05.208] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-17T17:41:05.208] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-17T17:41:05.208] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-17T17:41:05.208] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-17T17:41:05.208] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-17T17:41:05.208] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-17T17:41:05.208] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+Initializing the logger
+Starting mass simulation with 40 workers.
+Loading city scenario from path /home/gzi37280/CityScenarioGenerator/scenarios/scenario_juelich
+Using database file: /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/bin/release/net9.0/linux-x64/publish/profilegenerator.db3
+Calling MPI Scatter to distribute scenario parts.
+Worker 0 on n23m0239.hpc.itc.rwth-aachen.de is responsible for 237 houses and 450 POIs.
+Reusing existing database file profilegenerator.worker_0.db3
+CitySimulation.CitySimWrapperException: Exception on worker 21 from target 'DEA_DENW40AL10003TBD-1774' during initialization.
+ ---> Common.DataIntegrityException: The house DEA_DENW40AL10003TBD-1774 has no housetype. Please fix.
+   at CalculationController.Integrity.HouseChecker.Run(Simulator sim, CheckingOptions options) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CalculationController/Integrity/HouseChecker.cs:line 52
+   at CalculationController.Integrity.BasicChecker.RunCheck(Simulator sim, Int32 step, CheckingOptions options) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CalculationController/Integrity/BasicChecker.cs:line 20
+   at CalculationController.Integrity.SimIntegrityChecker.Run(Simulator sim, CheckingOptions options) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CalculationController/Integrity/SimIntegrityChecker.cs:line 147
+   at CalculationController.CalcFactories.CalcManagerFactory.GetCalcManager(CalcStartParameterSet csps) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CalculationController/CalcFactories/CalcManagerFactory.cs:line 105
+   at CitySimulation.LPGMassSimulator.PrepareHousesForSimulation(String baseResultDir, Int32 rank) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 177
+   --- End of inner exception stack trace ---
+   at CitySimulation.LPGMassSimulator.PrepareHousesForSimulation(String baseResultDir, Int32 rank) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 182
+   at CitySimulation.LPGMassSimulator..ctor(Intracommunicator comm, Int32 rank, ScenarioPart scenarioPart, MPILogger logger) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 84
+   at CitySimulation.Worker.InitLPGSimulator() in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 126
+   at CitySimulation.Worker..ctor(Intracommunicator comm, String[] args) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 69
+   at CitySimulation.Program.RunNewWorker(Intracommunicator comm, String[] args) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Program.cs:line 42
+   at CitySimulation.Program.<>c__DisplayClass1_0.<CreateMPIRunAction>b__0(Intracommunicator comm) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Program.cs:line 26
+   at MPI.Environment.Run(String[]& args, Threading threading, Action`1 action, Boolean cleanupEnvironment)
+srun: Job step aborted: Waiting up to 92 seconds for job step to finish.
+[2026-06-17T17:41:31.777] error: *** STEP 1161476.0 ON n23m0239 CANCELLED AT 2026-06-17T17:41:31 DUE to SIGNAL Killed ***
+srun: error: r23m0201: task 35: Killed
+srun: error: r23m0196: task 21: Exited with exit code 1
+srun: error: r23m0198: tasks 27-28: Killed
+srun: error: n23m0239: task 0: Killed
+srun: error: n23m0264: tasks 10-16: Killed
+srun: error: n23m0266: task 17: Killed
+srun: error: r23m0197: task 24: Killed
+srun: error: r23m0212: task 36: Killed
+[2026-06-17T17:41:32.880] error:  mpi/pmix_v5: _errhandler: n23m0239 [0]: pmixp_client_v2.c:230: Error handler invoked: status = -61, source = [slurm.pmix.1161476.0:0]
+[2026-06-17T17:41:33.186] error:  mpi/pmix_v5: _errhandler: n23m0266 [3]: pmixp_client_v2.c:230: Error handler invoked: status = -61, source = [slurm.pmix.1161476.0:17]
+[2026-06-17T17:41:33.196] error:  mpi/pmix_v5: _errhandler: r23m0197 [5]: pmixp_client_v2.c:230: Error handler invoked: status = -61, source = [slurm.pmix.1161476.0:24]
+srun: error: r23m0199: tasks 29-34: Killed
+[2026-06-17T17:41:33.724] error:  mpi/pmix_v5: _errhandler: r23m0212 [9]: pmixp_client_v2.c:230: Error handler invoked: status = -61, source = [slurm.pmix.1161476.0:36]
+srun: error: n23m0255: task 8: Killed
+srun: error: n23m0266: task 18: Killed
+srun: error: n23m0239: tasks 1-3: Killed
+srun: error: r23m0197: tasks 23,25-26: Killed
+[2026-06-17T17:41:35.835] error:  mpi/pmix_v5: _errhandler: n23m0255 [1]: pmixp_client_v2.c:230: Error handler invoked: status = -61, source = [slurm.pmix.1161476.0:8]
+srun: error: r23m0212: task 39: Killed
+[2026-06-17T17:41:36.490] error:  mpi/pmix_v5: _errhandler: n23m0266 [3]: pmixp_client_v2.c:230: Error handler invoked: status = -61, source = [slurm.pmix.1161476.0:18]
+[2026-06-17T17:41:36.637] error:  mpi/pmix_v5: _errhandler: r23m0197 [5]: pmixp_client_v2.c:230: Error handler invoked: status = -61, source = [slurm.pmix.1161476.0:23]
+srun: First task exited 5s ago
+srun: StepId=1161476.0 tasks 4-7,9,19-20,22,37-38: running
+srun: StepId=1161476.0 tasks 0-3,8,10-18,21,23-36,39: exited abnormally
+srun: Terminating StepId=1161476.0
+[2026-06-17T17:41:37.038] error:  mpi/pmix_v5: _errhandler: r23m0212 [9]: pmixp_client_v2.c:230: Error handler invoked: status = -61, source = [slurm.pmix.1161476.0:39]
+srun: error: n23m0255: task 9: Killed
+srun: error: n23m0266: task 20: Killed
+srun: error: r23m0197: task 22: Killed
+[2026-06-17T17:41:39.243] error:  mpi/pmix_v5: _errhandler: n23m0255 [1]: pmixp_client_v2.c:230: Error handler invoked: status = -61, source = [slurm.pmix.1161476.0:9]
+srun: error: r23m0212: task 38: Killed
+[2026-06-17T17:41:39.857] error:  mpi/pmix_v5: _errhandler: n23m0266 [3]: pmixp_client_v2.c:230: Error handler invoked: status = -61, source = [slurm.pmix.1161476.0:20]
+[2026-06-17T17:41:40.339] error:  mpi/pmix_v5: _errhandler: r23m0212 [9]: pmixp_client_v2.c:230: Error handler invoked: status = -61, source = [slurm.pmix.1161476.0:38]
+srun: error: n23m0255: task 7: Killed
+srun: error: n23m0266: task 19: Killed
+[2026-06-17T17:41:42.657] error:  mpi/pmix_v5: _errhandler: n23m0255 [1]: pmixp_client_v2.c:230: Error handler invoked: status = -61, source = [slurm.pmix.1161476.0:7]
+srun: error: r23m0212: task 37: Killed
+srun: error: n23m0255: task 4: Killed
+[2026-06-17T17:41:46.165] error:  mpi/pmix_v5: _errhandler: n23m0255 [1]: pmixp_client_v2.c:230: Error handler invoked: status = -61, source = [slurm.pmix.1161476.0:4]
+srun: error: n23m0255: task 5: Killed
+[2026-06-17T17:41:48.843] error:  mpi/pmix_v5: _errhandler: n23m0255 [1]: pmixp_client_v2.c:230: Error handler invoked: status = -61, source = [slurm.pmix.1161476.0:5]
+srun: error: n23m0255: task 6: Killed
