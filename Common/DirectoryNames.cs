@@ -18,7 +18,7 @@ namespace Common {
                 case TargetDirectory.Debugging:
                     return "Debugging";
                 case TargetDirectory.Temporary:
-                    return "Temporary Files";
+                    return "Temp";
                 default:
                     throw new LPGException("Forgotten TargetDirectory");
             }

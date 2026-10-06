@@ -1,0 +1,44 @@
+[INFO] Module OpenMPI/5.0.3 loaded.
+
+Lmod is automatically replacing "impi/2021.13.0" with "OpenMPI/5.0.3".
+
+[INFO] Module OpenMPI/5.0.3 loaded.
+
+Inactive Modules:
+  1) imkl-FFTW/2024.2.0
+
+[2026-06-23T11:28:49.115] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-23T11:28:49.115] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-23T11:28:49.115] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-23T11:28:49.115] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-23T11:28:49.115] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-23T11:28:49.115] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-23T11:28:49.115] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+[2026-06-23T11:28:49.117] error: Can't propagate RLIMIT_NPROC of 1027897 from submit host: Invalid argument
+Initializing the logger
+Starting mass simulation with 40 workers.
+Loading city scenario from path /home/gzi37280/CityScenarioGenerator/scenarios/scenario_juelich-grosse-rurstr
+Using database file: /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/bin/Release/net9.0/linux-x64/publish/profilegenerator.db3
+Found 1 files in the routes subdirectory.
+Calling MPI Scatter to distribute scenario parts.
+Worker 0 on r23m0060.hpc.itc.rwth-aachen.de is responsible for 1 houses and 6 POIs.
+No reusable database found. Creating a new one: profilegenerator.worker_0.db3
+Generating house DEA_DENW40AL10003TBD-14 from templates
+Finished generating all houses
+Preparing house DEA_DENW40AL10003TBD-14 for calculation
+In total, this worker simulates 29 persons in 10 households.
+Finished initialization in  00:03:58.8461610
+Calling MPI Barrier
+MPI Barrier is over after 00:00:03.2179437
+Simulating timestep 11100, datetime: 1/1/2020 5:00:00 PM, elapsed time: 00:01:00.0037169, speed: 184.99 steps/second, 1849.89 household steps/second, 5364.67 person steps/second, time left: 00:03:55.7983901
+Simulating timestep 24092, datetime: 1/10/2020 5:32:00 PM, elapsed time: 00:02:00.0062785, speed: 216.52 steps/second, 2165.24 household steps/second, 6279.20 person steps/second, time left: 00:02:21.4530831
+Simulating timestep 34178, datetime: 1/17/2020 5:38:00 PM, elapsed time: 00:03:00.0085000, speed: 168.09 steps/second, 1680.94 household steps/second, 4874.72 person steps/second, time left: 00:02:02.2055952
+Simulating timestep 47505, datetime: 1/26/2020 11:45:00 PM, elapsed time: 00:04:00.0106601, speed: 222.11 steps/second, 2221.09 household steps/second, 6441.15 person steps/second, time left: 00:00:32.4840988
+Main loop: 00:04:36.8797421, MPI communication: 00:03:58.5358880 (86.15 %), speed: 197.63 steps/second, 1976.31 household steps/second, 5731.30 person steps/second
+Calling MPI Barrier
+MPI Barrier is over after 00:00:00.0005590
+Finished main simulation in 00:04:40.1009225
+Calling MPI Barrier
+MPI Barrier is over after 00:00:00.0000918
+Finished postprocessing in  00:00:14.0139232
+Finished city simulation in 00:08:52.9619718

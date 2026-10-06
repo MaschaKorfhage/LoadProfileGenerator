@@ -1,0 +1,20 @@
+[INFO] Module OpenMPI/5.0.3 loaded.
+
+Lmod is automatically replacing "impi/2021.13.0" with "OpenMPI/5.0.3".
+
+[INFO] Module OpenMPI/5.0.3 loaded.
+
+Inactive Modules:
+  1) imkl-FFTW/2024.2.0
+
+Initializing the logger
+Starting mass simulation with 40 workers.
+Loading city scenario from path /home/gzi37280/CityScenarioGenerator/scenarios/scenario_juelich
+Using database file: /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/bin/Release/net9.0/linux-x64/publish/profilegenerator.db3
+Found 1 files in the routes subdirectory.
+Calling MPI Scatter to distribute scenario parts.
+[2026-06-25T01:50:22.156] error: Detected 1 oom_kill event in StepId=1326964.0. Some of the step tasks have been OOM Killed.
+srun: error: n23m0290: task 0: Out Of Memory
+[2026-06-25T01:50:23.149] error:  mpi/pmix_v5: _errhandler: n23m0290 [0]: pmixp_client_v2.c:230: Error handler invoked: status = -61, source = [slurm.pmix.1326964.0:0]
+srun: Job step aborted: Waiting up to 92 seconds for job step to finish.
+[2026-06-25T01:50:23.153] error: *** STEP 1326964.0 ON n23m0290 CANCELLED AT 2026-06-25T01:50:23 DUE to SIGNAL Killed ***
