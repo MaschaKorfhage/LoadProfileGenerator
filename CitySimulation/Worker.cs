@@ -151,7 +151,11 @@ namespace CitySimulation
         {
             if (poi.QueueCapacity > 0)
             {
-                return new QueuePointOfInterestSimulator(rank, poi.Id, outputPath, poi.QueueCapacity);
+                return new QueuePointOfInterestSimulator(rank, poi.Id, outputPath, poi.QueueCapacity,
+                    avoidanceWaitTimeMinutes: poi.AvoidanceWaitTimeMinutes,
+                    maxAdditionalDistanceKm: poi.MaxAdditionalDistanceKm,
+                    timeStepMinutes: scenarioPart.CalcParams.InternalStepsize.TotalMinutes,
+                    enableAdaptivePoiAvoidance: poi.IsPharmacy);
             }
             return new PointOfInterestSimulator(rank, poi.Id, outputPath);
             //return poi.LocationType.Name switch

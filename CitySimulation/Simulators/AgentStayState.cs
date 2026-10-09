@@ -9,11 +9,12 @@ namespace CitySimulation.Simulators
     /// <param name="arrival">time step of arrival</param>
     /// <param name="activity">the start activity message</param>
     /// <param name="stayDuration">the stay duration in time steps</param>
-    internal class AgentStayState(TimeStep arrival, RemoteActivityStart activity, int stayDuration)
+    internal class AgentStayState(TimeStep arrival, RemoteActivityStart activity, int stayDuration, DateTime? arrivalDateTime = null)
     {
         public readonly TimeStep Arrival = arrival;
         public readonly RemoteActivityStart Activity = activity;
         public readonly int StayDuration = stayDuration;
+        public readonly DateTime? ArrivalDateTime = arrivalDateTime;
 
         /// <summary>
         /// The remaining stay duration. Is updated continuously during the stay.

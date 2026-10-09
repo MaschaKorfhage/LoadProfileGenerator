@@ -100,7 +100,8 @@ namespace CitySimulation.Scenarios
             var houseConfigs = CollectHouseConfigs(inputDirectory.CombineName("houses"), seedProvider);
             var cityData = AutomationUtili.ParseJsonFile<CityData>(inputDirectory.CombineName("city.json"));
             var poiConfigs = cityData.PointsOfInterest.Select(entry => new PointOfInterestConfig(new(entry.Key),
-                entry.Value.LocationType, entry.Value.QueueCapacity));
+                entry.Value.LocationType, entry.Value.QueueCapacity, entry.Value.AvoidanceWaitTimeMinutes,
+                entry.Value.MaxAdditionalDistanceKm, entry.Value.LocationType.Name == "Pharmacy"));
 
             // log the seed used for each target to make simulation reproducible
             CreateTargetSeedFile(resultDir, houseConfigs);

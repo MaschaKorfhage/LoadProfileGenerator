@@ -59,6 +59,16 @@ namespace CalculationEngine.Transportation
 
         public CalcSite Site => SourceAffordance.Site ?? throw new LPGException("Incorrectly configured transport decorator: missing site");
 
+        public double? GetHomeTravelDistanceInMeters(CalcPersonDto person)
+        {
+            return _transportationHandler.TravelRoutes
+                .Where(route => route.SiteA.IsHome && route.SiteB == Site &&
+                                route.IsAllowedForPerson(person) &&
+                                _transportationHandler.IsRouteAllowedForAffordance(route, SourceAffordance))
+                .Select(route => (double?)route.DistanceInMeters)
+                .Min();
+        }
+
         public virtual IEnumerable<IActivity> PlanActivation(TimeStep startTime, CalcPersonDto activator, ICalcSite? personSourceSite)
         {
             if (personSourceSite is null)

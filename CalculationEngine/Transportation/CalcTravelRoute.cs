@@ -63,6 +63,7 @@ namespace CalculationEngine.Transportation
         public CalcSite SiteA { get; }
         public CalcSite SiteB { get; }
         private List<CalcTravelRouteStep> Steps { get; } = [];
+        public double DistanceInMeters => Steps.Sum(step => step.DistanceOfStepInM);
 
         public class CalcTravelDeviceUseEvent([NotNull] CalcTransportationDevice device, int durationInSteps, double totalDistance)
         {
@@ -276,7 +277,7 @@ namespace CalculationEngine.Transportation
         /// </summary>
         /// <param name="person">the person to check</param>
         /// <returns>true if the person can use the route; otherwhise, false</returns>
-        private bool IsAllowedForPerson(CalcPersonDto person)
+        internal bool IsAllowedForPerson(CalcPersonDto person)
         {
             return (PersonID == null || PersonID == person.ID)
                 && (Gender == PermittedGender.All || person.Gender == PermittedGender.All || Gender == person.Gender)

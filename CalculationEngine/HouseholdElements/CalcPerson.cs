@@ -49,6 +49,15 @@ namespace CalculationEngine.HouseholdElements
 {
     public class CalcPerson : CalcBase
     {
+        private enum PoiVisitDayGroup
+        {
+            Weekday,
+            Saturday,
+            Other
+        }
+
+        private sealed record RejectedPoi(double? HomeDistanceInMeters, double MaxAdditionalDistanceKm);
+
         private readonly PotentialAffs _normalPotentialAffs = new();
 
         private readonly PotentialAffs _sicknessPotentialAffs = new();
@@ -62,6 +71,8 @@ namespace CalculationEngine.HouseholdElements
         /// Stores the last few activated affordances so repetitons can be avoided
         /// </summary>
         private readonly List<ICalcAffordanceBase> _previousAffordances = [];
+
+        private readonly Dictionary<(string SourceTrait, string AffordanceName, string PoiLocationGroup, PoiVisitDayGroup DayGroup), Dictionary<string, RejectedPoi>> _rejectedPoiIds = [];
 
         /// <summary>
         /// The location of the currently active affordance. During transport, this is already the location
@@ -364,7 +375,16 @@ namespace CalculationEngine.HouseholdElements
             if (activityQueue.IsEmpty || activityQueue.CurrentActivity.IsFinished(time, remoteActivityResult))
             {
                 if (!activityQueue.IsEmpty)
+                {
+                    if (remoteActivityResult is { ShouldAvoidPoiInFuture: true } &&
+                        activityQueue.CurrentActivity.StartTime is not null)
+                    {
+                        RememberRejectedPointOfInterest(activityQueue.CurrentActivity.StartTime,
+                            activityQueue.CurrentActivity, remoteActivityResult.PoiVisitDayOfWeek,
+                            remoteActivityResult.MaxAdditionalDistanceKm);
+                    }
                     FinishActivity(time, activityQueue.CurrentActivity, remoteActivityResult);
+                }
                 return StartNextActivity(time, isDaylight, persons);
             }
 
@@ -911,6 +931,8 @@ namespace CalculationEngine.HouseholdElements
                 }
             }
 
+            FilterRejectedPoiAffordances(timeStep, resultingAff);
+
             if (getOnlyInterrupting)
             {
                 foreach (var affordance in resultingAff)
@@ -923,6 +945,115 @@ namespace CalculationEngine.HouseholdElements
             }
 
             return resultingAff;
+        }
+
+        private void RememberRejectedPointOfInterest(TimeStep visitStart, IActivity activity,
+            DayOfWeek? poiVisitDayOfWeek, double maxAdditionalDistanceKm)
+        {
+            var dayGroup = GetPoiVisitDayGroup(poiVisitDayOfWeek ?? GetSimulationDateTime(visitStart).DayOfWeek);
+            if (dayGroup == PoiVisitDayGroup.Other || activity.Destination is null)
+                return;
+
+            var affordance = GetSourceAffordance(activity.Affordance);
+            var key = (affordance.SourceTrait, affordance.Name, GetPoiLocationGroup(affordance), dayGroup);
+            if (!_rejectedPoiIds.TryGetValue(key, out var rejectedPoiIds))
+            {
+                rejectedPoiIds = new Dictionary<string, RejectedPoi>();
+                _rejectedPoiIds.Add(key, rejectedPoiIds);
+            }
+
+            var poiAffordance = FindPoiAffordance(affordance, activity.Destination.Id);
+            var homeDistance = poiAffordance is AffordanceBaseTransportDecorator transportAffordance
+                ? transportAffordance.GetHomeTravelDistanceInMeters(_calcPerson)
+                : null;
+            rejectedPoiIds[activity.Destination.Id] = new(homeDistance, maxAdditionalDistanceKm);
+        }
+
+        private void FilterRejectedPoiAffordances(TimeStep timeStep, List<ICalcAffordanceBase> availableAffordances)
+        {
+            var dayGroup = GetPoiVisitDayGroup(GetSimulationDateTime(timeStep).DayOfWeek);
+            if (dayGroup == PoiVisitDayGroup.Other)
+                return;
+
+            foreach (var entry in _rejectedPoiIds.Where(entry => entry.Key.DayGroup == dayGroup).ToList())
+            {
+                bool MatchesAffordance(ICalcAffordanceBase candidate)
+                {
+                    var sourceAffordance = GetSourceAffordance(candidate);
+                    return sourceAffordance.SourceTrait == entry.Key.SourceTrait &&
+                           sourceAffordance.Name == entry.Key.AffordanceName &&
+                           GetPoiLocationGroup(sourceAffordance) == entry.Key.PoiLocationGroup;
+                }
+
+                var matchingAffordances = availableAffordances.Where(MatchesAffordance).ToList();
+                var acceptableAlternatives = matchingAffordances.Where(candidate =>
+                {
+                    var poiId = GetSourceAffordance(candidate).Site?.PointOfInterest?.Id;
+                    if (poiId is null || entry.Value.ContainsKey(poiId) ||
+                        candidate is not AffordanceBaseTransportDecorator transportAffordance)
+                        return false;
+
+                    var candidateDistance = transportAffordance.GetHomeTravelDistanceInMeters(_calcPerson);
+                    return candidateDistance is not null && entry.Value.Values.Any(rejectedPoi =>
+                        rejectedPoi.HomeDistanceInMeters is not null &&
+                        candidateDistance <= rejectedPoi.HomeDistanceInMeters.Value + rejectedPoi.MaxAdditionalDistanceKm * 1000);
+                }).ToHashSet();
+
+                if (acceptableAlternatives.Count == 0)
+                    continue;
+
+                availableAffordances.RemoveAll(candidate =>
+                {
+                    if (!MatchesAffordance(candidate))
+                        return false;
+                    return !acceptableAlternatives.Contains(candidate);
+                });
+            }
+        }
+
+        private DateTime GetSimulationDateTime(TimeStep timeStep)
+        {
+            return _calcRepo.CalcParameters.InternalStartTime.AddTicks(
+                _calcRepo.CalcParameters.InternalStepsize.Ticks * timeStep.InternalStep);
+        }
+
+        private static PoiVisitDayGroup GetPoiVisitDayGroup(DayOfWeek dayOfWeek)
+        {
+            return dayOfWeek switch
+            {
+                DayOfWeek.Monday or DayOfWeek.Tuesday or DayOfWeek.Wednesday or DayOfWeek.Thursday or DayOfWeek.Friday => PoiVisitDayGroup.Weekday,
+                DayOfWeek.Saturday => PoiVisitDayGroup.Saturday,
+                _ => PoiVisitDayGroup.Other
+            };
+        }
+
+        private static ICalcAffordanceBase GetSourceAffordance(ICalcAffordanceBase affordance)
+        {
+            while (affordance is AffordanceBaseTransportDecorator transportDecorator)
+                affordance = transportDecorator.SourceAffordance;
+            return affordance;
+        }
+
+        private ICalcAffordanceBase? FindPoiAffordance(ICalcAffordanceBase sourceAffordance, string poiId)
+        {
+            return _normalPotentialAffs.PotentialAffordances
+                .Concat(_sicknessPotentialAffs.PotentialAffordances)
+                .FirstOrDefault(candidate =>
+                {
+                    var candidateSource = GetSourceAffordance(candidate);
+                    return candidateSource.SourceTrait == sourceAffordance.SourceTrait &&
+                           candidateSource.Name == sourceAffordance.Name &&
+                           candidateSource.Site?.PointOfInterest?.Id == poiId;
+                });
+        }
+
+        private static string GetPoiLocationGroup(ICalcAffordanceBase affordance)
+        {
+            var poiId = affordance.Site?.PointOfInterest?.Id;
+            var suffix = poiId is null ? null : $" ({poiId})";
+            if (suffix is not null && affordance.ParentLocation.Name.EndsWith(suffix, StringComparison.Ordinal))
+                return affordance.ParentLocation.Name[..^suffix.Length];
+            return affordance.ParentLocation.Name;
         }
 
         /// <summary>

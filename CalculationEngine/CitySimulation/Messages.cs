@@ -1,4 +1,5 @@
-﻿using CalculationEngine.Activities;
+﻿using System;
+using CalculationEngine.Activities;
 
 namespace CalculationEngine.CitySimulation
 {
@@ -49,10 +50,15 @@ namespace CalculationEngine.CitySimulation
     /// <param name="person">the person whose activity is finished</param>
     /// <param name="newLocation">the location of the person at the end of the travel/activity; null means the person is at home</param>
     /// <param name="successful">whether the activity was finished successfully; false means it was cancelled</param>
-    public class RemoteActivityFinished(PersonIdentifier person, PointOfInterestId? newLocation, bool successful)
+    public class RemoteActivityFinished(PersonIdentifier person, PointOfInterestId? newLocation, bool successful,
+        bool shouldAvoidPoiInFuture = false, DayOfWeek? poiVisitDayOfWeek = null,
+        double maxAdditionalDistanceKm = 1)
     {
         public readonly PersonIdentifier Person = person;
         public readonly PointOfInterestId? NewLocation = newLocation;
         public readonly bool Successful = successful;
+        public readonly bool ShouldAvoidPoiInFuture = shouldAvoidPoiInFuture;
+        public readonly DayOfWeek? PoiVisitDayOfWeek = poiVisitDayOfWeek;
+        public readonly double MaxAdditionalDistanceKm = maxAdditionalDistanceKm;
     }
 }

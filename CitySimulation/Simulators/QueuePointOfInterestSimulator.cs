@@ -21,6 +21,10 @@ namespace CitySimulation.Simulators
         /// can carry out their activity in parallel.
         /// </summary>
         private readonly int concurrentActivities;
+        private readonly double avoidanceWaitTimeMinutes;
+        private readonly double maxAdditionalDistanceKm;
+        private readonly double timeStepMinutes;
+        private readonly bool enableAdaptivePoiAvoidance;
 
         /// <summary>
         /// Indicates how long a visitor is willing to wait, relative to
@@ -35,14 +39,23 @@ namespace CitySimulation.Simulators
         /// </summary>
         private readonly int minWaitingTime = 10;
 
-        public QueuePointOfInterestSimulator(int rank, PointOfInterestId id, string outputDir, int concurrentActivities, int maxWaitingFactor = 4) : base(rank, id, outputDir)
+        public QueuePointOfInterestSimulator(int rank, PointOfInterestId id, string outputDir, int concurrentActivities,
+            int maxWaitingFactor = 4, double avoidanceWaitTimeMinutes = 20, double maxAdditionalDistanceKm = 1,
+            double timeStepMinutes = 1, bool enableAdaptivePoiAvoidance = false) : base(rank, id, outputDir)
         {
             this.concurrentActivities = concurrentActivities;
             this.maxWaitingFactor = maxWaitingFactor;
+            this.avoidanceWaitTimeMinutes = avoidanceWaitTimeMinutes;
+            this.maxAdditionalDistanceKm = maxAdditionalDistanceKm;
+            this.timeStepMinutes = timeStepMinutes;
+            this.enableAdaptivePoiAvoidance = enableAdaptivePoiAvoidance;
             csvLogger.AddColumns(["People cancelling"]);
 
             var filename = $"{PoiId.Id}.csv";
-            waitingTimeLogger = new(filename, outputDir, ["Person ID", "Waiting time"], "poi_queue");
+            var columns = enableAdaptivePoiAvoidance
+                ? new[] { "Person ID", "Waiting time", "Estimated", "Avoid future POI" }
+                : new[] { "Person ID", "Waiting time" };
+            waitingTimeLogger = new(filename, outputDir, columns, "poi_queue");
         }
 
         /// <summary>
@@ -61,17 +74,7 @@ namespace CitySimulation.Simulators
         }
 
         /// <summary>
-        /// Determines if the visitor will cancel the visit due to the long waiting time.
-        /// </summary>
-        /// <param name="expectedWaitingTime">the estimated waiting time</param>
-        /// <param name="activityDuration">the activity duration of the visitor</param>
-        /// <returns>true if the visitor cancels their visit; otherwise, false</returns>
-        private bool DoesVisitorCancel(int expectedWaitingTime, int activityDuration)
-        {
-            return expectedWaitingTime > minWaitingTime && expectedWaitingTime > maxWaitingFactor * activityDuration;
-        }
-
-        private List<RemoteActivityFinished> AddNewPersons(TimeStep timeStep, IEnumerable<RemoteActivityStart> newActivities)
+        private List<RemoteActivityFinished> AddNewPersons(TimeStep timeStep, DateTime dateTime, IEnumerable<RemoteActivityStart> newActivities)
         {
             List<RemoteActivityFinished> cancelling = [];
             foreach (var newActivity in newActivities)
@@ -83,11 +86,15 @@ namespace CitySimulation.Simulators
                 if (DoesVisitorCancel(expectedWaitingTime, duration))
                 {
                     // waiting time is too long, the visitor leaves again
-                    cancelling.Add(new RemoteActivityFinished(newActivity.Person, PoiId, false));
+                    bool shouldAvoidPoi = enableAdaptivePoiAvoidance && IsAvoidanceWaitExceeded(expectedWaitingTime);
+                    if (enableAdaptivePoiAvoidance)
+                        waitingTimeLogger.Log(timeStep, dateTime, [newActivity.Person, expectedWaitingTime, true, shouldAvoidPoi]);
+                    cancelling.Add(new RemoteActivityFinished(newActivity.Person, PoiId, false, shouldAvoidPoi,
+                        enableAdaptivePoiAvoidance ? dateTime.DayOfWeek : null, maxAdditionalDistanceKm));
                     continue;
                 }
 
-                waitingVisitors.Enqueue(new AgentStayState(timeStep, newActivity, duration));
+                waitingVisitors.Enqueue(new AgentStayState(timeStep, newActivity, duration, dateTime));
             }
             return cancelling;
         }
@@ -96,7 +103,7 @@ namespace CitySimulation.Simulators
         {
 
             // enqueue new arrivals and check if any of them cancel their activity
-            var cancelling = AddNewPersons(timeStep, newActivities);
+            var cancelling = AddNewPersons(timeStep, dateTime, newActivities);
 
             while (activeVisitors.Count < concurrentActivities && waitingVisitors.Count != 0)
             {
@@ -113,7 +120,13 @@ namespace CitySimulation.Simulators
             LogState(timeStep, dateTime, newActivities, finishedActivitites, cancelling);
 
             // collect activity finished messages for finished and cancelling visitors
-            var finishedMessages = GetFinishedMessages(finishedActivitites);
+            var finishedMessages = finishedActivitites.Select(state =>
+            {
+                int waitingTime = CalculateWaitingTime(timeStep, state);
+                bool shouldAvoidPoi = enableAdaptivePoiAvoidance && IsAvoidanceWaitExceeded(waitingTime);
+                return new RemoteActivityFinished(state.Activity.Person, PoiId, true, shouldAvoidPoi,
+                    enableAdaptivePoiAvoidance ? state.ArrivalDateTime?.DayOfWeek : null, maxAdditionalDistanceKm);
+            });
             var leaving = finishedMessages.Concat(cancelling);
             return leaving;
         }
@@ -138,10 +151,29 @@ namespace CitySimulation.Simulators
                 // log waiting time for all finished visitors
                 foreach (var finished in finishedActivities)
                 {
-                    int waitingTime = timestep.InternalStep - finished.Arrival.InternalStep - finished.StayDuration + 1;
-                    waitingTimeLogger.Log(timestep, dateTime, [finished.Activity.Person, waitingTime]);
+                    int waitingTime = CalculateWaitingTime(timestep, finished);
+                    bool shouldAvoidPoi = enableAdaptivePoiAvoidance && IsAvoidanceWaitExceeded(waitingTime);
+                    if (enableAdaptivePoiAvoidance)
+                        waitingTimeLogger.Log(timestep, dateTime, [finished.Activity.Person, waitingTime, false, shouldAvoidPoi]);
+                    else
+                        waitingTimeLogger.Log(timestep, dateTime, [finished.Activity.Person, waitingTime]);
                 }
             }
+        }
+
+        private bool DoesVisitorCancel(int expectedWaitingTime, int activityDuration)
+        {
+            return expectedWaitingTime > minWaitingTime && expectedWaitingTime > maxWaitingFactor * activityDuration;
+        }
+
+        private bool IsAvoidanceWaitExceeded(int waitingTime)
+        {
+            return waitingTime * timeStepMinutes >= avoidanceWaitTimeMinutes;
+        }
+
+        private static int CalculateWaitingTime(TimeStep timestep, AgentStayState visitor)
+        {
+            return timestep.InternalStep - visitor.Arrival.InternalStep - visitor.StayDuration + 1;
         }
 
         public override void FinishSimulation()
