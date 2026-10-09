@@ -1,0 +1,23 @@
+[INFO] Module OpenMPI/5.0.3 loaded.
+
+Lmod is automatically replacing "impi/2021.13.0" with "OpenMPI/5.0.3".
+
+[INFO] Module OpenMPI/5.0.3 loaded.
+
+Inactive Modules:
+  1) imkl-FFTW/2024.2.0
+
+Initializing the logger
+Starting mass simulation with 24 workers.
+Loading city scenario from path /home/gzi37280/CityScenarioGenerator/scenarios/scenario_juelich
+Using database file: /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/bin/Release/net9.0/linux-x64/publish/profilegenerator.db3
+Found 1 files in the routes subdirectory.
+Calling MPI Scatter to distribute scenario parts.
+Worker 0 on r23m0176.hpc.itc.rwth-aachen.de is responsible for 397 houses and 749 POIs.
+No reusable database found. Creating a new one: profilegenerator.worker_0.db3
+Generating house DEA_DENW40AL10003TRR-2496 from templates
+Generating house DEA_DENW40AL10003TdT-1886 from templates
+Generating house DEA_DENW40AL10003Umt-3661 from templates
+Generating house DEA_DENW40AL10003WfT-6093 from templates
+srun: Job step aborted: Waiting up to 92 seconds for job step to finish.
+[2026-10-06T14:51:41.870] error: *** JOB 4813401 ON r23m0176 CANCELLED AT 2026-10-06T14:51:41 DUE to SIGNAL Terminated ***

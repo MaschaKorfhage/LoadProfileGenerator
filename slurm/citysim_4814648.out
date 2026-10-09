@@ -1,0 +1,73 @@
+[INFO] Module OpenMPI/5.0.3 loaded.
+
+Lmod is automatically replacing "impi/2021.13.0" with "OpenMPI/5.0.3".
+
+[INFO] Module OpenMPI/5.0.3 loaded.
+
+Inactive Modules:
+  1) imkl-FFTW/2024.2.0
+
+[n23m0003:362902:0:362902]       ud_ep.c:278  Fatal: UD endpoint 0x5614d495d610 to <no debug data>: unhandled timeout error
+[n23m0003:362900:0:362900]       ud_ep.c:278  Fatal: UD endpoint 0x559c760d2c30 to <no debug data>: unhandled timeout error
+[n23m0003:362897:0:362897]       ud_ep.c:278  Fatal: UD endpoint 0x55f367888280 to <no debug data>: unhandled timeout error
+[n23m0003:362898:0:362898]       ud_ep.c:278  Fatal: UD endpoint 0x55cab32f44e0 to <no debug data>: unhandled timeout error
+==== backtrace (tid: 362902) ====
+ 0 0x000000000005e088 uct_ud_ep_deferred_timeout_handler()  /dev/shm/easybuild/easybuild.2024_10_30-09_39_12/UCX/1.16.0/GCCcore-13.3.0/ucx-1.16.0/src/uct/ib/ud/base/ud_ep.c:278
+ 1 0x0000000000022612 ucs_callbackq_oneshot_elems_dispatch()  /dev/shm/easybuild/easybuild.2024_10_30-09_39_12/UCX/1.16.0/GCCcore-13.3.0/ucx-1.16.0/src/ucs/datastruct/callbackq.c:460
+ 2 0x0000000000022612 ucs_callbackq_proxy_callback()  /dev/shm/easybuild/easybuild.2024_10_30-09_39_12/UCX/1.16.0/GCCcore-13.3.0/ucx-1.16.0/src/ucs/datastruct/callbackq.c:480
+ 3 0x000000000004827a ucs_callbackq_dispatch()  /dev/shm/easybuild/easybuild.2024_10_30-09_39_12/UCX/1.16.0/GCCcore-13.3.0/ucx-1.16.0/src/ucs/datastruct/callbackq.h:215
+ 4 0x000000000004827a uct_worker_progress()  /dev/shm/easybuild/easybuild.2024_10_30-09_39_12/UCX/1.16.0/GCCcore-13.3.0/ucx-1.16.0/src/uct/api/uct.h:2787
+ 5 0x000000000004827a ucp_worker_progress()  /dev/shm/easybuild/easybuild.2024_10_30-09_39_12/UCX/1.16.0/GCCcore-13.3.0/ucx-1.16.0/src/ucp/core/ucp_worker.c:2991
+ 6 0x000000000002639d opal_progress()  ???:0
+ 7 0x000000000009802e ompi_mpi_instance_init()  ???:0
+ 8 0x000000000008ccaa ompi_mpi_init()  ???:0
+ 9 0x00000000000c0c33 MPI_Init_thread()  ???:0
+=================================
+==== backtrace (tid: 362900) ====
+ 0 0x000000000005e088 uct_ud_ep_deferred_timeout_handler()  /dev/shm/easybuild/easybuild.2024_10_30-09_39_12/UCX/1.16.0/GCCcore-13.3.0/ucx-1.16.0/src/uct/ib/ud/base/ud_ep.c:278
+ 1 0x0000000000022612 ucs_callbackq_oneshot_elems_dispatch()  /dev/shm/easybuild/easybuild.2024_10_30-09_39_12/UCX/1.16.0/GCCcore-13.3.0/ucx-1.16.0/src/ucs/datastruct/callbackq.c:460
+ 2 0x0000000000022612 ucs_callbackq_proxy_callback()  /dev/shm/easybuild/easybuild.2024_10_30-09_39_12/UCX/1.16.0/GCCcore-13.3.0/ucx-1.16.0/src/ucs/datastruct/callbackq.c:480
+ 3 0x000000000004827a ucs_callbackq_dispatch()  /dev/shm/easybuild/easybuild.2024_10_30-09_39_12/UCX/1.16.0/GCCcore-13.3.0/ucx-1.16.0/src/ucs/datastruct/callbackq.h:215
+ 4 0x000000000004827a uct_worker_progress()  /dev/shm/easybuild/easybuild.2024_10_30-09_39_12/UCX/1.16.0/GCCcore-13.3.0/ucx-1.16.0/src/uct/api/uct.h:2787
+ 5 0x000000000004827a ucp_worker_progress()  /dev/shm/easybuild/easybuild.2024_10_30-09_39_12/UCX/1.16.0/GCCcore-13.3.0/ucx-1.16.0/src/ucp/core/ucp_worker.c:2991
+ 6 0x000000000002639d opal_progress()  ???:0
+ 7 0x000000000009802e ompi_mpi_instance_init()  ???:0
+ 8 0x000000000008ccaa ompi_mpi_init()  ???:0
+ 9 0x00000000000c0c33 MPI_Init_thread()  ???:0
+=================================
+==== backtrace (tid: 362897) ====
+ 0 0x000000000005e088 uct_ud_ep_deferred_timeout_handler()  /dev/shm/easybuild/easybuild.2024_10_30-09_39_12/UCX/1.16.0/GCCcore-13.3.0/ucx-1.16.0/src/uct/ib/ud/base/ud_ep.c:278
+ 1 0x0000000000022612 ucs_callbackq_oneshot_elems_dispatch()  /dev/shm/easybuild/easybuild.2024_10_30-09_39_12/UCX/1.16.0/GCCcore-13.3.0/ucx-1.16.0/src/ucs/datastruct/callbackq.c:460
+ 2 0x0000000000022612 ucs_callbackq_proxy_callback()  /dev/shm/easybuild/easybuild.2024_10_30-09_39_12/UCX/1.16.0/GCCcore-13.3.0/ucx-1.16.0/src/ucs/datastruct/callbackq.c:480
+ 3 0x000000000004827a ucs_callbackq_dispatch()  /dev/shm/easybuild/easybuild.2024_10_30-09_39_12/UCX/1.16.0/GCCcore-13.3.0/ucx-1.16.0/src/ucs/datastruct/callbackq.h:215
+ 4 0x000000000004827a uct_worker_progress()  /dev/shm/easybuild/easybuild.2024_10_30-09_39_12/UCX/1.16.0/GCCcore-13.3.0/ucx-1.16.0/src/uct/api/uct.h:2787
+ 5 0x000000000004827a ucp_worker_progress()  /dev/shm/easybuild/easybuild.2024_10_30-09_39_12/UCX/1.16.0/GCCcore-13.3.0/ucx-1.16.0/src/ucp/core/ucp_worker.c:2991
+ 6 0x000000000002639d opal_progress()  ???:0
+ 7 0x000000000009802e ompi_mpi_instance_init()  ???:0
+ 8 0x000000000008ccaa ompi_mpi_init()  ???:0
+ 9 0x00000000000c0c33 MPI_Init_thread()  ???:0
+=================================
+==== backtrace (tid: 362898) ====
+ 0 0x000000000005e088 uct_ud_ep_deferred_timeout_handler()  /dev/shm/easybuild/easybuild.2024_10_30-09_39_12/UCX/1.16.0/GCCcore-13.3.0/ucx-1.16.0/src/uct/ib/ud/base/ud_ep.c:278
+ 1 0x0000000000022612 ucs_callbackq_oneshot_elems_dispatch()  /dev/shm/easybuild/easybuild.2024_10_30-09_39_12/UCX/1.16.0/GCCcore-13.3.0/ucx-1.16.0/src/ucs/datastruct/callbackq.c:460
+ 2 0x0000000000022612 ucs_callbackq_proxy_callback()  /dev/shm/easybuild/easybuild.2024_10_30-09_39_12/UCX/1.16.0/GCCcore-13.3.0/ucx-1.16.0/src/ucs/datastruct/callbackq.c:480
+ 3 0x000000000004827a ucs_callbackq_dispatch()  /dev/shm/easybuild/easybuild.2024_10_30-09_39_12/UCX/1.16.0/GCCcore-13.3.0/ucx-1.16.0/src/ucs/datastruct/callbackq.h:215
+ 4 0x000000000004827a uct_worker_progress()  /dev/shm/easybuild/easybuild.2024_10_30-09_39_12/UCX/1.16.0/GCCcore-13.3.0/ucx-1.16.0/src/uct/api/uct.h:2787
+ 5 0x000000000004827a ucp_worker_progress()  /dev/shm/easybuild/easybuild.2024_10_30-09_39_12/UCX/1.16.0/GCCcore-13.3.0/ucx-1.16.0/src/ucp/core/ucp_worker.c:2991
+ 6 0x000000000002639d opal_progress()  ???:0
+ 7 0x000000000009802e ompi_mpi_instance_init()  ???:0
+ 8 0x000000000008ccaa ompi_mpi_init()  ???:0
+ 9 0x00000000000c0c33 MPI_Init_thread()  ???:0
+=================================
+srun: error: n23m0003: tasks 3-4,6,8: Aborted (core dumped)
+[2026-10-06T15:07:46.335] error:  mpi/pmix_v5: _errhandler: n23m0003 [1]: pmixp_client_v2.c:225: Error handler invoked: status = -61, source = [slurm.pmix.4814648.0:6]
+[2026-10-06T15:07:46.339] error: *** STEP 4814648.0 ON n23m0001 CANCELLED AT 2026-10-06T15:07:46 DUE TO TASK FAILURE ***
+srun: error: n23m0011: task 23: Exited with exit code 143
+srun: error: n23m0003: tasks 2,7: Exited with exit code 143
+srun: error: n23m0010: tasks 20-22: Exited with exit code 143
+srun: error: n23m0009: tasks 17-19: Exited with exit code 143
+srun: error: n23m0008: tasks 14-16: Exited with exit code 143
+srun: error: n23m0006: tasks 9-13: Exited with exit code 143
+[2026-10-06T15:07:47.343] error:  mpi/pmix_v5: _errhandler: n23m0003 [1]: pmixp_client_v2.c:225: Error handler invoked: status = -61, source = [slurm.pmix.4814648.0:2]
+srun: error: n23m0003: task 5: Exited with exit code 143
+srun: error: n23m0001: tasks 0-1: Exited with exit code 143

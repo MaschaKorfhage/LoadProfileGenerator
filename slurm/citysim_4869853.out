@@ -1,0 +1,649 @@
+[INFO] Module OpenMPI/5.0.3 loaded.
+
+Lmod is automatically replacing "impi/2021.13.0" with "OpenMPI/5.0.3".
+
+[INFO] Module OpenMPI/5.0.3 loaded.
+
+Inactive Modules:
+  1) imkl-FFTW/2024.2.0
+
+Initializing the logger
+Starting mass simulation with 24 workers.
+Loading city scenario from path /home/gzi37280/CityScenarioGenerator/scenarios/scenario_juelich
+Using database file: /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/bin/Release/net9.0/linux-x64/publish/profilegenerator.db3
+Found 1 files in the routes subdirectory.
+Calling MPI Scatter to distribute scenario parts.
+Worker 0 on n23m0007.hpc.itc.rwth-aachen.de is responsible for 397 houses and 749 POIs.
+Reusing existing database file profilegenerator.worker_0.db3
+Preparing house DEA_DENW40AL10003TRR-2496 for calculation
+Preparing house DEA_DENW40AL10003TdT-1886 for calculation
+Preparing house DEA_DENW40AL10003Umt-3661 for calculation
+Preparing house DEA_DENW40AL10003WfT-6093 for calculation
+Preparing house DEA_DENW40AL10003TCr-1836 for calculation
+Preparing house DEA_DENW40AL10003Shk-670 for calculation
+Preparing house DEA_DENW40AL10003UFa-3334 for calculation
+Preparing house DEA_DENW40AL10003XaU-7278 for calculation
+Preparing house DEA_DENW40AL10003U5q-3006 for calculation
+Preparing house DEA_DENW40AL10003ShN-677 for calculation
+Preparing house DEA_DENW40AL10003UqW-3852 for calculation
+Preparing house DEA_DENW40AL10003WkE-6319 for calculation
+Preparing house DEA_DENW40AL10003Y3X-8511 for calculation
+Preparing house DEA_DENW40AL10003UnK-3700 for calculation
+Preparing house DEA_DENW40AL10003X3v-7113 for calculation
+Preparing house DEA_DENW40AL10003Sep-556 for calculation
+Preparing house DEA_DENW40AL10003TeO-1917 for calculation
+Preparing house DEA_DENW40AL10003U3Z-2970 for calculation
+Preparing house DEA_DENW40AL10003V0p-4282 for calculation
+Preparing house DEA_DENW40AL10003Vyk-5542 for calculation
+Preparing house DEA_DENW40AL10003WUs-6778 for calculation
+Preparing house DEA_DENW40AL10003XnV-7885 for calculation
+Preparing house DEA_DENW40AL2PX0003o-9286 for calculation
+Preparing house DEA_DENW40AL10003TTP-2576 for calculation
+Preparing house DEA_DENW40AL10003Woi-6501 for calculation
+Preparing house DEA_DENW40AL10003Rxc-34 for calculation
+Preparing house DEA_DENW40AL10003S5q-232 for calculation
+Preparing house DEA_DENW40AL10003SIn-736 for calculation
+Preparing house DEA_DENW40AL10003Swp-1351 for calculation
+Preparing house DEA_DENW40AL10003Tg5-1974 for calculation
+Preparing house DEA_DENW40AL10003TQ7-2414 for calculation
+Preparing house DEA_DENW40AL10003U1b-2907 for calculation
+Preparing house DEA_DENW40AL10003Ugg-3389 for calculation
+Preparing house DEA_DENW40AL10003UxP-4164 for calculation
+Preparing house DEA_DENW40AL10003VAZ-4538 for calculation
+Preparing house DEA_DENW40AL10003VMM-5024 for calculation
+Preparing house DEA_DENW40AL10003VXO-5505 for calculation
+Preparing house DEA_DENW40AL10003Wib-6216 for calculation
+Preparing house DEA_DENW40AL10003WuQ-6774 for calculation
+Preparing house DEA_DENW40AL10003X6w-7181 for calculation
+Preparing house DEA_DENW40AL10003XnO-7867 for calculation
+Preparing house DEA_DENW40AL10003Y0z-8449 for calculation
+Preparing house DEA_DENW40AL10003YP6-8992 for calculation
+Preparing house DEA_DENW40AL10003S4Y-213 for calculation
+Preparing house DEA_DENW40AL10003Sip-740 for calculation
+Preparing house DEA_DENW40AL10003SUP-1263 for calculation
+Preparing house DEA_DENW40AL10003TbQ-1791 for calculation
+Preparing house DEA_DENW40AL10003TnA-2276 for calculation
+Preparing house DEA_DENW40AL10003TXF-2744 for calculation
+Preparing house DEA_DENW40AL10003UAw-3149 for calculation
+Preparing house DEA_DENW40AL10003UiQ-3491 for calculation
+Preparing house DEA_DENW40AL10003Uul-4025 for calculation
+Preparing house DEA_DENW40AL10003VCh-4595 for calculation
+Preparing house DEA_DENW40AL10003VTh-5323 for calculation
+Preparing house DEA_DENW40AL10003WCa-5933 for calculation
+Preparing house DEA_DENW40AL10003WJy-6304 for calculation
+Preparing house DEA_DENW40AL10003Wwu-6872 for calculation
+Preparing house DEA_DENW40AL10003Xh3-7561 for calculation
+Preparing house DEA_DENW40AL10003XqE-7993 for calculation
+Preparing house DEA_DENW40AL10003XZc-8393 for calculation
+Preparing house DEA_DENW40AL10003YFl-8776 for calculation
+Preparing house DEA_DENW40AL4G00015n-9441 for calculation
+Preparing house DEA_DENW40AL10003S3x-191 for calculation
+Preparing house DEA_DENW40AL10003Say-383 for calculation
+Preparing house DEA_DENW40AL10003SeQ-558 for calculation
+Preparing house DEA_DENW40AL10003Shw-694 for calculation
+Preparing house DEA_DENW40AL10003Sl1-845 for calculation
+Preparing house DEA_DENW40AL10003SPw-1042 for calculation
+Preparing house DEA_DENW40AL10003Sth-1207 for calculation
+Preparing house DEA_DENW40AL10003SVY-1317 for calculation
+Preparing house DEA_DENW40AL10003SyH-1417 for calculation
+Preparing house DEA_DENW40AL10003T3i-1579 for calculation
+Preparing house DEA_DENW40AL10003Tag-1731 for calculation
+Preparing house DEA_DENW40AL10003TEp-1920 for calculation
+Preparing house DEA_DENW40AL10003Tio-2081 for calculation
+Preparing house DEA_DENW40AL10003TL6-2185 for calculation
+Preparing house DEA_DENW40AL10003TPD-2372 for calculation
+Preparing house DEA_DENW40AL10003TSW-2542 for calculation
+Preparing house DEA_DENW40AL10003Tvu-2671 for calculation
+Preparing house DEA_DENW40AL10003TYZ-2822 for calculation
+Preparing house DEA_DENW40AL10003U4m-2984 for calculation
+Preparing house DEA_DENW40AL10003UAA-3120 for calculation
+Preparing house DEA_DENW40AL10003Udq-3273 for calculation
+Preparing house DEA_DENW40AL10003UHK-3443 for calculation
+Preparing house DEA_DENW40AL10003UKF-3565 for calculation
+Preparing house DEA_DENW40AL10003UN8-3685 for calculation
+Preparing house DEA_DENW40AL10003UqV-3850 for calculation
+Preparing house DEA_DENW40AL10003UuE-4013 for calculation
+Preparing house DEA_DENW40AL10003UWz-4126 for calculation
+Preparing house DEA_DENW40AL10003UZm-4251 for calculation
+Preparing house DEA_DENW40AL10003V5T-4395 for calculation
+Preparing house DEA_DENW40AL10003VCL-4602 for calculation
+Preparing house DEA_DENW40AL10003VgU-4786 for calculation
+Preparing house DEA_DENW40AL10003VJM-4901 for calculation
+Preparing house DEA_DENW40AL10003VmA-5010 for calculation
+Preparing house DEA_DENW40AL10003VPT-5165 for calculation
+Preparing house DEA_DENW40AL10003VT8-5311 for calculation
+Preparing house DEA_DENW40AL10003Vw7-5440 for calculation
+Preparing house DEA_DENW40AL10003VZ6-5568 for calculation
+Preparing house DEA_DENW40AL10003W39-5670 for calculation
+Preparing house DEA_DENW40AL10003WA7-5843 for calculation
+Preparing house DEA_DENW40AL10003Wf1-6066 for calculation
+Preparing house DEA_DENW40AL10003WI2-6207 for calculation
+Preparing house DEA_DENW40AL10003WMj-6409 for calculation
+Preparing house DEA_DENW40AL10003WPc-6533 for calculation
+Preparing house DEA_DENW40AL10003WS9-6664 for calculation
+Preparing house DEA_DENW40AL10003WVi-6814 for calculation
+Preparing house DEA_DENW40AL10003WYn-6968 for calculation
+Preparing house DEA_DENW40AL10003X2Y-7097 for calculation
+Preparing house DEA_DENW40AL10003X8r-7217 for calculation
+Preparing house DEA_DENW40AL10003XCN-7356 for calculation
+Preparing house DEA_DENW40AL10003Xg1-7517 for calculation
+Preparing house DEA_DENW40AL10003XI1-7609 for calculation
+Preparing house DEA_DENW40AL10003XLd-7754 for calculation
+Preparing house DEA_DENW40AL10003Xo4-7898 for calculation
+Preparing house DEA_DENW40AL10003XQT-8015 for calculation
+Preparing house DEA_DENW40AL10003Xtm-8138 for calculation
+Preparing house DEA_DENW40AL10003XWc-8251 for calculation
+Preparing house DEA_DENW40AL10003XzB-8391 for calculation
+Preparing house DEA_DENW40AL10003Y5L-8546 for calculation
+Preparing house DEA_DENW40AL10003YBP-8675 for calculation
+Preparing house DEA_DENW40AL10003YGv-8811 for calculation
+Preparing house DEA_DENW40AL10003YNF-8944 for calculation
+Preparing house DEA_DENW40AL1000aQOj-9091 for calculation
+Preparing house DEA_DENW40AL2d0000G1-9250 for calculation
+Preparing house DEA_DENW40AL40000Bwr-9432 for calculation
+Preparing house DEA_DENW40AL10003RwB-14 for calculation
+Preparing house DEA_DENW40AL10003S03-103 for calculation
+Preparing house DEA_DENW40AL10003S6Q-256 for calculation
+Preparing house DEA_DENW40AL10003SAz-386 for calculation
+Preparing house DEA_DENW40AL10003Sd5-489 for calculation
+Preparing house DEA_DENW40AL10003SGg-619 for calculation
+Preparing house DEA_DENW40AL10003SIo-739 for calculation
+Preparing house DEA_DENW40AL10003SMR-920 for calculation
+Preparing house DEA_DENW40AL10003SQd-1069 for calculation
+Preparing house DEA_DENW40AL10003SSr-1177 for calculation
+Preparing house DEA_DENW40AL10003Sxa-1366 for calculation
+Preparing house DEA_DENW40AL10003SzZ-1496 for calculation
+Preparing house DEA_DENW40AL10003T77-1655 for calculation
+Preparing house DEA_DENW40AL10003TBM-1788 for calculation
+Preparing house DEA_DENW40AL10003TFH-1950 for calculation
+Preparing house DEA_DENW40AL10003THj-2044 for calculation
+Preparing house DEA_DENW40AL10003TLa-2189 for calculation
+Preparing house DEA_DENW40AL10003To7-2314 for calculation
+Preparing house DEA_DENW40AL10003TQp-2447 for calculation
+Preparing house DEA_DENW40AL10003Tu3-2598 for calculation
+Preparing house DEA_DENW40AL10003Twv-2721 for calculation
+Preparing house DEA_DENW40AL10003Tzk-2847 for calculation
+Preparing house DEA_DENW40AL10003U4e-2978 for calculation
+Preparing house DEA_DENW40AL10003UAO-3139 for calculation
+Preparing house DEA_DENW40AL10003UDH-3267 for calculation
+Preparing house DEA_DENW40AL10003Ugn-3396 for calculation
+Preparing house DEA_DENW40AL10003UjK-3525 for calculation
+Preparing house DEA_DENW40AL10003Umb-3640 for calculation
+Preparing house DEA_DENW40AL10003Uor-3756 for calculation
+Preparing house DEA_DENW40AL10003URr-3897 for calculation
+Preparing house DEA_DENW40AL10003Uu8-4003 for calculation
+Preparing house DEA_DENW40AL10003Ux8-4138 for calculation
+Preparing house DEA_DENW40AL10003Uzt-4263 for calculation
+Preparing house DEA_DENW40AL10003V5P-4391 for calculation
+Preparing house DEA_DENW40AL10003V93-4476 for calculation
+Preparing house DEA_DENW40AL10003VCd-4589 for calculation
+Preparing house DEA_DENW40AL10003VEy-4703 for calculation
+Preparing house DEA_DENW40AL10003VGV-4791 for calculation
+Preparing house DEA_DENW40AL10003VKi-4934 for calculation
+Preparing house DEA_DENW40AL10003Vo7-5091 for calculation
+Preparing house DEA_DENW40AL10003VQs-5210 for calculation
+Preparing house DEA_DENW40AL10003VTC-5318 for calculation
+Preparing house DEA_DENW40AL10003VW4-5437 for calculation
+Preparing house DEA_DENW40AL10003Vyn-5546 for calculation
+Preparing house DEA_DENW40AL10003W3r-5686 for calculation
+Preparing house DEA_DENW40AL10003W8Z-5808 for calculation
+Preparing house DEA_DENW40AL10003Wcf-5939 for calculation
+Preparing house DEA_DENW40AL10003WFb-6072 for calculation
+Preparing house DEA_DENW40AL10003WhT-6194 for calculation
+Preparing house DEA_DENW40AL10003WJM-6284 for calculation
+Preparing house DEA_DENW40AL10003Wmf-6404 for calculation
+Preparing house DEA_DENW40AL10003WP5-6529 for calculation
+Preparing house DEA_DENW40AL10003WRT-6644 for calculation
+Preparing house DEA_DENW40AL10003WvF-6808 for calculation
+Preparing house DEA_DENW40AL10003WYE-6954 for calculation
+Preparing house DEA_DENW40AL10003X1e-7057 for calculation
+Preparing house DEA_DENW40AL10003X71-7183 for calculation
+Preparing house DEA_DENW40AL10003XbU-7325 for calculation
+Preparing house DEA_DENW40AL10003Xf6-7471 for calculation
+Preparing house DEA_DENW40AL10003XiX-7649 for calculation
+Preparing house DEA_DENW40AL10003Xlk-7768 for calculation
+Preparing house DEA_DENW40AL10003XO6-7900 for calculation
+Preparing house DEA_DENW40AL10003Xrx-8066 for calculation
+Preparing house DEA_DENW40AL10003XU1-8156 for calculation
+Preparing house DEA_DENW40AL10003XWe-8255 for calculation
+Preparing house DEA_DENW40AL10003Xyg-8353 for calculation
+Preparing house DEA_DENW40AL10003Y3V-8509 for calculation
+Preparing house DEA_DENW40AL10003YAd-8641 for calculation
+Preparing house DEA_DENW40AL10003YGp-8807 for calculation
+Preparing house DEA_DENW40AL10003YMv-8932 for calculation
+Preparing house DEA_DENW40AL10003YQv-9024 for calculation
+Preparing house DEA_DENW40AL1JI000Tz-9150 for calculation
+Preparing house DEA_DENW40AL2Tv00096-9307 for calculation
+Preparing house DEA_DENW40AL5000092a-9454 for calculation
+Preparing house DEA_DENW40AL10003Rx1-28 for calculation
+Preparing house DEA_DENW40AL10003Rz7-82 for calculation
+Preparing house DEA_DENW40AL10003S29-145 for calculation
+Preparing house DEA_DENW40AL10003S5f-219 for calculation
+Preparing house DEA_DENW40AL10003S83-291 for calculation
+Preparing house DEA_DENW40AL10003SaI-353 for calculation
+Preparing house DEA_DENW40AL10003SbG-400 for calculation
+Preparing house DEA_DENW40AL10003Sco-465 for calculation
+Preparing house DEA_DENW40AL10003Se1-532 for calculation
+Preparing house DEA_DENW40AL10003SFP-595 for calculation
+Preparing house DEA_DENW40AL10003Shl-673 for calculation
+Preparing house DEA_DENW40AL10003Sio-737 for calculation
+Preparing house DEA_DENW40AL10003SKn-824 for calculation
+Preparing house DEA_DENW40AL10003SM3-896 for calculation
+Preparing house DEA_DENW40AL10003So1-962 for calculation
+Preparing house DEA_DENW40AL10003Spf-1016 for calculation
+Preparing house DEA_DENW40AL10003Sqx-1095 for calculation
+Preparing house DEA_DENW40AL10003Ssn-1173 for calculation
+Preparing house DEA_DENW40AL10003STy-1236 for calculation
+Preparing house DEA_DENW40AL10003Svx-1314 for calculation
+Preparing house DEA_DENW40AL10003SXs-1389 for calculation
+Preparing house DEA_DENW40AL10003SzO-1479 for calculation
+Preparing house DEA_DENW40AL10003T1O-1541 for calculation
+Preparing house DEA_DENW40AL10003T3v-1590 for calculation
+Preparing house DEA_DENW40AL10003T7o-1666 for calculation
+Preparing house DEA_DENW40AL10003TaE-1729 for calculation
+Preparing house DEA_DENW40AL10003TbJ-1786 for calculation
+Preparing house DEA_DENW40AL10003Tdl-1874 for calculation
+Preparing house DEA_DENW40AL10003TFo-1957 for calculation
+Preparing house DEA_DENW40AL10003THN-2051 for calculation
+Preparing house DEA_DENW40AL10003TK5-2144 for calculation
+Preparing house DEA_DENW40AL10003TLl-2202 for calculation
+Preparing house DEA_DENW40AL10003Tmz-2266 for calculation
+Preparing house DEA_DENW40AL10003TOt-2350 for calculation
+Preparing house DEA_DENW40AL10003Tpx-2408 for calculation
+Preparing house DEA_DENW40AL10003TRJ-2482 for calculation
+Preparing house DEA_DENW40AL10003TTa-2558 for calculation
+Preparing house DEA_DENW40AL10003TV5-2638 for calculation
+Preparing house DEA_DENW40AL10003TxC-2739 for calculation
+Preparing house DEA_DENW40AL10003Typ-2804 for calculation
+Preparing house DEA_DENW40AL10003U0S-2889 for calculation
+Preparing house DEA_DENW40AL10003U3S-2964 for calculation
+Preparing house DEA_DENW40AL10003U7I-3054 for calculation
+Preparing house DEA_DENW40AL10003U9y-3109 for calculation
+Preparing house DEA_DENW40AL10003UBh-3173 for calculation
+Preparing house DEA_DENW40AL10003Ud9-3252 for calculation
+Preparing house DEA_DENW40AL10003UEv-3320 for calculation
+Preparing house DEA_DENW40AL10003Ufw-3371 for calculation
+Preparing house DEA_DENW40AL10003UHd-3434 for calculation
+Preparing house DEA_DENW40AL10003UjW-3539 for calculation
+Preparing house DEA_DENW40AL10003ULl-3610 for calculation
+Preparing house DEA_DENW40AL10003UN2-3678 for calculation
+Preparing house DEA_DENW40AL10003UON-3749 for calculation
+Preparing house DEA_DENW40AL10003Uq2-3820 for calculation
+Preparing house DEA_DENW40AL10003Urq-3896 for calculation
+Preparing house DEA_DENW40AL10003UTi-3972 for calculation
+Preparing house DEA_DENW40AL10003Uv7-4045 for calculation
+Preparing house DEA_DENW40AL10003Ux4-4132 for calculation
+Preparing house DEA_DENW40AL10003Uz0-4229 for calculation
+Preparing house DEA_DENW40AL10003V1s-4308 for calculation
+Preparing house DEA_DENW40AL10003V4l-4371 for calculation
+Preparing house DEA_DENW40AL10003V8M-4463 for calculation
+Preparing house DEA_DENW40AL10003Vbi-4553 for calculation
+Preparing house DEA_DENW40AL10003VdJ-4638 for calculation
+Preparing house DEA_DENW40AL10003Vff-4719 for calculation
+Preparing house DEA_DENW40AL10003VGS-4783 for calculation
+Preparing house DEA_DENW40AL10003ViJ-4856 for calculation
+Preparing house DEA_DENW40AL10003VkQ-4944 for calculation
+Preparing house DEA_DENW40AL10003Vmk-5021 for calculation
+Preparing house DEA_DENW40AL10003Vnr-5073 for calculation
+Preparing house DEA_DENW40AL10003VPw-5171 for calculation
+Preparing house DEA_DENW40AL10003VrB-5231 for calculation
+Preparing house DEA_DENW40AL10003Vsz-5303 for calculation
+Preparing house DEA_DENW40AL10003VuH-5363 for calculation
+Preparing house DEA_DENW40AL10003Vwb-5443 for calculation
+Preparing house DEA_DENW40AL10003VXs-5510 for calculation
+Preparing house DEA_DENW40AL10003W02-5606 for calculation
+Preparing house DEA_DENW40AL10003W3W-5691 for calculation
+Preparing house DEA_DENW40AL10003W7L-5772 for calculation
+Preparing house DEA_DENW40AL10003W9T-5831 for calculation
+Preparing house DEA_DENW40AL10003Wb4-5889 for calculation
+Preparing house DEA_DENW40AL10003Wcr-5957 for calculation
+Preparing house DEA_DENW40AL10003Wdy-6017 for calculation
+Preparing house DEA_DENW40AL10003WgC-6113 for calculation
+Preparing house DEA_DENW40AL10003Whl-6181 for calculation
+Preparing house DEA_DENW40AL10003WJb-6263 for calculation
+Preparing house DEA_DENW40AL10003Wko-6330 for calculation
+Preparing house DEA_DENW40AL10003WLV-6387 for calculation
+Preparing house DEA_DENW40AL10003Wn6-6446 for calculation
+Preparing house DEA_DENW40AL10003WPH-6543 for calculation
+Preparing house DEA_DENW40AL10003WR3-6605 for calculation
+Preparing house DEA_DENW40AL10003WsE-6673 for calculation
+Preparing house DEA_DENW40AL10003WU7-6751 for calculation
+Preparing house DEA_DENW40AL10003WVE-6807 for calculation
+Preparing house DEA_DENW40AL10003WwX-6878 for calculation
+Preparing house DEA_DENW40AL10003WYD-6951 for calculation
+Preparing house DEA_DENW40AL10003X0l-7045 for calculation
+Preparing house DEA_DENW40AL10003X4d-7128 for calculation
+Preparing house DEA_DENW40AL10003X8i-7210 for calculation
+Preparing house DEA_DENW40AL10003XaP-7270 for calculation
+Preparing house DEA_DENW40AL10003XCt-7362 for calculation
+Preparing house DEA_DENW40AL10003XeK-7438 for calculation
+Preparing house DEA_DENW40AL10003XFZ-7514 for calculation
+Preparing house DEA_DENW40AL10003XHY-7605 for calculation
+Preparing house DEA_DENW40AL10003XJD-7669 for calculation
+Preparing house DEA_DENW40AL10003XL7-7747 for calculation
+Preparing house DEA_DENW40AL10003Xmw-7831 for calculation
+Preparing house DEA_DENW40AL10003XoR-7921 for calculation
+Preparing house DEA_DENW40AL10003Xqa-7983 for calculation
+Preparing house DEA_DENW40AL10003Xrv-8060 for calculation
+Preparing house DEA_DENW40AL10003Xts-8146 for calculation
+Preparing house DEA_DENW40AL10003XW9-8249 for calculation
+Preparing house DEA_DENW40AL10003Xyh-8354 for calculation
+Preparing house DEA_DENW40AL10003XZt-8417 for calculation
+Preparing house DEA_DENW40AL10003Y37-8490 for calculation
+Preparing house DEA_DENW40AL10003Y5o-8550 for calculation
+Preparing house DEA_DENW40AL10003Y9S-8631 for calculation
+Preparing house DEA_DENW40AL10003YCX-8706 for calculation
+Preparing house DEA_DENW40AL10003YG3-8795 for calculation
+Preparing house DEA_DENW40AL10003YIS-8851 for calculation
+Preparing house DEA_DENW40AL10003YMh-8921 for calculation
+Preparing house DEA_DENW40AL10003YQo-9019 for calculation
+Preparing house DEA_DENW40AL1000Zpmd-9105 for calculation
+Preparing house DEA_DENW40AL20000GWo-9213 for calculation
+Preparing house DEA_DENW40AL2sK0003f-9303 for calculation
+Preparing house DEA_DENW40AL3G30002t-9381 for calculation
+Preparing house DEA_DENW40ALaH00004f-9486 for calculation
+Preparing house DEA_DENW40AL10003Rxj-41 for calculation
+Preparing house DEA_DENW40AL10003S2x-166 for calculation
+Preparing house DEA_DENW40AL10003S9V-330 for calculation
+Preparing house DEA_DENW40AL10003Sf1-569 for calculation
+Preparing house DEA_DENW40AL10003Sil-731 for calculation
+Preparing house DEA_DENW40AL10003SkS-831 for calculation
+Preparing house DEA_DENW40AL10003Snx-955 for calculation
+Preparing house DEA_DENW40AL10003SQS-1086 for calculation
+Preparing house DEA_DENW40AL10003ST7-1196 for calculation
+Preparing house DEA_DENW40AL10003Sw2-1321 for calculation
+Preparing house DEA_DENW40AL10003SzT-1486 for calculation
+Preparing house DEA_DENW40AL10003T6I-1636 for calculation
+Preparing house DEA_DENW40AL10003Tb4-1767 for calculation
+Preparing house DEA_DENW40AL10003TDR-1883 for calculation
+Preparing house DEA_DENW40AL10003TGo-2003 for calculation
+Preparing house DEA_DENW40AL10003Tk1-2142 for calculation
+Preparing house DEA_DENW40AL10003Tms-2259 for calculation
+Preparing house DEA_DENW40AL10003Tpp-2392 for calculation
+Preparing house DEA_DENW40AL10003Tsw-2540 for calculation
+Preparing house DEA_DENW40AL10003TW4-2684 for calculation
+Preparing house DEA_DENW40AL10003Tzq-2860 for calculation
+Preparing house DEA_DENW40AL10003U60-3013 for calculation
+Preparing house DEA_DENW40AL10003UAQ-3144 for calculation
+Preparing house DEA_DENW40AL10003UeW-3322 for calculation
+Preparing house DEA_DENW40AL10003Uif-3476 for calculation
+Preparing house DEA_DENW40AL10003Ulv-3622 for calculation
+Preparing house DEA_DENW40AL10003UOs-3759 for calculation
+Preparing house DEA_DENW40AL10003UqX-3854 for calculation
+Preparing house DEA_DENW40AL10003UUm-4028 for calculation
+Preparing house DEA_DENW40AL10003UXc-4146 for calculation
+Preparing house DEA_DENW40AL10003V0m-4279 for calculation
+Preparing house DEA_DENW40AL10003V6I-4413 for calculation
+Preparing house DEA_DENW40AL10003VBa-4543 for calculation
+Preparing house DEA_DENW40AL10003Ve3-4666 for calculation
+Preparing house DEA_DENW40AL10003VHb-4808 for calculation
+Preparing house DEA_DENW40AL10003Vko-4942 for calculation
+Preparing house DEA_DENW40AL10003VnD-5058 for calculation
+Preparing house DEA_DENW40AL10003VQU-5214 for calculation
+Preparing house DEA_DENW40AL10003Vv2-5398 for calculation
+Preparing house DEA_DENW40AL10003VZQ-5592 for calculation
+Preparing house DEA_DENW40AL10003W4J-5708 for calculation
+Preparing house DEA_DENW40AL10003WAC-5848 for calculation
+Preparing house DEA_DENW40AL10003Wda-5980 for calculation
+Preparing house DEA_DENW40AL10003Wfv-6098 for calculation
+Preparing house DEA_DENW40AL10003WJR-6290 for calculation
+Preparing house DEA_DENW40AL10003Wn8-6448 for calculation
+Preparing house DEA_DENW40AL10003WrP-6638 for calculation
+Preparing house DEA_DENW40AL10003WVG-6810 for calculation
+Preparing house DEA_DENW40AL10003Wy7-6942 for calculation
+Preparing house DEA_DENW40AL10003X3n-7108 for calculation
+Preparing house DEA_DENW40AL10003XaB-7254 for calculation
+Preparing house DEA_DENW40AL10003XCy-7369 for calculation
+Preparing house DEA_DENW40AL10003XF6-7472 for calculation
+Preparing house DEA_DENW40AL10003XIG-7625 for calculation
+Preparing house DEA_DENW40AL10003XLF-7759 for calculation
+Preparing house DEA_DENW40AL10003Xnw-7888 for calculation
+Preparing house DEA_DENW40AL10003XRQ-8055 for calculation
+Preparing house DEA_DENW40AL10003XwI-8262 for calculation
+Preparing house DEA_DENW40AL10003XzM-8403 for calculation
+Preparing house DEA_DENW40AL10003Y7A-8581 for calculation
+Preparing house DEA_DENW40AL10003YCQ-8699 for calculation
+Preparing house DEA_DENW40AL10003YHf-8819 for calculation
+Preparing house DEA_DENW40AL10003YOk-8974 for calculation
+Preparing house DEA_DENW40AL1000aJPZ-9090 for calculation
+Preparing house DEA_DENW40AL1nc0001B-9168 for calculation
+Preparing house DEA_DENW40AL2b00003p-9240 for calculation
+Preparing house DEA_DENW40AL2Yb00048-9331 for calculation
+Preparing house DEA_DENW40AL3iD00031-9395 for calculation
+Preparing house DEA_DENW40AL5x0001LG-9472 for calculation
+Preparing house DEA_DENW40ALqv00003e-9534 for calculation
+In total, this worker simulates 1337 persons in 655 households.
+Finished initialization in  00:18:24.0239660
+Calling MPI Barrier
+MPI Barrier is over after 00:02:10.3494610
+CitySimulation.CitySimWrapperException: Exception on worker 22 from target 'DEA_DENW40AL10003V43-4362' during timestep 8.
+ ---> System.IO.IOException: Disk quota exceeded : '/rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/bin/Release/net9.0/linux-x64/publish/city_simulation_results/scenario_juelich/Houses/DEA_DENW40AL10003V43-4362/Temp/OnlineDeviceEnergyUsage.Electricity.dat'
+   at System.IO.RandomAccess.WriteAtOffset(SafeFileHandle handle, ReadOnlySpan`1 buffer, Int64 fileOffset)
+   at System.IO.Strategies.OSFileStreamStrategy.Write(ReadOnlySpan`1 buffer)
+   at System.IO.Strategies.BufferedFileStreamStrategy.WriteSpan(ReadOnlySpan`1 source, ArraySegment`1 arraySegment)
+   at System.IO.BinaryWriter.Write(Double value)
+   at CalculationEngine.HouseElements.CalcHouse.RunOneStep(TimeStep timestep, DateTime now, Boolean runProcessing, Dictionary`2 finishedActivities) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CalculationEngine/HouseElements/CalcHouse.cs:line 223
+CitySimulation.CitySimWrapperException: Exception on worker 17 from target 'DEA_DENW40AL10003SzA-1457' during timestep 8.
+ ---> System.IO.IOException: Disk quota exceeded : '/rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/bin/Release/net9.0/linux-x64/publish/city_simulation_results/scenario_juelich/Houses/DEA_DENW40AL10003SzA-1457/Temp/OnlineDeviceEnergyUsage.None.dat'
+   at System.IO.RandomAccess.WriteAtOffset(SafeFileHandle handle, ReadOnlySpan`1 buffer, Int64 fileOffset)
+   at System.IO.Strategies.OSFileStreamStrategy.Write(ReadOnlySpan`1 buffer)
+   at System.IO.Strategies.BufferedFileStreamStrategy.WriteSpan(ReadOnlySpan`1 source, ArraySegment`1 arraySegment)
+   at System.IO.BinaryWriter.Write(Double value)
+   at CalculationEngine.HouseElements.CalcHouse.RunOneStep(TimeStep timestep, DateTime now, Boolean runProcessing, Dictionary`2 finishedActivities) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CalculationEngine/HouseElements/CalcHouse.cs:line 223
+[2026-10-08T11:08:55.630] error: *** STEP 4869853.0 ON n23m0007 CANCELLED AT 2026-10-08T11:08:55 DUE TO TASK FAILURE ***
+   at CitySimulation.LPGMassSimulator.SimulateOneStepOneTarget(TimeStep timeStep, DateTime dateTime, Dictionary`2 finishedActivities, CitySimulationHouse target) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 204
+   at CitySimulation.LPGMassSimulator.SimulateOneStepOneTarget(TimeStep timeStep, DateTime dateTime, Dictionary`2 finishedActivities, CitySimulationHouse target) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 204
+   --- End of inner exception stack trace ---
+   at CitySimulation.LPGMassSimulator.SimulateOneStepOneTarget(TimeStep timeStep, DateTime dateTime, Dictionary`2 finishedActivities, CitySimulationHouse target) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 212
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.MoveNext()
+   at CitySimulation.MPIDistributor.AddNewActivities(IEnumerable`1 newActivities) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/MPIDistributor.cs:line 138
+   --- End of inner exception stack trace ---
+   at CitySimulation.Worker.SimulateOneStep(TimeStep timestep, DateTime simulationTime, SortedMessageCollection activityMessages) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 281
+   at CitySimulation.Worker.RunMainSimulation() in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 219
+   at CitySimulation.Worker.Run() in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 170
+   at CitySimulation.Program.RunNewWorker(Intracommunicator comm, String[] args) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Program.cs:line 43
+   at CitySimulation.Program.<>c__DisplayClass1_0.<CreateMPIRunAction>b__0(Intracommunicator comm) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Program.cs:line 26
+   at MPI.Environment.Run(String[]& args, Threading threading, Action`1 action, Boolean cleanupEnvironment)
+Disk quota exceeded : '/rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/bin/Release/net9.0/linux-x64/publish/city_simulation_results/scenario_juelich/Log.CitySimulation.Worker19.txt'
+   at CitySimulation.LPGMassSimulator.SimulateOneStepOneTarget(TimeStep timeStep, DateTime dateTime, Dictionary`2 finishedActivities, CitySimulationHouse target) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 212
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.MoveNext()
+CitySimulation.CitySimWrapperException: Exception on worker 20 from target 'DEA_DENW40AL10003VdT-4652' during timestep 8.
+ ---> System.IO.IOException: Disk quota exceeded : '/rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/bin/Release/net9.0/linux-x64/publish/city_simulation_results/scenario_juelich/Houses/DEA_DENW40AL10003VdT-4652/Temp/OnlineDeviceEnergyUsage.Electricity.dat'
+   at System.IO.RandomAccess.WriteAtOffset(SafeFileHandle handle, ReadOnlySpan`1 buffer, Int64 fileOffset)
+   at System.IO.Strategies.OSFileStreamStrategy.Write(ReadOnlySpan`1 buffer)
+   at System.IO.Strategies.BufferedFileStreamStrategy.WriteSpan(ReadOnlySpan`1 source, ArraySegment`1 arraySegment)
+   at System.IO.BinaryWriter.Write(Double value)
+   at CalculationEngine.HouseElements.CalcHouse.RunOneStep(TimeStep timestep, DateTime now, Boolean runProcessing, Dictionary`2 finishedActivities) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CalculationEngine/HouseElements/CalcHouse.cs:line 223
+   at CitySimulation.MPIDistributor.AddNewActivities(IEnumerable`1 newActivities) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/MPIDistributor.cs:line 138
+   at CitySimulation.LPGMassSimulator.SimulateOneStepOneTarget(TimeStep timeStep, DateTime dateTime, Dictionary`2 finishedActivities, CitySimulationHouse target) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 204
+   --- End of inner exception stack trace ---
+   at CitySimulation.LPGMassSimulator.SimulateOneStepOneTarget(TimeStep timeStep, DateTime dateTime, Dictionary`2 finishedActivities, CitySimulationHouse target) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 212
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.MoveNext()
+   at CitySimulation.MPIDistributor.AddNewActivities(IEnumerable`1 newActivities) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/MPIDistributor.cs:line 138
+   at CitySimulation.Worker.SimulateOneStep(TimeStep timestep, DateTime simulationTime, SortedMessageCollection activityMessages) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 281
+   at CitySimulation.Worker.RunMainSimulation() in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 219
+   at CitySimulation.Worker.SimulateOneStep(TimeStep timestep, DateTime simulationTime, SortedMessageCollection activityMessages) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 281
+   at CitySimulation.Worker.RunMainSimulation() in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 219
+   at CitySimulation.Worker.Run() in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 170
+   at CitySimulation.Program.RunNewWorker(Intracommunicator comm, String[] args) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Program.cs:line 43
+   at CitySimulation.Program.<>c__DisplayClass1_0.<CreateMPIRunAction>b__0(Intracommunicator comm) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Program.cs:line 26
+   at MPI.Environment.Run(String[]& args, Threading threading, Action`1 action, Boolean cleanupEnvironment)
+   at CitySimulation.Worker.Run() in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 170
+   at CitySimulation.Program.RunNewWorker(Intracommunicator comm, String[] args) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Program.cs:line 43
+   at CitySimulation.Program.<>c__DisplayClass1_0.<CreateMPIRunAction>b__0(Intracommunicator comm) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Program.cs:line 26
+   at MPI.Environment.Run(String[]& args, Threading threading, Action`1 action, Boolean cleanupEnvironment)
+CitySimulation.CitySimWrapperException: Exception on worker 18 from target 'DEA_DENW40AL10003YGu-8810' during timestep 8.
+ ---> System.IO.IOException: Disk quota exceeded : '/rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/bin/Release/net9.0/linux-x64/publish/city_simulation_results/scenario_juelich/Houses/DEA_DENW40AL10003YGu-8810/Temp/OnlineDeviceEnergyUsage.Cold Water.dat'
+   at System.IO.RandomAccess.WriteAtOffset(SafeFileHandle handle, ReadOnlySpan`1 buffer, Int64 fileOffset)
+   at System.IO.Strategies.OSFileStreamStrategy.Write(ReadOnlySpan`1 buffer)
+   at System.IO.Strategies.BufferedFileStreamStrategy.WriteSpan(ReadOnlySpan`1 source, ArraySegment`1 arraySegment)
+   at System.IO.BinaryWriter.Write(Int32 value)
+   at CalculationEngine.HouseElements.CalcHouse.RunOneStep(TimeStep timestep, DateTime now, Boolean runProcessing, Dictionary`2 finishedActivities) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CalculationEngine/HouseElements/CalcHouse.cs:line 223
+   at CitySimulation.LPGMassSimulator.SimulateOneStepOneTarget(TimeStep timeStep, DateTime dateTime, Dictionary`2 finishedActivities, CitySimulationHouse target) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 204
+   --- End of inner exception stack trace ---
+   at CitySimulation.LPGMassSimulator.SimulateOneStepOneTarget(TimeStep timeStep, DateTime dateTime, Dictionary`2 finishedActivities, CitySimulationHouse target) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 212
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.MoveNext()
+   at CitySimulation.MPIDistributor.AddNewActivities(IEnumerable`1 newActivities) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/MPIDistributor.cs:line 138
+   at CitySimulation.Worker.SimulateOneStep(TimeStep timestep, DateTime simulationTime, SortedMessageCollection activityMessages) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 281
+   at CitySimulation.Worker.RunMainSimulation() in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 219
+   at CitySimulation.Worker.Run() in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 170
+   at CitySimulation.Program.RunNewWorker(Intracommunicator comm, String[] args) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Program.cs:line 43
+   at CitySimulation.Program.<>c__DisplayClass1_0.<CreateMPIRunAction>b__0(Intracommunicator comm) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Program.cs:line 26
+   at MPI.Environment.Run(String[]& args, Threading threading, Action`1 action, Boolean cleanupEnvironment)
+Disk quota exceeded : '/rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/bin/Release/net9.0/linux-x64/publish/city_simulation_results/scenario_juelich/Log.CitySimulation.Worker15.txt'
+CitySimulation.CitySimWrapperException: Exception on worker 6 from target 'DEA_DENW40AL10003VK3-4923' during timestep 8.
+CitySimulation.CitySimWrapperException: Exception on worker 7 from target 'DEA_DENW40AL10003SD2-487' during timestep 8.
+ ---> System.IO.IOException: Disk quota exceeded : '/rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/bin/Release/net9.0/linux-x64/publish/city_simulation_results/scenario_juelich/Houses/DEA_DENW40AL10003SD2-487/Temp/OnlineDeviceEnergyUsage.Electricity.dat'
+   at System.IO.RandomAccess.WriteAtOffset(SafeFileHandle handle, ReadOnlySpan`1 buffer, Int64 fileOffset)
+   at System.IO.Strategies.OSFileStreamStrategy.Write(ReadOnlySpan`1 buffer)
+   at System.IO.Strategies.BufferedFileStreamStrategy.WriteSpan(ReadOnlySpan`1 source, ArraySegment`1 arraySegment)
+   at System.IO.BinaryWriter.Write(Double value)
+   at CalculationEngine.HouseElements.CalcHouse.RunOneStep(TimeStep timestep, DateTime now, Boolean runProcessing, Dictionary`2 finishedActivities) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CalculationEngine/HouseElements/CalcHouse.cs:line 223
+   at CitySimulation.LPGMassSimulator.SimulateOneStepOneTarget(TimeStep timeStep, DateTime dateTime, Dictionary`2 finishedActivities, CitySimulationHouse target) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 204
+   --- End of inner exception stack trace ---
+   at CitySimulation.LPGMassSimulator.SimulateOneStepOneTarget(TimeStep timeStep, DateTime dateTime, Dictionary`2 finishedActivities, CitySimulationHouse target) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 212
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.MoveNext()
+   at CitySimulation.MPIDistributor.AddNewActivities(IEnumerable`1 newActivities) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/MPIDistributor.cs:line 138
+   at CitySimulation.Worker.SimulateOneStep(TimeStep timestep, DateTime simulationTime, SortedMessageCollection activityMessages) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 281
+   at CitySimulation.Worker.RunMainSimulation() in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 219
+   at CitySimulation.Worker.Run() in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 170
+   at CitySimulation.Program.RunNewWorker(Intracommunicator comm, String[] args) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Program.cs:line 43
+   at CitySimulation.Program.<>c__DisplayClass1_0.<CreateMPIRunAction>b__0(Intracommunicator comm) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Program.cs:line 26
+   at MPI.Environment.Run(String[]& args, Threading threading, Action`1 action, Boolean cleanupEnvironment)
+Disk quota exceeded : '/rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/bin/Release/net9.0/linux-x64/publish/city_simulation_results/scenario_juelich/Log.CitySimulation.Worker11.txt'
+CitySimulation.CitySimWrapperException: Exception on worker 8 from target 'DEA_DENW40AL10003Xpa-7944' during timestep 8.
+ ---> System.IO.IOException: Disk quota exceeded : '/rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/bin/Release/net9.0/linux-x64/publish/city_simulation_results/scenario_juelich/Houses/DEA_DENW40AL10003Xpa-7944/Temp/OnlineDeviceEnergyUsage.Electricity.dat'
+   at System.IO.RandomAccess.WriteAtOffset(SafeFileHandle handle, ReadOnlySpan`1 buffer, Int64 fileOffset)
+   at System.IO.Strategies.OSFileStreamStrategy.Write(ReadOnlySpan`1 buffer)
+   at System.IO.Strategies.BufferedFileStreamStrategy.WriteSpan(ReadOnlySpan`1 source, ArraySegment`1 arraySegment)
+   at System.IO.BinaryWriter.Write(Double value)
+   at CalculationEngine.HouseElements.CalcHouse.RunOneStep(TimeStep timestep, DateTime now, Boolean runProcessing, Dictionary`2 finishedActivities) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CalculationEngine/HouseElements/CalcHouse.cs:line 223
+Disk quota exceeded : '/rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/bin/Release/net9.0/linux-x64/publish/city_simulation_results/scenario_juelich/Log.CitySimulation.Worker15.txt'
+CitySimulation.CitySimWrapperException: Exception on worker 2 from target 'DEA_DENW40AL10003UDU-3281' during timestep 8.
+ ---> System.IO.IOException: Disk quota exceeded : '/rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/bin/Release/net9.0/linux-x64/publish/city_simulation_results/scenario_juelich/Houses/DEA_DENW40AL10003UDU-3281/Temp/OnlineDeviceEnergyUsage.Electricity.dat'
+   at System.IO.RandomAccess.WriteAtOffset(SafeFileHandle handle, ReadOnlySpan`1 buffer, Int64 fileOffset)
+   at System.IO.Strategies.OSFileStreamStrategy.Write(ReadOnlySpan`1 buffer)
+   at System.IO.Strategies.BufferedFileStreamStrategy.WriteSpan(ReadOnlySpan`1 source, ArraySegment`1 arraySegment)
+   at System.IO.BinaryWriter.Write(Double value)
+   at CalculationEngine.HouseElements.CalcHouse.RunOneStep(TimeStep timestep, DateTime now, Boolean runProcessing, Dictionary`2 finishedActivities) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CalculationEngine/HouseElements/CalcHouse.cs:line 223
+Disk quota exceeded : '/rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/bin/Release/net9.0/linux-x64/publish/city_simulation_results/scenario_juelich/Log.CitySimulation.Worker12.txt'
+   at CitySimulation.LPGMassSimulator.SimulateOneStepOneTarget(TimeStep timeStep, DateTime dateTime, Dictionary`2 finishedActivities, CitySimulationHouse target) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 204
+   --- End of inner exception stack trace ---
+   at CitySimulation.LPGMassSimulator.SimulateOneStepOneTarget(TimeStep timeStep, DateTime dateTime, Dictionary`2 finishedActivities, CitySimulationHouse target) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 212
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.MoveNext()
+   at CitySimulation.MPIDistributor.AddNewActivities(IEnumerable`1 newActivities) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/MPIDistributor.cs:line 138
+Disk quota exceeded : '/rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/bin/Release/net9.0/linux-x64/publish/city_simulation_results/scenario_juelich/Log.CitySimulation.Worker15.txt'
+   at CitySimulation.LPGMassSimulator.SimulateOneStepOneTarget(TimeStep timeStep, DateTime dateTime, Dictionary`2 finishedActivities, CitySimulationHouse target) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 204
+   --- End of inner exception stack trace ---
+   at CitySimulation.LPGMassSimulator.SimulateOneStepOneTarget(TimeStep timeStep, DateTime dateTime, Dictionary`2 finishedActivities, CitySimulationHouse target) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 212
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.MoveNext()
+   at CitySimulation.MPIDistributor.AddNewActivities(IEnumerable`1 newActivities) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/MPIDistributor.cs:line 138
+Disk quota exceeded : '/rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/bin/Release/net9.0/linux-x64/publish/city_simulation_results/scenario_juelich/Log.CitySimulation.Worker15.txt'
+   at CitySimulation.Worker.SimulateOneStep(TimeStep timestep, DateTime simulationTime, SortedMessageCollection activityMessages) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 281
+   at CitySimulation.Worker.RunMainSimulation() in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 219
+   at CitySimulation.Worker.Run() in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 170
+   at CitySimulation.Program.RunNewWorker(Intracommunicator comm, String[] args) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Program.cs:line 43
+   at CitySimulation.Program.<>c__DisplayClass1_0.<CreateMPIRunAction>b__0(Intracommunicator comm) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Program.cs:line 26
+   at MPI.Environment.Run(String[]& args, Threading threading, Action`1 action, Boolean cleanupEnvironment)
+Disk quota exceeded : '/rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/bin/Release/net9.0/linux-x64/publish/city_simulation_results/scenario_juelich/Log.CitySimulation.Worker15.txt'
+CitySimulation.CitySimWrapperException: Exception on worker 13 from target 'DEA_DENW40AL10003YP0-8988' during timestep 8.
+ ---> System.IO.IOException: Disk quota exceeded : '/rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/bin/Release/net9.0/linux-x64/publish/city_simulation_results/scenario_juelich/Houses/DEA_DENW40AL10003YP0-8988/Temp/OnlineDeviceEnergyUsage.None.dat'
+   at System.IO.RandomAccess.WriteAtOffset(SafeFileHandle handle, ReadOnlySpan`1 buffer, Int64 fileOffset)
+   at System.IO.Strategies.OSFileStreamStrategy.Write(ReadOnlySpan`1 buffer)
+   at System.IO.Strategies.BufferedFileStreamStrategy.WriteSpan(ReadOnlySpan`1 source, ArraySegment`1 arraySegment)
+   at System.IO.BinaryWriter.Write(Double value)
+   at CalculationEngine.HouseElements.CalcHouse.RunOneStep(TimeStep timestep, DateTime now, Boolean runProcessing, Dictionary`2 finishedActivities) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CalculationEngine/HouseElements/CalcHouse.cs:line 223
+   at CitySimulation.Worker.SimulateOneStep(TimeStep timestep, DateTime simulationTime, SortedMessageCollection activityMessages) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 281
+   at CitySimulation.Worker.RunMainSimulation() in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 219
+   at CitySimulation.Worker.Run() in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 170
+   at CitySimulation.Program.RunNewWorker(Intracommunicator comm, String[] args) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Program.cs:line 43
+   at CitySimulation.Program.<>c__DisplayClass1_0.<CreateMPIRunAction>b__0(Intracommunicator comm) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Program.cs:line 26
+   at MPI.Environment.Run(String[]& args, Threading threading, Action`1 action, Boolean cleanupEnvironment)
+ ---> System.IO.IOException: Disk quota exceeded : '/rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/bin/Release/net9.0/linux-x64/publish/city_simulation_results/scenario_juelich/Houses/DEA_DENW40AL10003VK3-4923/Temp/OnlineDeviceEnergyUsage.Electricity.dat'
+   at System.IO.RandomAccess.WriteAtOffset(SafeFileHandle handle, ReadOnlySpan`1 buffer, Int64 fileOffset)
+   at CitySimulation.LPGMassSimulator.SimulateOneStepOneTarget(TimeStep timeStep, DateTime dateTime, Dictionary`2 finishedActivities, CitySimulationHouse target) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 204
+   --- End of inner exception stack trace ---
+   at CitySimulation.LPGMassSimulator.SimulateOneStepOneTarget(TimeStep timeStep, DateTime dateTime, Dictionary`2 finishedActivities, CitySimulationHouse target) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 212
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.MoveNext()
+   at CitySimulation.MPIDistributor.AddNewActivities(IEnumerable`1 newActivities) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/MPIDistributor.cs:line 138
+CitySimulation.CitySimWrapperException: Exception on worker 3 from target 'DEA_DENW40AL10003S5J-223' during timestep 8.
+ ---> System.IO.IOException: Disk quota exceeded : '/rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/bin/Release/net9.0/linux-x64/publish/city_simulation_results/scenario_juelich/Houses/DEA_DENW40AL10003S5J-223/Temp/OnlineDeviceEnergyUsage.Electricity.dat'
+   at System.IO.RandomAccess.WriteAtOffset(SafeFileHandle handle, ReadOnlySpan`1 buffer, Int64 fileOffset)
+   at System.IO.Strategies.OSFileStreamStrategy.Write(ReadOnlySpan`1 buffer)
+   at System.IO.Strategies.BufferedFileStreamStrategy.WriteSpan(ReadOnlySpan`1 source, ArraySegment`1 arraySegment)
+   at System.IO.BinaryWriter.Write(Double value)
+   at CalculationEngine.HouseElements.CalcHouse.RunOneStep(TimeStep timestep, DateTime now, Boolean runProcessing, Dictionary`2 finishedActivities) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CalculationEngine/HouseElements/CalcHouse.cs:line 223
+   at System.IO.Strategies.OSFileStreamStrategy.Write(ReadOnlySpan`1 buffer)
+   at System.IO.Strategies.BufferedFileStreamStrategy.WriteSpan(ReadOnlySpan`1 source, ArraySegment`1 arraySegment)
+   at System.IO.BinaryWriter.Write(Double value)
+   at CitySimulation.Worker.SimulateOneStep(TimeStep timestep, DateTime simulationTime, SortedMessageCollection activityMessages) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 281
+   at CitySimulation.Worker.RunMainSimulation() in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 219
+   at CitySimulation.Worker.Run() in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 170
+   at CitySimulation.Program.RunNewWorker(Intracommunicator comm, String[] args) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Program.cs:line 43
+   at CitySimulation.Program.<>c__DisplayClass1_0.<CreateMPIRunAction>b__0(Intracommunicator comm) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Program.cs:line 26
+   at MPI.Environment.Run(String[]& args, Threading threading, Action`1 action, Boolean cleanupEnvironment)
+   at CitySimulation.LPGMassSimulator.SimulateOneStepOneTarget(TimeStep timeStep, DateTime dateTime, Dictionary`2 finishedActivities, CitySimulationHouse target) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 204
+   --- End of inner exception stack trace ---
+   at CitySimulation.LPGMassSimulator.SimulateOneStepOneTarget(TimeStep timeStep, DateTime dateTime, Dictionary`2 finishedActivities, CitySimulationHouse target) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 212
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.MoveNext()
+   at CitySimulation.MPIDistributor.AddNewActivities(IEnumerable`1 newActivities) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/MPIDistributor.cs:line 138
+   at CalculationEngine.HouseElements.CalcHouse.RunOneStep(TimeStep timestep, DateTime now, Boolean runProcessing, Dictionary`2 finishedActivities) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CalculationEngine/HouseElements/CalcHouse.cs:line 223
+   at CitySimulation.Worker.SimulateOneStep(TimeStep timestep, DateTime simulationTime, SortedMessageCollection activityMessages) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 281
+   at CitySimulation.Worker.RunMainSimulation() in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 219
+   at CitySimulation.Worker.Run() in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 170
+   at CitySimulation.Program.RunNewWorker(Intracommunicator comm, String[] args) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Program.cs:line 43
+   at CitySimulation.Program.<>c__DisplayClass1_0.<CreateMPIRunAction>b__0(Intracommunicator comm) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Program.cs:line 26
+   at MPI.Environment.Run(String[]& args, Threading threading, Action`1 action, Boolean cleanupEnvironment)
+   at CitySimulation.LPGMassSimulator.SimulateOneStepOneTarget(TimeStep timeStep, DateTime dateTime, Dictionary`2 finishedActivities, CitySimulationHouse target) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 204
+CitySimulation.CitySimWrapperException: Exception on worker 4 from target 'DEA_DENW40AL10003XDE-7388' during timestep 8.
+   --- End of inner exception stack trace ---
+ ---> System.IO.IOException: Disk quota exceeded : '/rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/bin/Release/net9.0/linux-x64/publish/city_simulation_results/scenario_juelich/Houses/DEA_DENW40AL10003XDE-7388/Temp/OnlineDeviceEnergyUsage.Electricity.dat'
+   at System.IO.RandomAccess.WriteAtOffset(SafeFileHandle handle, ReadOnlySpan`1 buffer, Int64 fileOffset)
+   at CitySimulation.LPGMassSimulator.SimulateOneStepOneTarget(TimeStep timeStep, DateTime dateTime, Dictionary`2 finishedActivities, CitySimulationHouse target) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 212
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.MoveNext()
+   at System.IO.Strategies.OSFileStreamStrategy.Write(ReadOnlySpan`1 buffer)
+   at System.IO.Strategies.BufferedFileStreamStrategy.WriteSpan(ReadOnlySpan`1 source, ArraySegment`1 arraySegment)
+   at System.IO.BinaryWriter.Write(Double value)
+   at CitySimulation.MPIDistributor.AddNewActivities(IEnumerable`1 newActivities) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/MPIDistributor.cs:line 138
+   at CalculationEngine.HouseElements.CalcHouse.RunOneStep(TimeStep timestep, DateTime now, Boolean runProcessing, Dictionary`2 finishedActivities) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CalculationEngine/HouseElements/CalcHouse.cs:line 223
+   at CitySimulation.Worker.SimulateOneStep(TimeStep timestep, DateTime simulationTime, SortedMessageCollection activityMessages) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 281
+   at CitySimulation.Worker.RunMainSimulation() in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 219
+   at CitySimulation.LPGMassSimulator.SimulateOneStepOneTarget(TimeStep timeStep, DateTime dateTime, Dictionary`2 finishedActivities, CitySimulationHouse target) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 204
+   at CitySimulation.Worker.Run() in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 170
+   at CitySimulation.Program.RunNewWorker(Intracommunicator comm, String[] args) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Program.cs:line 43
+   --- End of inner exception stack trace ---
+   at CitySimulation.Program.<>c__DisplayClass1_0.<CreateMPIRunAction>b__0(Intracommunicator comm) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Program.cs:line 26
+   at MPI.Environment.Run(String[]& args, Threading threading, Action`1 action, Boolean cleanupEnvironment)
+   at CitySimulation.LPGMassSimulator.SimulateOneStepOneTarget(TimeStep timeStep, DateTime dateTime, Dictionary`2 finishedActivities, CitySimulationHouse target) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/LPGMassSimulator.cs:line 212
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.MoveNext()
+   at CitySimulation.MPIDistributor.AddNewActivities(IEnumerable`1 newActivities) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/MPIDistributor.cs:line 138
+   at CitySimulation.Worker.SimulateOneStep(TimeStep timestep, DateTime simulationTime, SortedMessageCollection activityMessages) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 281
+   at CitySimulation.Worker.RunMainSimulation() in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 219
+   at CitySimulation.Worker.Run() in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Worker.cs:line 170
+   at CitySimulation.Program.RunNewWorker(Intracommunicator comm, String[] args) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Program.cs:line 43
+   at CitySimulation.Program.<>c__DisplayClass1_0.<CreateMPIRunAction>b__0(Intracommunicator comm) in /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/Program.cs:line 26
+   at MPI.Environment.Run(String[]& args, Threading threading, Action`1 action, Boolean cleanupEnvironment)
+srun: error: n23m0081: task 21: Exited with exit code 143
+srun: error: r23m0034: task 23: Exited with exit code 143
+srun: error: n23m0369: task 22: Exited with exit code 1
+srun: error: n23m0007: task 1: Exited with exit code 143
+srun: error: n23m0011: tasks 9-10: Exited with exit code 143
+srun: error: n23m0015: task 12: Exited with exit code 143
+srun: error: n23m0015: task 11: Exited with exit code 143
+srun: error: n23m0078: task 17: Exited with exit code 1
+srun: error: n23m0078: task 18: Exited with exit code 143
+srun: error: n23m0015: task 13: Exited with exit code 143
+srun: error: n23m0019: task 15: Exited with exit code 143
+srun: error: n23m0078: task 20: Exited with exit code 1
+srun: error: n23m0019: tasks 14,16: Exited with exit code 143
+srun: error: n23m0009: tasks 3-4: Exited with exit code 143
+srun: error: n23m0010: tasks 5-6: Exited with exit code 143
+srun: error: n23m0078: task 19: Exited with exit code 143
+srun: error: n23m0010: task 7: Exited with exit code 143
+srun: error: n23m0010: task 8: Exited with exit code 143
+srun: error: n23m0009: task 2: Exited with exit code 143
+srun: First task exited 5s ago
+srun: StepId=4869853.0 task 0: running
+srun: StepId=4869853.0 tasks 1-23: exited abnormally
+srun: Terminating StepId=4869853.0
+srun: error: n23m0007: task 0: Exited with exit code 143
