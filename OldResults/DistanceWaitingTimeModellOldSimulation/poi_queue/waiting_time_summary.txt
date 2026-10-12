@@ -1,0 +1,43 @@
+Waiting time summary for folder: /hpcwork/gzi37280/city_simulation_results/scenario_juelich/Logs/poi_queue
+
+Pharmacy P1_DEA_DENW40AL10003WMr-6424.csv
+  Total waiting time: 4820.00
+  Visitors counted: 2783
+  Average waiting time: 1.73
+  Max waiting time: 25.00
+
+Pharmacy P2_DEA_DENW40AL10003XUq-8188.csv
+  Total waiting time: 11932.00
+  Visitors counted: 3745
+  Average waiting time: 3.19
+  Max waiting time: 27.00
+
+Pharmacy P3_DEA_DENW40AL10003SuC-1246.csv
+  Total waiting time: 4430.00
+  Visitors counted: 2841
+  Average waiting time: 1.56
+  Max waiting time: 21.00
+
+Pharmacy P4_DEA_DENW40AL10003SUj-1255.csv
+  Total waiting time: 6704.00
+  Visitors counted: 3122
+  Average waiting time: 2.15
+  Max waiting time: 24.00
+
+Pharmacy P5_DEA_DENW40AL10003XtK-8135.csv
+  Total waiting time: 1525.00
+  Visitors counted: 2081
+  Average waiting time: 0.73
+  Max waiting time: 19.00
+
+Pharmacy P6_DEA_DENW40AL1Kp000G6-9159.csv
+  Total waiting time: 2144.00
+  Visitors counted: 2207
+  Average waiting time: 0.97
+  Max waiting time: 20.00
+
+Overall totals
+  Total waiting time across all pharmacies: 31555.00
+  Total visitors across all pharmacies: 16779
+  Overall average waiting time: 1.88
+  Overall max waiting time: 27.00

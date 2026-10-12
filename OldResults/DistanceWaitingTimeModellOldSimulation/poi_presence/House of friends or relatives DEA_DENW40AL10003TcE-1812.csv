@@ -1,0 +1,3 @@
+Timestep,Datetime,People present,People arriving,People leaving
+40185,2025-03-21T21:45:00.0000000,1,1,0
+40229,2025-03-21T22:29:00.0000000,0,0,1

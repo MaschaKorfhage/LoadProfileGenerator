@@ -1,0 +1,3 @@
+Timestep,Datetime,People present,People arriving,People leaving
+31070,2025-03-15T13:50:00.0000000,1,1,0
+31201,2025-03-15T16:01:00.0000000,0,0,1

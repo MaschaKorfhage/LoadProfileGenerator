@@ -1,0 +1,4 @@
+Simulation mit den Apotheken, welche aus dem Optimierungsmodell mit Zielfunktion gewichtet mit Distanz und Wartezeit.
+Simulation selbst noch nicht angepasst, sprich Kunden gehen weiterhin mit hoher Wahrscheinlichkeit zur nächstgelegenden Apotheken
+und nur mit geringer Wahrscheinlichkeit zu einer anderen.
+

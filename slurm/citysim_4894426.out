@@ -1,0 +1,817 @@
+[INFO] Module OpenMPI/5.0.3 loaded.
+
+Lmod is automatically replacing "impi/2021.13.0" with "OpenMPI/5.0.3".
+
+[INFO] Module OpenMPI/5.0.3 loaded.
+
+Inactive Modules:
+  1) imkl-FFTW/2024.2.0
+
+Initializing the logger
+Starting mass simulation with 24 workers.
+Loading city scenario from path /home/gzi37280/CityScenarioGenerator/scenarios/scenario_juelich
+Using database file: /rwthfs/rz/cluster/home/gzi37280/LoadProfileGenerator/CitySimulation/bin/Release/net9.0/linux-x64/publish/profilegenerator.db3
+Found 1 files in the routes subdirectory.
+Calling MPI Scatter to distribute scenario parts.
+Worker 0 on n23m0011.hpc.itc.rwth-aachen.de is responsible for 397 houses and 749 POIs.
+Reusing existing database file profilegenerator.worker_0.db3
+Preparing house DEA_DENW40AL10003TRR-2496 for calculation
+Preparing house DEA_DENW40AL10003TdT-1886 for calculation
+Preparing house DEA_DENW40AL10003Umt-3661 for calculation
+Preparing house DEA_DENW40AL10003WfT-6093 for calculation
+Preparing house DEA_DENW40AL10003TCr-1836 for calculation
+Preparing house DEA_DENW40AL10003Shk-670 for calculation
+Preparing house DEA_DENW40AL10003UFa-3334 for calculation
+Preparing house DEA_DENW40AL10003XaU-7278 for calculation
+Preparing house DEA_DENW40AL10003U5q-3006 for calculation
+Preparing house DEA_DENW40AL10003ShN-677 for calculation
+Preparing house DEA_DENW40AL10003UqW-3852 for calculation
+Preparing house DEA_DENW40AL10003WkE-6319 for calculation
+Preparing house DEA_DENW40AL10003Y3X-8511 for calculation
+Preparing house DEA_DENW40AL10003UnK-3700 for calculation
+Preparing house DEA_DENW40AL10003X3v-7113 for calculation
+Preparing house DEA_DENW40AL10003Sep-556 for calculation
+Preparing house DEA_DENW40AL10003TeO-1917 for calculation
+Preparing house DEA_DENW40AL10003U3Z-2970 for calculation
+Preparing house DEA_DENW40AL10003V0p-4282 for calculation
+Preparing house DEA_DENW40AL10003Vyk-5542 for calculation
+Preparing house DEA_DENW40AL10003WUs-6778 for calculation
+Preparing house DEA_DENW40AL10003XnV-7885 for calculation
+Preparing house DEA_DENW40AL2PX0003o-9286 for calculation
+Preparing house DEA_DENW40AL10003TTP-2576 for calculation
+Preparing house DEA_DENW40AL10003Woi-6501 for calculation
+Preparing house DEA_DENW40AL10003Rxc-34 for calculation
+Preparing house DEA_DENW40AL10003S5q-232 for calculation
+Preparing house DEA_DENW40AL10003SIn-736 for calculation
+Preparing house DEA_DENW40AL10003Swp-1351 for calculation
+Preparing house DEA_DENW40AL10003Tg5-1974 for calculation
+Preparing house DEA_DENW40AL10003TQ7-2414 for calculation
+Preparing house DEA_DENW40AL10003U1b-2907 for calculation
+Preparing house DEA_DENW40AL10003Ugg-3389 for calculation
+Preparing house DEA_DENW40AL10003UxP-4164 for calculation
+Preparing house DEA_DENW40AL10003VAZ-4538 for calculation
+Preparing house DEA_DENW40AL10003VMM-5024 for calculation
+Preparing house DEA_DENW40AL10003VXO-5505 for calculation
+Preparing house DEA_DENW40AL10003Wib-6216 for calculation
+Preparing house DEA_DENW40AL10003WuQ-6774 for calculation
+Preparing house DEA_DENW40AL10003X6w-7181 for calculation
+Preparing house DEA_DENW40AL10003XnO-7867 for calculation
+Preparing house DEA_DENW40AL10003Y0z-8449 for calculation
+Preparing house DEA_DENW40AL10003YP6-8992 for calculation
+Preparing house DEA_DENW40AL10003S4Y-213 for calculation
+Preparing house DEA_DENW40AL10003Sip-740 for calculation
+Preparing house DEA_DENW40AL10003SUP-1263 for calculation
+Preparing house DEA_DENW40AL10003TbQ-1791 for calculation
+Preparing house DEA_DENW40AL10003TnA-2276 for calculation
+Preparing house DEA_DENW40AL10003TXF-2744 for calculation
+Preparing house DEA_DENW40AL10003UAw-3149 for calculation
+Preparing house DEA_DENW40AL10003UiQ-3491 for calculation
+Preparing house DEA_DENW40AL10003Uul-4025 for calculation
+Preparing house DEA_DENW40AL10003VCh-4595 for calculation
+Preparing house DEA_DENW40AL10003VTh-5323 for calculation
+Preparing house DEA_DENW40AL10003WCa-5933 for calculation
+Preparing house DEA_DENW40AL10003WJy-6304 for calculation
+Preparing house DEA_DENW40AL10003Wwu-6872 for calculation
+Preparing house DEA_DENW40AL10003Xh3-7561 for calculation
+Preparing house DEA_DENW40AL10003XqE-7993 for calculation
+Preparing house DEA_DENW40AL10003XZc-8393 for calculation
+Preparing house DEA_DENW40AL10003YFl-8776 for calculation
+Preparing house DEA_DENW40AL4G00015n-9441 for calculation
+Preparing house DEA_DENW40AL10003S3x-191 for calculation
+Preparing house DEA_DENW40AL10003Say-383 for calculation
+Preparing house DEA_DENW40AL10003SeQ-558 for calculation
+Preparing house DEA_DENW40AL10003Shw-694 for calculation
+Preparing house DEA_DENW40AL10003Sl1-845 for calculation
+Preparing house DEA_DENW40AL10003SPw-1042 for calculation
+Preparing house DEA_DENW40AL10003Sth-1207 for calculation
+Preparing house DEA_DENW40AL10003SVY-1317 for calculation
+Preparing house DEA_DENW40AL10003SyH-1417 for calculation
+Preparing house DEA_DENW40AL10003T3i-1579 for calculation
+Preparing house DEA_DENW40AL10003Tag-1731 for calculation
+Preparing house DEA_DENW40AL10003TEp-1920 for calculation
+Preparing house DEA_DENW40AL10003Tio-2081 for calculation
+Preparing house DEA_DENW40AL10003TL6-2185 for calculation
+Preparing house DEA_DENW40AL10003TPD-2372 for calculation
+Preparing house DEA_DENW40AL10003TSW-2542 for calculation
+Preparing house DEA_DENW40AL10003Tvu-2671 for calculation
+Preparing house DEA_DENW40AL10003TYZ-2822 for calculation
+Preparing house DEA_DENW40AL10003U4m-2984 for calculation
+Preparing house DEA_DENW40AL10003UAA-3120 for calculation
+Preparing house DEA_DENW40AL10003Udq-3273 for calculation
+Preparing house DEA_DENW40AL10003UHK-3443 for calculation
+Preparing house DEA_DENW40AL10003UKF-3565 for calculation
+Preparing house DEA_DENW40AL10003UN8-3685 for calculation
+Preparing house DEA_DENW40AL10003UqV-3850 for calculation
+Preparing house DEA_DENW40AL10003UuE-4013 for calculation
+Preparing house DEA_DENW40AL10003UWz-4126 for calculation
+Preparing house DEA_DENW40AL10003UZm-4251 for calculation
+Preparing house DEA_DENW40AL10003V5T-4395 for calculation
+Preparing house DEA_DENW40AL10003VCL-4602 for calculation
+Preparing house DEA_DENW40AL10003VgU-4786 for calculation
+Preparing house DEA_DENW40AL10003VJM-4901 for calculation
+Preparing house DEA_DENW40AL10003VmA-5010 for calculation
+Preparing house DEA_DENW40AL10003VPT-5165 for calculation
+Preparing house DEA_DENW40AL10003VT8-5311 for calculation
+Preparing house DEA_DENW40AL10003Vw7-5440 for calculation
+Preparing house DEA_DENW40AL10003VZ6-5568 for calculation
+Preparing house DEA_DENW40AL10003W39-5670 for calculation
+Preparing house DEA_DENW40AL10003WA7-5843 for calculation
+Preparing house DEA_DENW40AL10003Wf1-6066 for calculation
+Preparing house DEA_DENW40AL10003WI2-6207 for calculation
+Preparing house DEA_DENW40AL10003WMj-6409 for calculation
+Preparing house DEA_DENW40AL10003WPc-6533 for calculation
+Preparing house DEA_DENW40AL10003WS9-6664 for calculation
+Preparing house DEA_DENW40AL10003WVi-6814 for calculation
+Preparing house DEA_DENW40AL10003WYn-6968 for calculation
+Preparing house DEA_DENW40AL10003X2Y-7097 for calculation
+Preparing house DEA_DENW40AL10003X8r-7217 for calculation
+Preparing house DEA_DENW40AL10003XCN-7356 for calculation
+Preparing house DEA_DENW40AL10003Xg1-7517 for calculation
+Preparing house DEA_DENW40AL10003XI1-7609 for calculation
+Preparing house DEA_DENW40AL10003XLd-7754 for calculation
+Preparing house DEA_DENW40AL10003Xo4-7898 for calculation
+Preparing house DEA_DENW40AL10003XQT-8015 for calculation
+Preparing house DEA_DENW40AL10003Xtm-8138 for calculation
+Preparing house DEA_DENW40AL10003XWc-8251 for calculation
+Preparing house DEA_DENW40AL10003XzB-8391 for calculation
+Preparing house DEA_DENW40AL10003Y5L-8546 for calculation
+Preparing house DEA_DENW40AL10003YBP-8675 for calculation
+Preparing house DEA_DENW40AL10003YGv-8811 for calculation
+Preparing house DEA_DENW40AL10003YNF-8944 for calculation
+Preparing house DEA_DENW40AL1000aQOj-9091 for calculation
+Preparing house DEA_DENW40AL2d0000G1-9250 for calculation
+Preparing house DEA_DENW40AL40000Bwr-9432 for calculation
+Preparing house DEA_DENW40AL10003RwB-14 for calculation
+Preparing house DEA_DENW40AL10003S03-103 for calculation
+Preparing house DEA_DENW40AL10003S6Q-256 for calculation
+Preparing house DEA_DENW40AL10003SAz-386 for calculation
+Preparing house DEA_DENW40AL10003Sd5-489 for calculation
+Preparing house DEA_DENW40AL10003SGg-619 for calculation
+Preparing house DEA_DENW40AL10003SIo-739 for calculation
+Preparing house DEA_DENW40AL10003SMR-920 for calculation
+Preparing house DEA_DENW40AL10003SQd-1069 for calculation
+Preparing house DEA_DENW40AL10003SSr-1177 for calculation
+Preparing house DEA_DENW40AL10003Sxa-1366 for calculation
+Preparing house DEA_DENW40AL10003SzZ-1496 for calculation
+Preparing house DEA_DENW40AL10003T77-1655 for calculation
+Preparing house DEA_DENW40AL10003TBM-1788 for calculation
+Preparing house DEA_DENW40AL10003TFH-1950 for calculation
+Preparing house DEA_DENW40AL10003THj-2044 for calculation
+Preparing house DEA_DENW40AL10003TLa-2189 for calculation
+Preparing house DEA_DENW40AL10003To7-2314 for calculation
+Preparing house DEA_DENW40AL10003TQp-2447 for calculation
+Preparing house DEA_DENW40AL10003Tu3-2598 for calculation
+Preparing house DEA_DENW40AL10003Twv-2721 for calculation
+Preparing house DEA_DENW40AL10003Tzk-2847 for calculation
+Preparing house DEA_DENW40AL10003U4e-2978 for calculation
+Preparing house DEA_DENW40AL10003UAO-3139 for calculation
+Preparing house DEA_DENW40AL10003UDH-3267 for calculation
+Preparing house DEA_DENW40AL10003Ugn-3396 for calculation
+Preparing house DEA_DENW40AL10003UjK-3525 for calculation
+Preparing house DEA_DENW40AL10003Umb-3640 for calculation
+Preparing house DEA_DENW40AL10003Uor-3756 for calculation
+Preparing house DEA_DENW40AL10003URr-3897 for calculation
+Preparing house DEA_DENW40AL10003Uu8-4003 for calculation
+Preparing house DEA_DENW40AL10003Ux8-4138 for calculation
+Preparing house DEA_DENW40AL10003Uzt-4263 for calculation
+Preparing house DEA_DENW40AL10003V5P-4391 for calculation
+Preparing house DEA_DENW40AL10003V93-4476 for calculation
+Preparing house DEA_DENW40AL10003VCd-4589 for calculation
+Preparing house DEA_DENW40AL10003VEy-4703 for calculation
+Preparing house DEA_DENW40AL10003VGV-4791 for calculation
+Preparing house DEA_DENW40AL10003VKi-4934 for calculation
+Preparing house DEA_DENW40AL10003Vo7-5091 for calculation
+Preparing house DEA_DENW40AL10003VQs-5210 for calculation
+Preparing house DEA_DENW40AL10003VTC-5318 for calculation
+Preparing house DEA_DENW40AL10003VW4-5437 for calculation
+Preparing house DEA_DENW40AL10003Vyn-5546 for calculation
+Preparing house DEA_DENW40AL10003W3r-5686 for calculation
+Preparing house DEA_DENW40AL10003W8Z-5808 for calculation
+Preparing house DEA_DENW40AL10003Wcf-5939 for calculation
+Preparing house DEA_DENW40AL10003WFb-6072 for calculation
+Preparing house DEA_DENW40AL10003WhT-6194 for calculation
+Preparing house DEA_DENW40AL10003WJM-6284 for calculation
+Preparing house DEA_DENW40AL10003Wmf-6404 for calculation
+Preparing house DEA_DENW40AL10003WP5-6529 for calculation
+Preparing house DEA_DENW40AL10003WRT-6644 for calculation
+Preparing house DEA_DENW40AL10003WvF-6808 for calculation
+Preparing house DEA_DENW40AL10003WYE-6954 for calculation
+Preparing house DEA_DENW40AL10003X1e-7057 for calculation
+Preparing house DEA_DENW40AL10003X71-7183 for calculation
+Preparing house DEA_DENW40AL10003XbU-7325 for calculation
+Preparing house DEA_DENW40AL10003Xf6-7471 for calculation
+Preparing house DEA_DENW40AL10003XiX-7649 for calculation
+Preparing house DEA_DENW40AL10003Xlk-7768 for calculation
+Preparing house DEA_DENW40AL10003XO6-7900 for calculation
+Preparing house DEA_DENW40AL10003Xrx-8066 for calculation
+Preparing house DEA_DENW40AL10003XU1-8156 for calculation
+Preparing house DEA_DENW40AL10003XWe-8255 for calculation
+Preparing house DEA_DENW40AL10003Xyg-8353 for calculation
+Preparing house DEA_DENW40AL10003Y3V-8509 for calculation
+Preparing house DEA_DENW40AL10003YAd-8641 for calculation
+Preparing house DEA_DENW40AL10003YGp-8807 for calculation
+Preparing house DEA_DENW40AL10003YMv-8932 for calculation
+Preparing house DEA_DENW40AL10003YQv-9024 for calculation
+Preparing house DEA_DENW40AL1JI000Tz-9150 for calculation
+Preparing house DEA_DENW40AL2Tv00096-9307 for calculation
+Preparing house DEA_DENW40AL5000092a-9454 for calculation
+Preparing house DEA_DENW40AL10003Rx1-28 for calculation
+Preparing house DEA_DENW40AL10003Rz7-82 for calculation
+Preparing house DEA_DENW40AL10003S29-145 for calculation
+Preparing house DEA_DENW40AL10003S5f-219 for calculation
+Preparing house DEA_DENW40AL10003S83-291 for calculation
+Preparing house DEA_DENW40AL10003SaI-353 for calculation
+Preparing house DEA_DENW40AL10003SbG-400 for calculation
+Preparing house DEA_DENW40AL10003Sco-465 for calculation
+Preparing house DEA_DENW40AL10003Se1-532 for calculation
+Preparing house DEA_DENW40AL10003SFP-595 for calculation
+Preparing house DEA_DENW40AL10003Shl-673 for calculation
+Preparing house DEA_DENW40AL10003Sio-737 for calculation
+Preparing house DEA_DENW40AL10003SKn-824 for calculation
+Preparing house DEA_DENW40AL10003SM3-896 for calculation
+Preparing house DEA_DENW40AL10003So1-962 for calculation
+Preparing house DEA_DENW40AL10003Spf-1016 for calculation
+Preparing house DEA_DENW40AL10003Sqx-1095 for calculation
+Preparing house DEA_DENW40AL10003Ssn-1173 for calculation
+Preparing house DEA_DENW40AL10003STy-1236 for calculation
+Preparing house DEA_DENW40AL10003Svx-1314 for calculation
+Preparing house DEA_DENW40AL10003SXs-1389 for calculation
+Preparing house DEA_DENW40AL10003SzO-1479 for calculation
+Preparing house DEA_DENW40AL10003T1O-1541 for calculation
+Preparing house DEA_DENW40AL10003T3v-1590 for calculation
+Preparing house DEA_DENW40AL10003T7o-1666 for calculation
+Preparing house DEA_DENW40AL10003TaE-1729 for calculation
+Preparing house DEA_DENW40AL10003TbJ-1786 for calculation
+Preparing house DEA_DENW40AL10003Tdl-1874 for calculation
+Preparing house DEA_DENW40AL10003TFo-1957 for calculation
+Preparing house DEA_DENW40AL10003THN-2051 for calculation
+Preparing house DEA_DENW40AL10003TK5-2144 for calculation
+Preparing house DEA_DENW40AL10003TLl-2202 for calculation
+Preparing house DEA_DENW40AL10003Tmz-2266 for calculation
+Preparing house DEA_DENW40AL10003TOt-2350 for calculation
+Preparing house DEA_DENW40AL10003Tpx-2408 for calculation
+Preparing house DEA_DENW40AL10003TRJ-2482 for calculation
+Preparing house DEA_DENW40AL10003TTa-2558 for calculation
+Preparing house DEA_DENW40AL10003TV5-2638 for calculation
+Preparing house DEA_DENW40AL10003TxC-2739 for calculation
+Preparing house DEA_DENW40AL10003Typ-2804 for calculation
+Preparing house DEA_DENW40AL10003U0S-2889 for calculation
+Preparing house DEA_DENW40AL10003U3S-2964 for calculation
+Preparing house DEA_DENW40AL10003U7I-3054 for calculation
+Preparing house DEA_DENW40AL10003U9y-3109 for calculation
+Preparing house DEA_DENW40AL10003UBh-3173 for calculation
+Preparing house DEA_DENW40AL10003Ud9-3252 for calculation
+Preparing house DEA_DENW40AL10003UEv-3320 for calculation
+Preparing house DEA_DENW40AL10003Ufw-3371 for calculation
+Preparing house DEA_DENW40AL10003UHd-3434 for calculation
+Preparing house DEA_DENW40AL10003UjW-3539 for calculation
+Preparing house DEA_DENW40AL10003ULl-3610 for calculation
+Preparing house DEA_DENW40AL10003UN2-3678 for calculation
+Preparing house DEA_DENW40AL10003UON-3749 for calculation
+Preparing house DEA_DENW40AL10003Uq2-3820 for calculation
+Preparing house DEA_DENW40AL10003Urq-3896 for calculation
+Preparing house DEA_DENW40AL10003UTi-3972 for calculation
+Preparing house DEA_DENW40AL10003Uv7-4045 for calculation
+Preparing house DEA_DENW40AL10003Ux4-4132 for calculation
+Preparing house DEA_DENW40AL10003Uz0-4229 for calculation
+Preparing house DEA_DENW40AL10003V1s-4308 for calculation
+Preparing house DEA_DENW40AL10003V4l-4371 for calculation
+Preparing house DEA_DENW40AL10003V8M-4463 for calculation
+Preparing house DEA_DENW40AL10003Vbi-4553 for calculation
+Preparing house DEA_DENW40AL10003VdJ-4638 for calculation
+Preparing house DEA_DENW40AL10003Vff-4719 for calculation
+Preparing house DEA_DENW40AL10003VGS-4783 for calculation
+Preparing house DEA_DENW40AL10003ViJ-4856 for calculation
+Preparing house DEA_DENW40AL10003VkQ-4944 for calculation
+Preparing house DEA_DENW40AL10003Vmk-5021 for calculation
+Preparing house DEA_DENW40AL10003Vnr-5073 for calculation
+Preparing house DEA_DENW40AL10003VPw-5171 for calculation
+Preparing house DEA_DENW40AL10003VrB-5231 for calculation
+Preparing house DEA_DENW40AL10003Vsz-5303 for calculation
+Preparing house DEA_DENW40AL10003VuH-5363 for calculation
+Preparing house DEA_DENW40AL10003Vwb-5443 for calculation
+Preparing house DEA_DENW40AL10003VXs-5510 for calculation
+Preparing house DEA_DENW40AL10003W02-5606 for calculation
+Preparing house DEA_DENW40AL10003W3W-5691 for calculation
+Preparing house DEA_DENW40AL10003W7L-5772 for calculation
+Preparing house DEA_DENW40AL10003W9T-5831 for calculation
+Preparing house DEA_DENW40AL10003Wb4-5889 for calculation
+Preparing house DEA_DENW40AL10003Wcr-5957 for calculation
+Preparing house DEA_DENW40AL10003Wdy-6017 for calculation
+Preparing house DEA_DENW40AL10003WgC-6113 for calculation
+Preparing house DEA_DENW40AL10003Whl-6181 for calculation
+Preparing house DEA_DENW40AL10003WJb-6263 for calculation
+Preparing house DEA_DENW40AL10003Wko-6330 for calculation
+Preparing house DEA_DENW40AL10003WLV-6387 for calculation
+Preparing house DEA_DENW40AL10003Wn6-6446 for calculation
+Preparing house DEA_DENW40AL10003WPH-6543 for calculation
+Preparing house DEA_DENW40AL10003WR3-6605 for calculation
+Preparing house DEA_DENW40AL10003WsE-6673 for calculation
+Preparing house DEA_DENW40AL10003WU7-6751 for calculation
+Preparing house DEA_DENW40AL10003WVE-6807 for calculation
+Preparing house DEA_DENW40AL10003WwX-6878 for calculation
+Preparing house DEA_DENW40AL10003WYD-6951 for calculation
+Preparing house DEA_DENW40AL10003X0l-7045 for calculation
+Preparing house DEA_DENW40AL10003X4d-7128 for calculation
+Preparing house DEA_DENW40AL10003X8i-7210 for calculation
+Preparing house DEA_DENW40AL10003XaP-7270 for calculation
+Preparing house DEA_DENW40AL10003XCt-7362 for calculation
+Preparing house DEA_DENW40AL10003XeK-7438 for calculation
+Preparing house DEA_DENW40AL10003XFZ-7514 for calculation
+Preparing house DEA_DENW40AL10003XHY-7605 for calculation
+Preparing house DEA_DENW40AL10003XJD-7669 for calculation
+Preparing house DEA_DENW40AL10003XL7-7747 for calculation
+Preparing house DEA_DENW40AL10003Xmw-7831 for calculation
+Preparing house DEA_DENW40AL10003XoR-7921 for calculation
+Preparing house DEA_DENW40AL10003Xqa-7983 for calculation
+Preparing house DEA_DENW40AL10003Xrv-8060 for calculation
+Preparing house DEA_DENW40AL10003Xts-8146 for calculation
+Preparing house DEA_DENW40AL10003XW9-8249 for calculation
+Preparing house DEA_DENW40AL10003Xyh-8354 for calculation
+Preparing house DEA_DENW40AL10003XZt-8417 for calculation
+Preparing house DEA_DENW40AL10003Y37-8490 for calculation
+Preparing house DEA_DENW40AL10003Y5o-8550 for calculation
+Preparing house DEA_DENW40AL10003Y9S-8631 for calculation
+Preparing house DEA_DENW40AL10003YCX-8706 for calculation
+Preparing house DEA_DENW40AL10003YG3-8795 for calculation
+Preparing house DEA_DENW40AL10003YIS-8851 for calculation
+Preparing house DEA_DENW40AL10003YMh-8921 for calculation
+Preparing house DEA_DENW40AL10003YQo-9019 for calculation
+Preparing house DEA_DENW40AL1000Zpmd-9105 for calculation
+Preparing house DEA_DENW40AL20000GWo-9213 for calculation
+Preparing house DEA_DENW40AL2sK0003f-9303 for calculation
+Preparing house DEA_DENW40AL3G30002t-9381 for calculation
+Preparing house DEA_DENW40ALaH00004f-9486 for calculation
+Preparing house DEA_DENW40AL10003Rxj-41 for calculation
+Preparing house DEA_DENW40AL10003S2x-166 for calculation
+Preparing house DEA_DENW40AL10003S9V-330 for calculation
+Preparing house DEA_DENW40AL10003Sf1-569 for calculation
+Preparing house DEA_DENW40AL10003Sil-731 for calculation
+Preparing house DEA_DENW40AL10003SkS-831 for calculation
+Preparing house DEA_DENW40AL10003Snx-955 for calculation
+Preparing house DEA_DENW40AL10003SQS-1086 for calculation
+Preparing house DEA_DENW40AL10003ST7-1196 for calculation
+Preparing house DEA_DENW40AL10003Sw2-1321 for calculation
+Preparing house DEA_DENW40AL10003SzT-1486 for calculation
+Preparing house DEA_DENW40AL10003T6I-1636 for calculation
+Preparing house DEA_DENW40AL10003Tb4-1767 for calculation
+Preparing house DEA_DENW40AL10003TDR-1883 for calculation
+Preparing house DEA_DENW40AL10003TGo-2003 for calculation
+Preparing house DEA_DENW40AL10003Tk1-2142 for calculation
+Preparing house DEA_DENW40AL10003Tms-2259 for calculation
+Preparing house DEA_DENW40AL10003Tpp-2392 for calculation
+Preparing house DEA_DENW40AL10003Tsw-2540 for calculation
+Preparing house DEA_DENW40AL10003TW4-2684 for calculation
+Preparing house DEA_DENW40AL10003Tzq-2860 for calculation
+Preparing house DEA_DENW40AL10003U60-3013 for calculation
+Preparing house DEA_DENW40AL10003UAQ-3144 for calculation
+Preparing house DEA_DENW40AL10003UeW-3322 for calculation
+Preparing house DEA_DENW40AL10003Uif-3476 for calculation
+Preparing house DEA_DENW40AL10003Ulv-3622 for calculation
+Preparing house DEA_DENW40AL10003UOs-3759 for calculation
+Preparing house DEA_DENW40AL10003UqX-3854 for calculation
+Preparing house DEA_DENW40AL10003UUm-4028 for calculation
+Preparing house DEA_DENW40AL10003UXc-4146 for calculation
+Preparing house DEA_DENW40AL10003V0m-4279 for calculation
+Preparing house DEA_DENW40AL10003V6I-4413 for calculation
+Preparing house DEA_DENW40AL10003VBa-4543 for calculation
+Preparing house DEA_DENW40AL10003Ve3-4666 for calculation
+Preparing house DEA_DENW40AL10003VHb-4808 for calculation
+Preparing house DEA_DENW40AL10003Vko-4942 for calculation
+Preparing house DEA_DENW40AL10003VnD-5058 for calculation
+Preparing house DEA_DENW40AL10003VQU-5214 for calculation
+Preparing house DEA_DENW40AL10003Vv2-5398 for calculation
+Preparing house DEA_DENW40AL10003VZQ-5592 for calculation
+Preparing house DEA_DENW40AL10003W4J-5708 for calculation
+Preparing house DEA_DENW40AL10003WAC-5848 for calculation
+Preparing house DEA_DENW40AL10003Wda-5980 for calculation
+Preparing house DEA_DENW40AL10003Wfv-6098 for calculation
+Preparing house DEA_DENW40AL10003WJR-6290 for calculation
+Preparing house DEA_DENW40AL10003Wn8-6448 for calculation
+Preparing house DEA_DENW40AL10003WrP-6638 for calculation
+Preparing house DEA_DENW40AL10003WVG-6810 for calculation
+Preparing house DEA_DENW40AL10003Wy7-6942 for calculation
+Preparing house DEA_DENW40AL10003X3n-7108 for calculation
+Preparing house DEA_DENW40AL10003XaB-7254 for calculation
+Preparing house DEA_DENW40AL10003XCy-7369 for calculation
+Preparing house DEA_DENW40AL10003XF6-7472 for calculation
+Preparing house DEA_DENW40AL10003XIG-7625 for calculation
+Preparing house DEA_DENW40AL10003XLF-7759 for calculation
+Preparing house DEA_DENW40AL10003Xnw-7888 for calculation
+Preparing house DEA_DENW40AL10003XRQ-8055 for calculation
+Preparing house DEA_DENW40AL10003XwI-8262 for calculation
+Preparing house DEA_DENW40AL10003XzM-8403 for calculation
+Preparing house DEA_DENW40AL10003Y7A-8581 for calculation
+Preparing house DEA_DENW40AL10003YCQ-8699 for calculation
+Preparing house DEA_DENW40AL10003YHf-8819 for calculation
+Preparing house DEA_DENW40AL10003YOk-8974 for calculation
+Preparing house DEA_DENW40AL1000aJPZ-9090 for calculation
+Preparing house DEA_DENW40AL1nc0001B-9168 for calculation
+Preparing house DEA_DENW40AL2b00003p-9240 for calculation
+Preparing house DEA_DENW40AL2Yb00048-9331 for calculation
+Preparing house DEA_DENW40AL3iD00031-9395 for calculation
+Preparing house DEA_DENW40AL5x0001LG-9472 for calculation
+Preparing house DEA_DENW40ALqv00003e-9534 for calculation
+In total, this worker simulates 1337 persons in 655 households.
+Finished initialization in  00:18:15.2768431
+Calling MPI Barrier
+MPI Barrier is over after 00:01:07.7774793
+Simulating timestep 235, datetime: 2/22/2025 3:55:00 AM, elapsed time: 00:01:00.0125455, speed: 3.92 steps/second, 2564.88 household steps/second, 5235.49 person steps/second, time left: 03:51:53.9725173
+Simulating timestep 599, datetime: 2/22/2025 9:59:00 AM, elapsed time: 00:02:08.6316468, speed: 5.30 steps/second, 3474.54 household steps/second, 7092.31 person steps/second, time left: 02:50:02.5669820
+Simulating timestep 619, datetime: 2/22/2025 10:19:00 AM, elapsed time: 00:03:08.6608422, speed: 0.33 steps/second, 218.23 household steps/second, 445.45 person steps/second, time left: 1.21:06:21.9750167
+Simulating timestep 933, datetime: 2/22/2025 3:33:00 PM, elapsed time: 00:04:08.9912999, speed: 5.20 steps/second, 3409.06 household steps/second, 6958.64 person steps/second, time left: 02:52:14.3768417
+Simulating timestep 1241, datetime: 2/22/2025 8:41:00 PM, elapsed time: 00:05:15.7714635, speed: 4.61 steps/second, 3020.96 household steps/second, 6166.44 person steps/second, time left: 03:13:15.2479518
+Simulating timestep 1272, datetime: 2/22/2025 9:12:00 PM, elapsed time: 00:06:17.0996215, speed: 0.51 steps/second, 331.09 household steps/second, 675.82 person steps/second, time left: 1.05:22:17.6577027
+Simulating timestep 1408, datetime: 2/22/2025 11:28:00 PM, elapsed time: 00:07:17.6711362, speed: 2.25 steps/second, 1470.66 household steps/second, 3001.94 person steps/second, time left: 06:35:44.0337624
+Simulating timestep 1818, datetime: 2/23/2025 6:18:00 AM, elapsed time: 00:08:17.6834380, speed: 6.83 steps/second, 4474.92 household steps/second, 9134.29 person steps/second, time left: 02:09:03.3433898
+Simulating timestep 1958, datetime: 2/23/2025 8:38:00 AM, elapsed time: 00:09:26.8833583, speed: 2.02 steps/second, 1325.15 household steps/second, 2704.92 person steps/second, time left: 07:14:39.4728204
+Simulating timestep 2003, datetime: 2/23/2025 9:23:00 AM, elapsed time: 00:10:32.1078501, speed: 0.69 steps/second, 451.90 household steps/second, 922.43 person steps/second, time left: 21:13:29.7674271
+Simulating timestep 2350, datetime: 2/23/2025 3:10:00 PM, elapsed time: 00:11:35.9857267, speed: 5.43 steps/second, 3558.12 household steps/second, 7262.91 person steps/second, time left: 02:40:40.5890419
+Simulating timestep 2615, datetime: 2/23/2025 7:35:00 PM, elapsed time: 00:12:44.1114960, speed: 3.89 steps/second, 2547.86 household steps/second, 5200.75 person steps/second, time left: 03:43:15.0687146
+Simulating timestep 2663, datetime: 2/23/2025 8:23:00 PM, elapsed time: 00:13:55.0642502, speed: 0.68 steps/second, 443.11 household steps/second, 904.49 person steps/second, time left: 21:22:29.7401122
+Simulating timestep 2885, datetime: 2/24/2025 12:05:00 AM, elapsed time: 00:14:59.9689868, speed: 3.42 steps/second, 2240.36 household steps/second, 4573.07 person steps/second, time left: 04:12:34.6712687
+Simulating timestep 3267, datetime: 2/24/2025 6:27:00 AM, elapsed time: 00:16:00.0116971, speed: 6.36 steps/second, 4167.20 household steps/second, 8506.18 person steps/second, time left: 02:14:47.3758457
+Simulating timestep 3339, datetime: 2/24/2025 7:39:00 AM, elapsed time: 00:17:02.5817069, speed: 1.15 steps/second, 753.72 household steps/second, 1538.50 person steps/second, time left: 12:24:11.5232435
+Simulating timestep 3407, datetime: 2/24/2025 8:47:00 AM, elapsed time: 00:18:05.8376102, speed: 1.07 steps/second, 704.12 household steps/second, 1437.27 person steps/second, time left: 13:15:33.0906769
+Simulating timestep 3735, datetime: 2/24/2025 2:15:00 PM, elapsed time: 00:19:07.1608018, speed: 5.35 steps/second, 3503.41 household steps/second, 7151.23 person steps/second, time left: 02:38:52.2040357
+Simulating timestep 4027, datetime: 2/24/2025 7:07:00 PM, elapsed time: 00:20:19.5329512, speed: 4.03 steps/second, 2642.73 household steps/second, 5394.40 person steps/second, time left: 03:29:24.2512655
+Simulating timestep 4091, datetime: 2/24/2025 8:11:00 PM, elapsed time: 00:21:30.4845778, speed: 0.90 steps/second, 590.83 household steps/second, 1206.00 person steps/second, time left: 15:35:28.2797364
+Simulating timestep 4310, datetime: 2/24/2025 11:50:00 PM, elapsed time: 00:22:30.5706368, speed: 3.64 steps/second, 2387.33 household steps/second, 4873.06 person steps/second, time left: 03:50:30.7681926
+Simulating timestep 4689, datetime: 2/25/2025 6:09:00 AM, elapsed time: 00:23:38.9727874, speed: 5.54 steps/second, 3629.20 household steps/second, 7408.00 person steps/second, time left: 02:30:29.6253210
+Simulating timestep 4780, datetime: 2/25/2025 7:40:00 AM, elapsed time: 00:24:45.7228257, speed: 1.36 steps/second, 892.96 household steps/second, 1822.73 person steps/second, time left: 10:10:31.8342055
+Simulating timestep 4898, datetime: 2/25/2025 9:38:00 AM, elapsed time: 00:25:45.7661886, speed: 1.97 steps/second, 1287.24 household steps/second, 2627.53 person steps/second, time left: 07:02:31.5290373
+Simulating timestep 5273, datetime: 2/25/2025 3:53:00 PM, elapsed time: 00:26:45.9795055, speed: 6.23 steps/second, 4079.25 household steps/second, 8326.65 person steps/second, time left: 02:12:19.6476820
+Simulating timestep 5474, datetime: 2/25/2025 7:14:00 PM, elapsed time: 00:27:46.0776663, speed: 3.34 steps/second, 2190.67 household steps/second, 4471.63 person steps/second, time left: 04:05:24.3483918
+Simulating timestep 5543, datetime: 2/25/2025 8:23:00 PM, elapsed time: 00:28:46.1021548, speed: 1.15 steps/second, 752.94 household steps/second, 1536.92 person steps/second, time left: 11:53:00.0618980
+Simulating timestep 5726, datetime: 2/25/2025 11:26:00 PM, elapsed time: 00:29:51.4308167, speed: 2.80 steps/second, 1834.80 household steps/second, 3745.23 person steps/second, time left: 04:51:30.2320280
+Simulating timestep 6124, datetime: 2/26/2025 6:04:00 AM, elapsed time: 00:30:59.5528639, speed: 5.84 steps/second, 3826.81 household steps/second, 7811.36 person steps/second, time left: 02:18:37.7361953
+Simulating timestep 6243, datetime: 2/26/2025 8:03:00 AM, elapsed time: 00:32:09.2269445, speed: 1.71 steps/second, 1118.71 household steps/second, 2283.53 person steps/second, time left: 07:53:03.1126491
+Simulating timestep 6360, datetime: 2/26/2025 10:00:00 AM, elapsed time: 00:33:09.4187417, speed: 1.94 steps/second, 1273.18 household steps/second, 2598.84 person steps/second, time left: 06:54:39.2761760
+Simulating timestep 6720, datetime: 2/26/2025 4:00:00 PM, elapsed time: 00:34:09.4871699, speed: 5.99 steps/second, 3925.52 household steps/second, 8012.86 person steps/second, time left: 02:13:29.1237600
+Simulating timestep 6921, datetime: 2/26/2025 7:21:00 PM, elapsed time: 00:35:11.6776508, speed: 3.23 steps/second, 2116.96 household steps/second, 4321.19 person steps/second, time left: 04:06:29.2676444
+Simulating timestep 6974, datetime: 2/26/2025 8:14:00 PM, elapsed time: 00:36:16.4791033, speed: 0.82 steps/second, 535.71 household steps/second, 1093.51 person steps/second, time left: 16:12:57.5500200
+Simulating timestep 7160, datetime: 2/26/2025 11:20:00 PM, elapsed time: 00:37:25.8361430, speed: 2.68 steps/second, 1756.56 household steps/second, 3585.53 person steps/second, time left: 04:55:34.5204738
+Simulating timestep 7541, datetime: 2/27/2025 5:41:00 AM, elapsed time: 00:38:25.8656204, speed: 6.35 steps/second, 4157.21 household steps/second, 8485.78 person steps/second, time left: 02:03:53.4139481
+Simulating timestep 7666, datetime: 2/27/2025 7:46:00 AM, elapsed time: 00:39:36.9031622, speed: 1.76 steps/second, 1152.56 household steps/second, 2352.63 person steps/second, time left: 07:25:40.8039348
+Simulating timestep 7780, datetime: 2/27/2025 9:40:00 AM, elapsed time: 00:40:36.9234516, speed: 1.90 steps/second, 1244.08 household steps/second, 2539.44 person steps/second, time left: 06:51:53.6174073
+Simulating timestep 8071, datetime: 2/27/2025 2:31:00 PM, elapsed time: 00:41:36.9835192, speed: 4.85 steps/second, 3173.57 household steps/second, 6477.96 person steps/second, time left: 02:40:27.9797026
+Simulating timestep 8323, datetime: 2/27/2025 6:43:00 PM, elapsed time: 00:42:37.0792293, speed: 4.19 steps/second, 2746.62 household steps/second, 5606.46 person steps/second, time left: 03:04:24.5264345
+Simulating timestep 8413, datetime: 2/27/2025 8:13:00 PM, elapsed time: 00:43:47.0159361, speed: 1.29 steps/second, 842.91 household steps/second, 1720.56 person steps/second, time left: 09:59:43.9897976
+Simulating timestep 8587, datetime: 2/27/2025 11:07:00 PM, elapsed time: 00:44:55.6271876, speed: 2.54 steps/second, 1661.10 household steps/second, 3390.67 person steps/second, time left: 05:03:11.0509508
+Simulating timestep 8958, datetime: 2/28/2025 5:18:00 AM, elapsed time: 00:46:00.8763609, speed: 5.69 steps/second, 3724.26 household steps/second, 7602.04 person steps/second, time left: 02:14:08.3360338
+Simulating timestep 9102, datetime: 2/28/2025 7:42:00 AM, elapsed time: 00:47:06.1300401, speed: 2.21 steps/second, 1445.44 household steps/second, 2950.45 person steps/second, time left: 05:44:31.8217898
+Simulating timestep 9187, datetime: 2/28/2025 9:07:00 AM, elapsed time: 00:48:07.6988456, speed: 1.38 steps/second, 904.27 household steps/second, 1845.82 person steps/second, time left: 09:09:41.3225980
+Simulating timestep 9431, datetime: 2/28/2025 1:11:00 PM, elapsed time: 00:49:16.7808485, speed: 3.53 steps/second, 2313.48 household steps/second, 4722.33 person steps/second, time left: 03:33:42.3558579
+Simulating timestep 9730, datetime: 2/28/2025 6:10:00 PM, elapsed time: 00:50:25.2140169, speed: 4.37 steps/second, 2861.84 household steps/second, 5841.66 person steps/second, time left: 02:51:37.0175462
+Simulating timestep 9860, datetime: 2/28/2025 8:20:00 PM, elapsed time: 00:51:33.6350095, speed: 1.90 steps/second, 1244.50 household steps/second, 2540.30 person steps/second, time left: 06:33:30.5056002
+Simulating timestep 9953, datetime: 2/28/2025 9:53:00 PM, elapsed time: 00:52:33.7200913, speed: 1.55 steps/second, 1013.81 household steps/second, 2069.42 person steps/second, time left: 08:02:02.8909348
+Simulating timestep 10219, datetime: 3/1/2025 2:19:00 AM, elapsed time: 00:53:33.7892513, speed: 4.43 steps/second, 2900.49 household steps/second, 5920.54 person steps/second, time left: 02:47:29.3898088
+Simulating timestep 10470, datetime: 3/1/2025 6:30:00 AM, elapsed time: 00:54:33.8669786, speed: 4.18 steps/second, 2736.54 household steps/second, 5585.88 person steps/second, time left: 02:56:31.3921634
+Simulating timestep 10556, datetime: 3/1/2025 7:56:00 AM, elapsed time: 00:55:35.1098022, speed: 1.40 steps/second, 919.78 household steps/second, 1877.48 person steps/second, time left: 08:44:10.3262961
+Simulating timestep 10651, datetime: 3/1/2025 9:31:00 AM, elapsed time: 00:56:40.2318499, speed: 1.46 steps/second, 955.51 household steps/second, 1950.41 person steps/second, time left: 08:23:29.0896851
+Simulating timestep 10863, datetime: 3/1/2025 1:03:00 PM, elapsed time: 00:57:40.2471544, speed: 3.53 steps/second, 2313.74 household steps/second, 4722.86 person steps/second, time left: 03:26:55.5245729
+Simulating timestep 11130, datetime: 3/1/2025 5:30:00 PM, elapsed time: 00:58:46.9987468, speed: 4.00 steps/second, 2619.94 household steps/second, 5347.87 person steps/second, time left: 03:01:37.7599727
+Simulating timestep 11277, datetime: 3/1/2025 7:57:00 PM, elapsed time: 00:59:59.6650091, speed: 2.02 steps/second, 1325.03 household steps/second, 2704.68 person steps/second, time left: 05:57:55.1049870
+Simulating timestep 11358, datetime: 3/1/2025 9:18:00 PM, elapsed time: 01:01:03.9825926, speed: 1.26 steps/second, 824.89 household steps/second, 1683.79 person steps/second, time left: 09:33:51.3463670
+Simulating timestep 11588, datetime: 3/2/2025 1:08:00 AM, elapsed time: 01:02:04.1568168, speed: 3.82 steps/second, 2503.56 household steps/second, 5110.33 person steps/second, time left: 03:08:04.4984269
+Simulating timestep 11859, datetime: 3/2/2025 5:39:00 AM, elapsed time: 01:03:04.2525660, speed: 4.51 steps/second, 2953.70 household steps/second, 6029.16 person steps/second, time left: 02:38:24.6638614
+Simulating timestep 11981, datetime: 3/2/2025 7:41:00 AM, elapsed time: 01:04:13.8319010, speed: 1.75 steps/second, 1148.47 household steps/second, 2344.29 person steps/second, time left: 06:46:15.0098243
+Simulating timestep 12095, datetime: 3/2/2025 9:35:00 AM, elapsed time: 01:05:19.5001389, speed: 1.74 steps/second, 1137.08 household steps/second, 2321.03 person steps/second, time left: 06:49:13.5845656
+Simulating timestep 12305, datetime: 3/2/2025 1:05:00 PM, elapsed time: 01:06:19.5115131, speed: 3.50 steps/second, 2292.07 household steps/second, 4678.61 person steps/second, time left: 03:22:00.8687461
+Simulating timestep 12552, datetime: 3/2/2025 5:12:00 PM, elapsed time: 01:07:21.3289289, speed: 4.00 steps/second, 2617.14 household steps/second, 5342.17 person steps/second, time left: 02:55:53.5092690
+Simulating timestep 12711, datetime: 3/2/2025 7:51:00 PM, elapsed time: 01:08:31.1947411, speed: 2.28 steps/second, 1490.64 household steps/second, 3042.73 person steps/second, time left: 05:07:39.0748723
+Simulating timestep 12797, datetime: 3/2/2025 9:17:00 PM, elapsed time: 01:09:37.0150193, speed: 1.31 steps/second, 855.82 household steps/second, 1746.91 person steps/second, time left: 08:54:45.8549183
+Simulating timestep 13044, datetime: 3/3/2025 1:24:00 AM, elapsed time: 01:10:37.1046763, speed: 4.11 steps/second, 2692.39 household steps/second, 5495.77 person steps/second, time left: 02:48:58.8524094
+Simulating timestep 13316, datetime: 3/3/2025 5:56:00 AM, elapsed time: 01:11:37.1207195, speed: 4.53 steps/second, 2968.54 household steps/second, 6059.45 person steps/second, time left: 02:32:15.6773994
+Simulating timestep 13388, datetime: 3/3/2025 7:08:00 AM, elapsed time: 01:12:37.1467105, speed: 1.20 steps/second, 785.66 household steps/second, 1603.71 person steps/second, time left: 09:34:18.2536112
+Simulating timestep 13531, datetime: 3/3/2025 9:31:00 AM, elapsed time: 01:13:42.6141221, speed: 2.18 steps/second, 1430.71 household steps/second, 2920.40 person steps/second, time left: 05:14:16.9036111
+Simulating timestep 13712, datetime: 3/3/2025 12:32:00 PM, elapsed time: 01:14:45.0079467, speed: 2.90 steps/second, 1900.11 household steps/second, 3878.54 person steps/second, time left: 03:55:36.1655204
+Simulating timestep 14004, datetime: 3/3/2025 5:24:00 PM, elapsed time: 01:15:45.0381132, speed: 4.86 steps/second, 3186.06 household steps/second, 6503.46 person steps/second, time left: 02:19:30.5077370
+Simulating timestep 14134, datetime: 3/3/2025 7:34:00 PM, elapsed time: 01:16:45.1151627, speed: 2.16 steps/second, 1417.35 household steps/second, 2893.12 person steps/second, time left: 05:12:36.0548539
+Simulating timestep 14227, datetime: 3/3/2025 9:07:00 PM, elapsed time: 01:17:45.2292840, speed: 1.55 steps/second, 1013.32 household steps/second, 2068.42 person steps/second, time left: 07:16:14.2055247
+Simulating timestep 14394, datetime: 3/3/2025 11:54:00 PM, elapsed time: 01:18:45.3250552, speed: 2.78 steps/second, 1820.18 household steps/second, 3715.39 person steps/second, time left: 04:01:51.5093976
+Simulating timestep 14644, datetime: 3/4/2025 4:04:00 AM, elapsed time: 01:19:55.9588876, speed: 3.54 steps/second, 2318.29 household steps/second, 4732.15 person steps/second, time left: 03:08:42.8858690
+Simulating timestep 14800, datetime: 3/4/2025 6:40:00 AM, elapsed time: 01:21:05.9014667, speed: 2.23 steps/second, 1460.91 household steps/second, 2982.05 person steps/second, time left: 04:58:18.1266517
+Simulating timestep 14992, datetime: 3/4/2025 9:52:00 AM, elapsed time: 01:22:06.0259264, speed: 3.19 steps/second, 2091.66 household steps/second, 4269.54 person steps/second, time left: 03:27:20.7527862
+Simulating timestep 15165, datetime: 3/4/2025 12:45:00 PM, elapsed time: 01:23:06.1794392, speed: 2.88 steps/second, 1883.76 household steps/second, 3845.18 person steps/second, time left: 03:49:13.5965248
+Simulating timestep 15422, datetime: 3/4/2025 5:02:00 PM, elapsed time: 01:24:06.1897071, speed: 4.28 steps/second, 2805.10 household steps/second, 5725.84 person steps/second, time left: 02:32:56.2004199
+Simulating timestep 15586, datetime: 3/4/2025 7:46:00 PM, elapsed time: 01:25:09.1825650, speed: 2.60 steps/second, 1705.27 household steps/second, 3480.84 person steps/second, time left: 04:10:31.4786649
+Simulating timestep 15672, datetime: 3/4/2025 9:12:00 PM, elapsed time: 01:26:09.5215350, speed: 1.43 steps/second, 933.56 household steps/second, 1905.60 person steps/second, time left: 07:36:36.6988437
+Simulating timestep 15752, datetime: 3/4/2025 10:32:00 PM, elapsed time: 01:27:09.5225936, speed: 1.33 steps/second, 873.32 household steps/second, 1782.64 person steps/second, time left: 08:07:06.5156440
+Simulating timestep 16072, datetime: 3/5/2025 3:52:00 AM, elapsed time: 01:28:20.6910919, speed: 4.50 steps/second, 2945.12 household steps/second, 6011.65 person steps/second, time left: 02:23:15.3753821
+Simulating timestep 16256, datetime: 3/5/2025 6:56:00 AM, elapsed time: 01:29:23.7527044, speed: 2.92 steps/second, 1911.15 household steps/second, 3901.07 person steps/second, time left: 03:39:42.6188217
+Simulating timestep 16386, datetime: 3/5/2025 9:06:00 AM, elapsed time: 01:30:24.3744422, speed: 2.14 steps/second, 1404.61 household steps/second, 2867.12 person steps/second, time left: 04:57:55.9515140
+Simulating timestep 16559, datetime: 3/5/2025 11:59:00 AM, elapsed time: 01:31:24.4955903, speed: 2.88 steps/second, 1884.78 household steps/second, 3847.25 person steps/second, time left: 03:41:01.7522118
+Simulating timestep 16848, datetime: 3/5/2025 4:48:00 PM, elapsed time: 01:32:30.8340359, speed: 4.36 steps/second, 2853.47 household steps/second, 5824.57 person steps/second, time left: 02:24:53.3204559
+Simulating timestep 17048, datetime: 3/5/2025 8:08:00 PM, elapsed time: 01:33:30.9083397, speed: 3.33 steps/second, 2180.63 household steps/second, 4451.15 person steps/second, time left: 03:08:35.5958637
+Simulating timestep 17100, datetime: 3/5/2025 9:00:00 PM, elapsed time: 01:34:40.6602447, speed: 0.75 steps/second, 488.30 household steps/second, 996.73 person steps/second, time left: 14:01:02.8205019
+Simulating timestep 17199, datetime: 3/5/2025 10:39:00 PM, elapsed time: 01:35:41.4392414, speed: 1.63 steps/second, 1066.90 household steps/second, 2177.78 person steps/second, time left: 06:23:55.2397493
+Simulating timestep 17475, datetime: 3/6/2025 3:15:00 AM, elapsed time: 01:36:46.4413203, speed: 4.25 steps/second, 2781.14 household steps/second, 5676.93 person steps/second, time left: 02:26:11.7479298
+Simulating timestep 17700, datetime: 3/6/2025 7:00:00 AM, elapsed time: 01:37:46.6154187, speed: 3.74 steps/second, 2449.14 household steps/second, 4999.24 person steps/second, time left: 02:45:00.6449900
+Simulating timestep 17810, datetime: 3/6/2025 8:50:00 AM, elapsed time: 01:38:46.6644879, speed: 1.83 steps/second, 1199.85 household steps/second, 2449.16 person steps/second, time left: 05:35:49.1922197
+Simulating timestep 17990, datetime: 3/6/2025 11:50:00 AM, elapsed time: 01:39:58.1079975, speed: 2.52 steps/second, 1650.25 household steps/second, 3368.54 person steps/second, time left: 04:02:58.4450422
+Simulating timestep 18205, datetime: 3/6/2025 3:25:00 PM, elapsed time: 01:40:58.3367005, speed: 3.57 steps/second, 2338.17 household steps/second, 4772.72 person steps/second, time left: 02:50:29.0748374
+Simulating timestep 18389, datetime: 3/6/2025 6:29:00 PM, elapsed time: 01:42:02.7527239, speed: 2.86 steps/second, 1870.96 household steps/second, 3819.05 person steps/second, time left: 03:31:59.0138377
+Simulating timestep 18539, datetime: 3/6/2025 8:59:00 PM, elapsed time: 01:43:02.8568609, speed: 2.50 steps/second, 1634.66 household steps/second, 3336.71 person steps/second, time left: 04:01:37.5185386
+Simulating timestep 18624, datetime: 3/6/2025 10:24:00 PM, elapsed time: 01:44:02.8858843, speed: 1.42 steps/second, 927.47 household steps/second, 1893.17 person steps/second, time left: 07:04:51.8544546
+Simulating timestep 18833, datetime: 3/7/2025 1:53:00 AM, elapsed time: 01:45:11.2143631, speed: 3.06 steps/second, 2003.48 household steps/second, 4089.55 person steps/second, time left: 03:15:32.5555918
+Simulating timestep 18980, datetime: 3/7/2025 4:20:00 AM, elapsed time: 01:46:11.2196903, speed: 2.45 steps/second, 1604.61 household steps/second, 3275.36 person steps/second, time left: 04:03:09.0503001
+Simulating timestep 19200, datetime: 3/7/2025 8:00:00 AM, elapsed time: 01:47:11.3110831, speed: 3.66 steps/second, 2398.01 household steps/second, 4894.88 person steps/second, time left: 02:41:42.0285102
+Simulating timestep 19398, datetime: 3/7/2025 11:18:00 AM, elapsed time: 01:48:11.3295424, speed: 3.30 steps/second, 2160.84 household steps/second, 4410.74 person steps/second, time left: 02:58:26.9293908
+Simulating timestep 19563, datetime: 3/7/2025 2:03:00 PM, elapsed time: 01:49:11.3512185, speed: 2.75 steps/second, 1800.60 household steps/second, 3675.42 person steps/second, time left: 03:33:08.9822221
+Simulating timestep 19733, datetime: 3/7/2025 4:53:00 PM, elapsed time: 01:50:16.2952048, speed: 2.62 steps/second, 1714.55 household steps/second, 3499.79 person steps/second, time left: 03:42:45.8544039
+Simulating timestep 19972, datetime: 3/7/2025 8:52:00 PM, elapsed time: 01:51:16.4686994, speed: 3.97 steps/second, 2601.56 household steps/second, 5310.36 person steps/second, time left: 02:25:48.5715077
+Simulating timestep 20033, datetime: 3/7/2025 9:53:00 PM, elapsed time: 01:52:16.5407364, speed: 1.02 steps/second, 665.12 household steps/second, 1357.65 person steps/second, time left: 09:29:19.3237281
+Simulating timestep 20153, datetime: 3/7/2025 11:53:00 PM, elapsed time: 01:53:23.1893647, speed: 1.80 steps/second, 1179.32 household steps/second, 2407.25 person steps/second, time left: 05:19:58.6927870
+Simulating timestep 20297, datetime: 3/8/2025 2:17:00 AM, elapsed time: 01:54:23.4803147, speed: 2.39 steps/second, 1564.41 household steps/second, 3193.32 person steps/second, time left: 04:00:12.4678600
+Simulating timestep 20570, datetime: 3/8/2025 6:50:00 AM, elapsed time: 01:55:23.8550369, speed: 4.52 steps/second, 2961.75 household steps/second, 6045.59 person steps/second, time left: 02:05:52.3690957
+Simulating timestep 20694, datetime: 3/8/2025 8:54:00 AM, elapsed time: 01:56:23.9728683, speed: 2.06 steps/second, 1351.01 household steps/second, 2757.72 person steps/second, time left: 04:34:56.5268646
+Simulating timestep 20858, datetime: 3/8/2025 11:38:00 AM, elapsed time: 01:57:30.6584467, speed: 2.46 steps/second, 1610.84 household steps/second, 3288.09 person steps/second, time left: 03:49:28.9454620
+Simulating timestep 21051, datetime: 3/8/2025 2:51:00 PM, elapsed time: 01:58:30.7080992, speed: 3.21 steps/second, 2105.17 household steps/second, 4297.13 person steps/second, time left: 02:54:35.7085493
+Simulating timestep 21268, datetime: 3/8/2025 6:28:00 PM, elapsed time: 01:59:30.7809523, speed: 3.61 steps/second, 2366.04 household steps/second, 4829.62 person steps/second, time left: 02:34:20.6317138
+Simulating timestep 21390, datetime: 3/8/2025 8:30:00 PM, elapsed time: 02:00:37.6220493, speed: 1.83 steps/second, 1195.52 household steps/second, 2440.32 person steps/second, time left: 05:04:20.7685492
+Simulating timestep 21451, datetime: 3/8/2025 9:31:00 PM, elapsed time: 02:01:43.3098457, speed: 0.93 steps/second, 608.26 household steps/second, 1241.59 person steps/second, time left: 09:57:05.6934169
+Simulating timestep 21576, datetime: 3/8/2025 11:36:00 PM, elapsed time: 02:02:50.7997342, speed: 1.85 steps/second, 1213.14 household steps/second, 2476.30 person steps/second, time left: 04:58:15.0789155
+Simulating timestep 21785, datetime: 3/9/2025 3:05:00 AM, elapsed time: 02:03:50.8480534, speed: 3.48 steps/second, 2279.75 household steps/second, 4653.47 person steps/second, time left: 02:37:42.6382433
+Simulating timestep 22065, datetime: 3/9/2025 7:45:00 AM, elapsed time: 02:05:00.7264680, speed: 4.01 steps/second, 2624.56 household steps/second, 5357.31 person steps/second, time left: 02:15:49.5701027
+Simulating timestep 22203, datetime: 3/9/2025 10:03:00 AM, elapsed time: 02:06:06.6098562, speed: 2.09 steps/second, 1371.97 household steps/second, 2800.49 person steps/second, time left: 04:18:44.1314065
+Simulating timestep 22398, datetime: 3/9/2025 1:18:00 PM, elapsed time: 02:07:06.7152142, speed: 3.24 steps/second, 2125.02 household steps/second, 4337.63 person steps/second, time left: 02:46:02.6942629
+Simulating timestep 22613, datetime: 3/9/2025 4:53:00 PM, elapsed time: 02:08:06.7206101, speed: 3.58 steps/second, 2346.87 household steps/second, 4790.49 person steps/second, time left: 02:29:20.8988193
+Simulating timestep 22774, datetime: 3/9/2025 7:34:00 PM, elapsed time: 02:09:06.7697975, speed: 2.68 steps/second, 1756.14 household steps/second, 3584.68 person steps/second, time left: 03:18:35.1014949
+Simulating timestep 22860, datetime: 3/9/2025 9:00:00 PM, elapsed time: 02:10:11.9677246, speed: 1.32 steps/second, 863.98 household steps/second, 1763.58 person steps/second, time left: 06:42:33.5576442
+Simulating timestep 22927, datetime: 3/9/2025 10:07:00 PM, elapsed time: 02:11:16.6009256, speed: 1.04 steps/second, 678.99 household steps/second, 1385.96 person steps/second, time left: 08:31:09.9008864
+Simulating timestep 23171, datetime: 3/10/2025 2:11:00 AM, elapsed time: 02:12:16.6977726, speed: 4.06 steps/second, 2659.37 household steps/second, 5428.37 person steps/second, time left: 02:09:30.4730573
+Simulating timestep 23397, datetime: 3/10/2025 5:57:00 AM, elapsed time: 02:13:16.7922030, speed: 3.76 steps/second, 2463.29 household steps/second, 5028.12 person steps/second, time left: 02:18:48.9285107
+Simulating timestep 23586, datetime: 3/10/2025 9:06:00 AM, elapsed time: 02:14:27.1506101, speed: 2.69 steps/second, 1759.49 household steps/second, 3591.51 person steps/second, time left: 03:13:10.1515695
+Simulating timestep 23783, datetime: 3/10/2025 12:23:00 PM, elapsed time: 02:15:27.1974359, speed: 3.28 steps/second, 2148.91 household steps/second, 4386.39 person steps/second, time left: 02:37:09.7901003
+Simulating timestep 23995, datetime: 3/10/2025 3:55:00 PM, elapsed time: 02:16:27.2338584, speed: 3.53 steps/second, 2312.93 household steps/second, 4721.20 person steps/second, time left: 02:25:01.0334024
+Simulating timestep 24181, datetime: 3/10/2025 7:01:00 PM, elapsed time: 02:17:36.8218433, speed: 2.67 steps/second, 1750.73 household steps/second, 3573.63 person steps/second, time left: 03:10:25.5240368
+Simulating timestep 24270, datetime: 3/10/2025 8:30:00 PM, elapsed time: 02:18:42.2083308, speed: 1.36 steps/second, 891.55 household steps/second, 1819.84 person steps/second, time left: 06:12:50.9948806
+Simulating timestep 24355, datetime: 3/10/2025 9:55:00 PM, elapsed time: 02:19:51.6628945, speed: 1.22 steps/second, 801.60 household steps/second, 1636.25 person steps/second, time left: 06:53:31.6214911
+Simulating timestep 24515, datetime: 3/11/2025 12:35:00 AM, elapsed time: 02:20:57.7069081, speed: 2.42 steps/second, 1586.82 household steps/second, 3239.05 person steps/second, time left: 03:27:47.8714424
+Simulating timestep 24754, datetime: 3/11/2025 4:34:00 AM, elapsed time: 02:21:57.7533862, speed: 3.98 steps/second, 2607.06 household steps/second, 5321.59 person steps/second, time left: 02:05:28.6726474
+Simulating timestep 24989, datetime: 3/11/2025 8:29:00 AM, elapsed time: 02:23:00.5956131, speed: 3.74 steps/second, 2449.39 household steps/second, 4999.74 person steps/second, time left: 02:12:30.4776509
+Simulating timestep 25133, datetime: 3/11/2025 10:53:00 AM, elapsed time: 02:24:06.0240786, speed: 2.20 steps/second, 1441.57 household steps/second, 2942.57 person steps/second, time left: 03:44:03.2778385
+Simulating timestep 25393, datetime: 3/11/2025 3:13:00 PM, elapsed time: 02:25:06.0660279, speed: 4.33 steps/second, 2836.35 household steps/second, 5789.62 person steps/second, time left: 01:52:52.5009504
+Simulating timestep 25524, datetime: 3/11/2025 5:24:00 PM, elapsed time: 02:26:06.2226547, speed: 2.18 steps/second, 1426.36 household steps/second, 2911.52 person steps/second, time left: 03:43:27.1211912
+Simulating timestep 25646, datetime: 3/11/2025 7:26:00 PM, elapsed time: 02:27:15.8089844, speed: 1.75 steps/second, 1148.36 household steps/second, 2344.05 person steps/second, time left: 04:36:23.2208991
+Simulating timestep 25765, datetime: 3/11/2025 9:25:00 PM, elapsed time: 02:28:21.8352440, speed: 1.80 steps/second, 1180.52 household steps/second, 2409.69 person steps/second, time left: 04:27:45.4650984
+Simulating timestep 25895, datetime: 3/11/2025 11:35:00 PM, elapsed time: 02:29:22.4056718, speed: 2.15 steps/second, 1405.80 household steps/second, 2869.55 person steps/second, time left: 03:43:50.3275487
+Simulating timestep 26050, datetime: 3/12/2025 2:10:00 AM, elapsed time: 02:30:22.4259309, speed: 2.58 steps/second, 1691.51 household steps/second, 3452.75 person steps/second, time left: 03:05:01.8117961
+Simulating timestep 26318, datetime: 3/12/2025 6:38:00 AM, elapsed time: 02:31:22.5742236, speed: 4.46 steps/second, 2918.45 household steps/second, 5957.21 person steps/second, time left: 01:46:14.3724226
+Simulating timestep 26494, datetime: 3/12/2025 9:34:00 AM, elapsed time: 02:32:22.6683632, speed: 2.93 steps/second, 1918.32 household steps/second, 3915.72 person steps/second, time left: 02:40:37.5976383
+Simulating timestep 26609, datetime: 3/12/2025 11:29:00 AM, elapsed time: 02:33:22.8067595, speed: 1.91 steps/second, 1252.53 household steps/second, 2556.69 person steps/second, time left: 04:05:00.4387686
+Simulating timestep 26812, datetime: 3/12/2025 2:52:00 PM, elapsed time: 02:34:29.4585367, speed: 3.05 steps/second, 1994.92 household steps/second, 4072.07 person steps/second, time left: 02:32:43.1418625
+Simulating timestep 26964, datetime: 3/12/2025 5:24:00 PM, elapsed time: 02:35:39.4406716, speed: 2.17 steps/second, 1422.65 household steps/second, 2903.94 person steps/second, time left: 03:32:59.1061597
+Simulating timestep 27146, datetime: 3/12/2025 8:26:00 PM, elapsed time: 02:36:39.6222315, speed: 3.02 steps/second, 1980.84 household steps/second, 4043.33 person steps/second, time left: 02:31:57.8369927
+Simulating timestep 27264, datetime: 3/12/2025 10:24:00 PM, elapsed time: 02:37:51.6664338, speed: 1.64 steps/second, 1072.81 household steps/second, 2189.85 person steps/second, time left: 04:39:23.0984605
+Simulating timestep 27409, datetime: 3/13/2025 12:49:00 AM, elapsed time: 02:38:51.6768479, speed: 2.42 steps/second, 1582.64 household steps/second, 3230.52 person steps/second, time left: 03:08:23.0649619
+Simulating timestep 27638, datetime: 3/13/2025 4:38:00 AM, elapsed time: 02:39:51.6936475, speed: 3.82 steps/second, 2499.22 household steps/second, 5101.45 person steps/second, time left: 01:58:17.7072784
+Simulating timestep 27885, datetime: 3/13/2025 8:45:00 AM, elapsed time: 02:40:51.8275036, speed: 4.11 steps/second, 2690.41 household steps/second, 5491.73 person steps/second, time left: 01:48:53.1661070
+Simulating timestep 28024, datetime: 3/13/2025 11:04:00 AM, elapsed time: 02:42:03.1980668, speed: 1.95 steps/second, 1275.67 household steps/second, 2603.92 person steps/second, time left: 03:48:27.2557927
+Simulating timestep 28155, datetime: 3/13/2025 1:15:00 PM, elapsed time: 02:43:03.2892458, speed: 2.18 steps/second, 1427.91 household steps/second, 2914.69 person steps/second, time left: 03:23:05.6654208
+Simulating timestep 28364, datetime: 3/13/2025 4:44:00 PM, elapsed time: 02:44:12.0126017, speed: 3.04 steps/second, 1991.97 household steps/second, 4066.06 person steps/second, time left: 02:24:26.3768808
+Simulating timestep 28575, datetime: 3/13/2025 8:15:00 PM, elapsed time: 02:45:13.7443341, speed: 3.42 steps/second, 2238.80 household steps/second, 4569.89 person steps/second, time left: 02:07:29.1760360
+Simulating timestep 28675, datetime: 3/13/2025 9:55:00 PM, elapsed time: 02:46:23.9302069, speed: 1.42 steps/second, 933.24 household steps/second, 1904.94 person steps/second, time left: 05:04:39.9105707
+Simulating timestep 28794, datetime: 3/13/2025 11:54:00 PM, elapsed time: 02:47:33.8583188, speed: 1.70 steps/second, 1114.64 household steps/second, 2275.24 person steps/second, time left: 04:13:54.9262951
+Simulating timestep 28893, datetime: 3/14/2025 1:33:00 AM, elapsed time: 02:49:33.8501012, speed: 0.83 steps/second, 540.41 household steps/second, 1103.10 person steps/second, time left: 08:41:43.3107479
+Simulating timestep 28895, datetime: 3/14/2025 1:35:00 AM, elapsed time: 02:51:53.7926702, speed: 0.01 steps/second, 9.36 household steps/second, 19.11 person steps/second, time left: 20.21:56:48.4222125
+Simulating timestep 28896, datetime: 3/14/2025 1:36:00 AM, elapsed time: 03:10:50.7910892, speed: 0.00 steps/second, 0.58 household steps/second, 1.18 person steps/second, time left: 339.20:04:07.1722560
+Simulating timestep 28971, datetime: 3/14/2025 2:51:00 AM, elapsed time: 03:12:09.5190746, speed: 0.95 steps/second, 623.98 household steps/second, 1273.69 person steps/second, time left: 07:30:28.8919475
+Simulating timestep 29099, datetime: 3/14/2025 4:59:00 AM, elapsed time: 03:13:14.2406696, speed: 1.98 steps/second, 1295.39 household steps/second, 2644.19 person steps/second, time left: 03:35:54.9373866
+Simulating timestep 29143, datetime: 3/14/2025 5:43:00 AM, elapsed time: 03:14:38.1718683, speed: 0.52 steps/second, 343.38 household steps/second, 700.91 person steps/second, time left: 13:33:08.8242988
+Simulating timestep 29216, datetime: 3/14/2025 6:56:00 AM, elapsed time: 03:15:44.6075771, speed: 1.10 steps/second, 719.72 household steps/second, 1469.10 person steps/second, time left: 06:26:50.6344826
+Simulating timestep 29251, datetime: 3/14/2025 7:31:00 AM, elapsed time: 03:16:49.4505778, speed: 0.54 steps/second, 353.55 household steps/second, 721.67 person steps/second, time left: 13:06:25.3252808
+Simulating timestep 29333, datetime: 3/14/2025 8:53:00 AM, elapsed time: 03:17:52.3684965, speed: 1.30 steps/second, 853.65 household steps/second, 1742.49 person steps/second, time left: 05:24:39.2341711
+Simulating timestep 29361, datetime: 3/14/2025 9:21:00 AM, elapsed time: 03:18:58.8441136, speed: 0.42 steps/second, 275.89 household steps/second, 563.15 person steps/second, time left: 16:43:25.5419299
+Simulating timestep 29428, datetime: 3/14/2025 10:28:00 AM, elapsed time: 03:20:09.0110153, speed: 0.95 steps/second, 625.44 household steps/second, 1276.66 person steps/second, time left: 07:21:27.4817581
+Simulating timestep 29505, datetime: 3/14/2025 11:45:00 AM, elapsed time: 03:21:09.0910445, speed: 1.28 steps/second, 839.46 household steps/second, 1713.53 person steps/second, time left: 05:27:54.2589127
+Simulating timestep 29606, datetime: 3/14/2025 1:26:00 PM, elapsed time: 03:22:09.8743756, speed: 1.66 steps/second, 1088.37 household steps/second, 2221.61 person steps/second, time left: 04:11:53.9859133
+Simulating timestep 29658, datetime: 3/14/2025 2:18:00 PM, elapsed time: 03:23:12.8409243, speed: 0.83 steps/second, 540.92 household steps/second, 1104.14 person steps/second, time left: 08:25:47.4546830
+Simulating timestep 29705, datetime: 3/14/2025 3:05:00 PM, elapsed time: 03:24:13.3975932, speed: 0.78 steps/second, 508.37 household steps/second, 1037.69 person steps/second, time left: 08:57:10.3206922
+Simulating timestep 29768, datetime: 3/14/2025 4:08:00 PM, elapsed time: 03:25:27.1261029, speed: 0.85 steps/second, 559.69 household steps/second, 1142.45 person steps/second, time left: 08:06:41.1710164
+Simulating timestep 29857, datetime: 3/14/2025 5:37:00 PM, elapsed time: 03:26:38.4144503, speed: 1.25 steps/second, 817.74 household steps/second, 1669.18 person steps/second, time left: 05:31:55.0806899
+Simulating timestep 29925, datetime: 3/14/2025 6:45:00 PM, elapsed time: 03:27:40.4148659, speed: 1.10 steps/second, 718.38 household steps/second, 1466.38 person steps/second, time left: 06:16:47.3574235
+Simulating timestep 29979, datetime: 3/14/2025 7:39:00 PM, elapsed time: 03:28:46.4081517, speed: 0.82 steps/second, 535.96 household steps/second, 1094.02 person steps/second, time left: 08:23:55.9237773
+Simulating timestep 30023, datetime: 3/14/2025 8:23:00 PM, elapsed time: 03:29:49.8016851, speed: 0.69 steps/second, 454.62 household steps/second, 927.98 person steps/second, time left: 09:53:02.5021449
+Simulating timestep 30072, datetime: 3/14/2025 9:12:00 PM, elapsed time: 03:31:02.7014151, speed: 0.67 steps/second, 440.26 household steps/second, 898.67 person steps/second, time left: 10:11:10.0519395
+Simulating timestep 30133, datetime: 3/14/2025 10:13:00 PM, elapsed time: 03:32:03.0947143, speed: 1.01 steps/second, 661.58 household steps/second, 1350.43 person steps/second, time left: 06:45:42.4597939
+Simulating timestep 30201, datetime: 3/14/2025 11:21:00 PM, elapsed time: 03:33:13.5086567, speed: 0.97 steps/second, 632.55 household steps/second, 1291.16 person steps/second, time left: 07:03:09.4037309
+Simulating timestep 30294, datetime: 3/15/2025 12:54:00 AM, elapsed time: 03:34:23.6349734, speed: 1.33 steps/second, 868.65 household steps/second, 1773.10 person steps/second, time left: 05:06:58.3377603
+Simulating timestep 30385, datetime: 3/15/2025 2:25:00 AM, elapsed time: 03:35:33.1913729, speed: 1.31 steps/second, 856.93 household steps/second, 1749.18 person steps/second, time left: 05:10:00.6041959
+Simulating timestep 30471, datetime: 3/15/2025 3:51:00 AM, elapsed time: 03:36:34.4744609, speed: 1.40 steps/second, 919.18 household steps/second, 1876.24 person steps/second, time left: 04:47:59.6930338
+Simulating timestep 30537, datetime: 3/15/2025 4:57:00 AM, elapsed time: 03:37:35.1392422, speed: 1.09 steps/second, 712.60 household steps/second, 1454.58 person steps/second, time left: 06:10:28.1273663
+Simulating timestep 30623, datetime: 3/15/2025 6:23:00 AM, elapsed time: 03:38:35.7670360, speed: 1.42 steps/second, 929.11 household steps/second, 1896.52 person steps/second, time left: 04:43:07.7668278
+Simulating timestep 30670, datetime: 3/15/2025 7:10:00 AM, elapsed time: 03:39:40.0324540, speed: 0.73 steps/second, 479.03 household steps/second, 977.80 person steps/second, time left: 09:08:04.7511255
+Simulating timestep 30739, datetime: 3/15/2025 8:19:00 AM, elapsed time: 03:40:44.8911064, speed: 1.06 steps/second, 696.82 household steps/second, 1422.37 person steps/second, time left: 06:15:41.6716406
+Simulating timestep 30759, datetime: 3/15/2025 8:39:00 AM, elapsed time: 03:41:44.9001805, speed: 0.33 steps/second, 218.30 household steps/second, 445.60 person steps/second, time left: 19:58:13.8712255
+Simulating timestep 30779, datetime: 3/15/2025 8:59:00 AM, elapsed time: 03:42:45.3335041, speed: 0.33 steps/second, 216.77 household steps/second, 442.47 person steps/second, time left: 20:05:41.7100153
+Simulating timestep 30831, datetime: 3/15/2025 9:51:00 AM, elapsed time: 03:43:53.4663632, speed: 0.76 steps/second, 499.91 household steps/second, 1020.42 person steps/second, time left: 08:41:40.4975199
+Simulating timestep 30879, datetime: 3/15/2025 10:39:00 AM, elapsed time: 03:44:59.5179173, speed: 0.73 steps/second, 475.99 household steps/second, 971.60 person steps/second, time left: 09:06:46.9812770
+Simulating timestep 31047, datetime: 3/15/2025 1:27:00 PM, elapsed time: 03:45:59.5985718, speed: 2.80 steps/second, 1831.54 household steps/second, 3738.57 person steps/second, time left: 02:21:06.0079403
+Simulating timestep 31170, datetime: 3/15/2025 3:30:00 PM, elapsed time: 03:46:59.7267068, speed: 2.05 steps/second, 1339.89 household steps/second, 2735.01 person steps/second, time left: 03:11:52.3380426
+Simulating timestep 31308, datetime: 3/15/2025 5:48:00 PM, elapsed time: 03:47:59.8532861, speed: 2.30 steps/second, 1503.33 household steps/second, 3068.63 person steps/second, time left: 02:50:00.6048882
+Simulating timestep 31403, datetime: 3/15/2025 7:23:00 PM, elapsed time: 03:48:59.8599328, speed: 1.58 steps/second, 1036.97 household steps/second, 2116.68 person steps/second, time left: 04:05:28.1576958
+Simulating timestep 31517, datetime: 3/15/2025 9:17:00 PM, elapsed time: 03:50:03.1265626, speed: 1.80 steps/second, 1180.24 household steps/second, 2409.14 person steps/second, time left: 03:34:36.9790460
+Simulating timestep 31614, datetime: 3/15/2025 10:54:00 PM, elapsed time: 03:51:03.2738039, speed: 1.61 steps/second, 1056.32 household steps/second, 2156.19 person steps/second, time left: 03:58:47.4449224
+Simulating timestep 31756, datetime: 3/16/2025 1:16:00 AM, elapsed time: 03:52:03.9826199, speed: 2.34 steps/second, 1532.07 household steps/second, 3127.29 person steps/second, time left: 02:43:37.7271170
+Simulating timestep 31907, datetime: 3/16/2025 3:47:00 AM, elapsed time: 03:53:04.0337977, speed: 2.51 steps/second, 1647.01 household steps/second, 3361.92 person steps/second, time left: 02:31:12.5001268
+Simulating timestep 32063, datetime: 3/16/2025 6:23:00 AM, elapsed time: 03:54:09.4986307, speed: 2.38 steps/second, 1560.84 household steps/second, 3186.02 person steps/second, time left: 02:38:27.9277005
+Simulating timestep 32170, datetime: 3/16/2025 8:10:00 AM, elapsed time: 03:55:20.5929860, speed: 1.51 steps/second, 985.80 household steps/second, 2012.24 person steps/second, time left: 04:09:42.9692711
+Simulating timestep 32265, datetime: 3/16/2025 9:45:00 AM, elapsed time: 03:56:20.9491646, speed: 1.57 steps/second, 1030.96 household steps/second, 2104.42 person steps/second, time left: 03:57:46.2946364
+Simulating timestep 32377, datetime: 3/16/2025 11:37:00 AM, elapsed time: 03:57:21.3470754, speed: 1.85 steps/second, 1214.61 household steps/second, 2479.29 person steps/second, time left: 03:20:48.8439375
+Simulating timestep 32519, datetime: 3/16/2025 1:59:00 PM, elapsed time: 03:58:30.9963150, speed: 2.04 steps/second, 1335.41 household steps/second, 2725.86 person steps/second, time left: 03:01:29.3152701
+Simulating timestep 32627, datetime: 3/16/2025 3:47:00 PM, elapsed time: 03:59:31.1962964, speed: 1.79 steps/second, 1175.08 household steps/second, 2398.61 person steps/second, time left: 03:25:14.7980469
+Simulating timestep 32776, datetime: 3/16/2025 6:16:00 PM, elapsed time: 04:00:49.9455207, speed: 1.89 steps/second, 1239.31 household steps/second, 2529.71 person steps/second, time left: 03:13:17.8052217
+Simulating timestep 32846, datetime: 3/16/2025 7:26:00 PM, elapsed time: 04:01:52.1589734, speed: 1.13 steps/second, 736.98 household steps/second, 1504.34 person steps/second, time left: 05:24:00.8152051
+Simulating timestep 32941, datetime: 3/16/2025 9:01:00 PM, elapsed time: 04:03:11.3820551, speed: 1.20 steps/second, 785.44 household steps/second, 1603.26 person steps/second, time left: 05:02:42.0999615
+Simulating timestep 33064, datetime: 3/16/2025 11:04:00 PM, elapsed time: 04:04:12.1947688, speed: 2.02 steps/second, 1324.81 household steps/second, 2704.22 person steps/second, time left: 02:58:26.9929096
+Simulating timestep 33198, datetime: 3/17/2025 1:18:00 AM, elapsed time: 04:05:14.1387329, speed: 2.16 steps/second, 1416.93 household steps/second, 2892.26 person steps/second, time left: 02:45:48.9402638
+Simulating timestep 33397, datetime: 3/17/2025 4:37:00 AM, elapsed time: 04:06:14.9641808, speed: 3.27 steps/second, 2142.94 household steps/second, 4374.21 person steps/second, time left: 01:48:37.4925908
+Simulating timestep 33530, datetime: 3/17/2025 6:50:00 AM, elapsed time: 04:07:15.0827255, speed: 2.21 steps/second, 1449.05 household steps/second, 2957.84 person steps/second, time left: 02:39:38.2854300
+Simulating timestep 33602, datetime: 3/17/2025 8:02:00 AM, elapsed time: 04:08:26.3161091, speed: 1.01 steps/second, 662.05 household steps/second, 1351.39 person steps/second, time left: 05:48:13.1471509
+Simulating timestep 33701, datetime: 3/17/2025 9:41:00 AM, elapsed time: 04:09:26.6112122, speed: 1.64 steps/second, 1075.46 household steps/second, 2195.25 person steps/second, time left: 03:33:21.4421420
+Simulating timestep 33849, datetime: 3/17/2025 12:09:00 PM, elapsed time: 04:10:26.8164665, speed: 2.46 steps/second, 1610.16 household steps/second, 3286.69 person steps/second, time left: 02:21:30.1612330
+Simulating timestep 33941, datetime: 3/17/2025 1:41:00 PM, elapsed time: 04:11:27.7831304, speed: 1.51 steps/second, 988.41 household steps/second, 2017.56 person steps/second, time left: 03:49:29.8511867
+Simulating timestep 34060, datetime: 3/17/2025 3:40:00 PM, elapsed time: 04:12:27.8242862, speed: 1.98 steps/second, 1298.19 household steps/second, 2649.90 person steps/second, time left: 02:53:43.9519229
+Simulating timestep 34140, datetime: 3/17/2025 5:00:00 PM, elapsed time: 04:13:27.9546740, speed: 1.33 steps/second, 871.44 household steps/second, 1778.80 person steps/second, time left: 04:17:48.5422615
+Simulating timestep 34197, datetime: 3/17/2025 5:57:00 PM, elapsed time: 04:14:35.4460228, speed: 0.84 steps/second, 553.18 household steps/second, 1129.17 person steps/second, time left: 06:45:00.4377442
+Simulating timestep 34343, datetime: 3/17/2025 8:23:00 PM, elapsed time: 04:15:35.4483741, speed: 2.43 steps/second, 1593.77 household steps/second, 3253.24 person steps/second, time left: 02:19:34.4377564
+Simulating timestep 34378, datetime: 3/17/2025 8:58:00 PM, elapsed time: 04:16:35.5708296, speed: 0.58 steps/second, 381.31 household steps/second, 778.33 person steps/second, time left: 09:42:23.1711366
+Simulating timestep 34460, datetime: 3/17/2025 10:20:00 PM, elapsed time: 04:17:36.9636022, speed: 1.34 steps/second, 874.86 household steps/second, 1785.78 person steps/second, time left: 04:12:48.5069862
+Simulating timestep 34586, datetime: 3/18/2025 12:26:00 AM, elapsed time: 04:18:37.2687325, speed: 2.09 steps/second, 1368.54 household steps/second, 2793.49 person steps/second, time left: 02:40:36.3769322
+Simulating timestep 34694, datetime: 3/18/2025 2:14:00 AM, elapsed time: 04:19:44.9410038, speed: 1.60 steps/second, 1045.33 household steps/second, 2133.75 person steps/second, time left: 03:29:08.1935653
+Simulating timestep 34902, datetime: 3/18/2025 5:42:00 AM, elapsed time: 04:20:44.9858605, speed: 3.46 steps/second, 2268.97 household steps/second, 4631.47 person steps/second, time left: 01:35:21.0046638
+Simulating timestep 35015, datetime: 3/18/2025 7:35:00 AM, elapsed time: 04:21:45.0137944, speed: 1.88 steps/second, 1233.01 household steps/second, 2516.84 person steps/second, time left: 02:54:27.7029867
+Simulating timestep 35087, datetime: 3/18/2025 8:47:00 AM, elapsed time: 04:22:45.0418833, speed: 1.20 steps/second, 785.63 household steps/second, 1603.65 person steps/second, time left: 04:32:48.4926301
+Simulating timestep 35190, datetime: 3/18/2025 10:30:00 AM, elapsed time: 04:23:45.1768374, speed: 1.71 steps/second, 1121.89 household steps/second, 2290.03 person steps/second, time left: 03:10:02.2878987
+Simulating timestep 35317, datetime: 3/18/2025 12:37:00 PM, elapsed time: 04:24:50.7990601, speed: 1.94 steps/second, 1267.63 household steps/second, 2587.52 person steps/second, time left: 02:47:05.7321814
+Simulating timestep 35437, datetime: 3/18/2025 2:37:00 PM, elapsed time: 04:25:50.8045330, speed: 2.00 steps/second, 1309.88 household steps/second, 2673.76 person steps/second, time left: 02:40:42.3794494
+Simulating timestep 35540, datetime: 3/18/2025 4:20:00 PM, elapsed time: 04:26:55.4204614, speed: 1.59 steps/second, 1044.09 household steps/second, 2131.22 person steps/second, time left: 03:20:32.3641428
+Simulating timestep 35604, datetime: 3/18/2025 5:24:00 PM, elapsed time: 04:27:55.6186709, speed: 1.06 steps/second, 696.37 household steps/second, 1421.44 person steps/second, time left: 04:59:40.4527000
+Simulating timestep 35695, datetime: 3/18/2025 6:55:00 PM, elapsed time: 04:29:08.9703572, speed: 1.24 steps/second, 812.59 household steps/second, 1658.68 person steps/second, time left: 04:15:35.3388116
+Simulating timestep 35801, datetime: 3/18/2025 8:41:00 PM, elapsed time: 04:30:22.7866567, speed: 1.44 steps/second, 940.58 household steps/second, 1919.93 person steps/second, time left: 03:39:34.8167003
+Simulating timestep 35866, datetime: 3/18/2025 9:46:00 PM, elapsed time: 04:31:33.1685094, speed: 0.92 steps/second, 604.91 household steps/second, 1234.76 person steps/second, time left: 05:40:15.0684739
+Simulating timestep 36010, datetime: 3/19/2025 12:10:00 AM, elapsed time: 04:32:33.7181720, speed: 2.38 steps/second, 1557.73 household steps/second, 3179.67 person steps/second, time left: 02:11:07.2513003
+Simulating timestep 36136, datetime: 3/19/2025 2:16:00 AM, elapsed time: 04:33:35.8328320, speed: 2.03 steps/second, 1328.67 household steps/second, 2712.11 person steps/second, time left: 02:32:41.4193765
+Simulating timestep 36299, datetime: 3/19/2025 4:59:00 AM, elapsed time: 04:34:37.6404258, speed: 2.64 steps/second, 1727.38 household steps/second, 3525.96 person steps/second, time left: 01:56:25.0164747
+Simulating timestep 36397, datetime: 3/19/2025 6:37:00 AM, elapsed time: 04:35:38.3204407, speed: 1.62 steps/second, 1057.84 household steps/second, 2159.29 person steps/second, time left: 03:09:05.3052348
+Simulating timestep 36468, datetime: 3/19/2025 7:48:00 AM, elapsed time: 04:36:39.0247821, speed: 1.17 steps/second, 766.09 household steps/second, 1563.76 person steps/second, time left: 04:20:05.2906934
+Simulating timestep 36550, datetime: 3/19/2025 9:10:00 AM, elapsed time: 04:37:39.1309348, speed: 1.36 steps/second, 893.59 household steps/second, 1824.01 person steps/second, time left: 03:41:58.6438360
+Simulating timestep 36704, datetime: 3/19/2025 11:44:00 AM, elapsed time: 04:38:39.3417991, speed: 2.56 steps/second, 1675.28 household steps/second, 3419.62 person steps/second, time left: 01:57:23.8891638
+Simulating timestep 36843, datetime: 3/19/2025 2:03:00 PM, elapsed time: 04:39:48.9669578, speed: 2.00 steps/second, 1307.65 household steps/second, 2669.19 person steps/second, time left: 02:29:14.5968494
+Simulating timestep 36979, datetime: 3/19/2025 4:19:00 PM, elapsed time: 04:40:54.9983169, speed: 2.06 steps/second, 1349.06 household steps/second, 2753.72 person steps/second, time left: 02:23:33.6936896
+Simulating timestep 37041, datetime: 3/19/2025 5:21:00 PM, elapsed time: 04:42:07.8021014, speed: 0.85 steps/second, 557.80 household steps/second, 1138.59 person steps/second, time left: 05:45:59.6468737
+Simulating timestep 37141, datetime: 3/19/2025 7:01:00 PM, elapsed time: 04:43:15.5649247, speed: 1.48 steps/second, 966.61 household steps/second, 1973.06 person steps/second, time left: 03:18:32.0267079
+Simulating timestep 37245, datetime: 3/19/2025 8:45:00 PM, elapsed time: 04:44:23.1348786, speed: 1.54 steps/second, 1008.14 household steps/second, 2057.84 person steps/second, time left: 03:09:13.7013884
+Simulating timestep 37312, datetime: 3/19/2025 9:52:00 PM, elapsed time: 04:45:33.1160011, speed: 0.96 steps/second, 627.10 household steps/second, 1280.05 person steps/second, time left: 05:03:02.5579176
+Simulating timestep 37461, datetime: 3/20/2025 12:21:00 AM, elapsed time: 04:46:33.1334449, speed: 2.48 steps/second, 1626.11 household steps/second, 3319.25 person steps/second, time left: 01:55:51.9534398
+Simulating timestep 37573, datetime: 3/20/2025 2:13:00 AM, elapsed time: 04:47:33.3148918, speed: 1.86 steps/second, 1218.98 household steps/second, 2488.21 person steps/second, time left: 02:33:33.6720535
+Simulating timestep 37758, datetime: 3/20/2025 5:18:00 AM, elapsed time: 04:48:33.3352728, speed: 3.08 steps/second, 2018.90 household steps/second, 4121.02 person steps/second, time left: 01:31:43.0578514
+Simulating timestep 37876, datetime: 3/20/2025 7:16:00 AM, elapsed time: 04:49:35.6988041, speed: 1.89 steps/second, 1239.35 household steps/second, 2529.78 person steps/second, time left: 02:28:22.1298408
+Simulating timestep 37973, datetime: 3/20/2025 8:53:00 AM, elapsed time: 04:50:43.7591218, speed: 1.43 steps/second, 933.51 household steps/second, 1905.50 person steps/second, time left: 03:15:50.5787682
+Simulating timestep 38091, datetime: 3/20/2025 10:51:00 AM, elapsed time: 04:51:44.9741135, speed: 1.93 steps/second, 1262.60 household steps/second, 2577.24 person steps/second, time left: 02:23:46.6448896
+Simulating timestep 38214, datetime: 3/20/2025 12:54:00 PM, elapsed time: 04:52:48.7888773, speed: 1.93 steps/second, 1262.48 household steps/second, 2577.01 person steps/second, time left: 02:22:43.6300104
+Simulating timestep 38273, datetime: 3/20/2025 1:53:00 PM, elapsed time: 04:53:48.9098504, speed: 0.98 steps/second, 642.79 household steps/second, 1312.07 person steps/second, time left: 04:39:19.4855012
+Simulating timestep 38430, datetime: 3/20/2025 4:30:00 PM, elapsed time: 04:54:49.4877744, speed: 2.59 steps/second, 1697.57 household steps/second, 3465.11 person steps/second, time left: 01:44:45.4419233
+Simulating timestep 38487, datetime: 3/20/2025 5:27:00 PM, elapsed time: 04:55:54.5743442, speed: 0.88 steps/second, 573.62 household steps/second, 1170.89 person steps/second, time left: 05:08:55.9699572
+Simulating timestep 38625, datetime: 3/20/2025 7:45:00 PM, elapsed time: 04:56:55.9109455, speed: 2.25 steps/second, 1473.67 household steps/second, 3008.09 person steps/second, time left: 01:59:13.7144777
+Simulating timestep 38695, datetime: 3/20/2025 8:55:00 PM, elapsed time: 04:58:08.6068079, speed: 0.96 steps/second, 630.71 household steps/second, 1287.42 person steps/second, time left: 04:37:22.1599279
+Simulating timestep 38796, datetime: 3/20/2025 10:36:00 PM, elapsed time: 04:59:17.7909629, speed: 1.46 steps/second, 956.22 household steps/second, 1951.85 person steps/second, time left: 03:01:47.8067744
+Simulating timestep 38921, datetime: 3/21/2025 12:41:00 AM, elapsed time: 05:00:17.8888854, speed: 2.08 steps/second, 1362.36 household steps/second, 2780.88 person steps/second, time left: 02:06:35.8966206
+Simulating timestep 39039, datetime: 3/21/2025 2:39:00 AM, elapsed time: 05:01:18.1356762, speed: 1.96 steps/second, 1282.89 household steps/second, 2618.66 person steps/second, time left: 02:13:26.1858180
+Simulating timestep 39188, datetime: 3/21/2025 5:08:00 AM, elapsed time: 05:02:18.5421187, speed: 2.47 steps/second, 1615.64 household steps/second, 3297.88 person steps/second, time left: 01:44:56.8648651
+Simulating timestep 39313, datetime: 3/21/2025 7:13:00 AM, elapsed time: 05:03:33.4718393, speed: 1.67 steps/second, 1092.69 household steps/second, 2230.42 person steps/second, time left: 02:33:55.5376422
+Simulating timestep 39357, datetime: 3/21/2025 7:57:00 AM, elapsed time: 05:04:38.5374464, speed: 0.68 steps/second, 442.94 household steps/second, 904.13 person steps/second, time left: 06:18:38.2482244
+Simulating timestep 39417, datetime: 3/21/2025 8:57:00 AM, elapsed time: 05:05:39.7812297, speed: 0.98 steps/second, 641.70 household steps/second, 1309.85 person steps/second, time left: 04:20:20.2269306
+Simulating timestep 39516, datetime: 3/21/2025 10:36:00 AM, elapsed time: 05:06:39.8738793, speed: 1.65 steps/second, 1079.08 household steps/second, 2202.65 person steps/second, time left: 02:33:48.7741870
+Simulating timestep 39657, datetime: 3/21/2025 12:57:00 PM, elapsed time: 05:07:41.4305019, speed: 2.29 steps/second, 1500.33 household steps/second, 3062.50 person steps/second, time left: 01:49:36.0808952
+Simulating timestep 39810, datetime: 3/21/2025 3:30:00 PM, elapsed time: 05:08:42.4700015, speed: 2.51 steps/second, 1641.81 household steps/second, 3351.29 person steps/second, time left: 01:39:08.3590786
+Simulating timestep 39902, datetime: 3/21/2025 5:02:00 PM, elapsed time: 05:09:42.6937022, speed: 1.53 steps/second, 1000.60 household steps/second, 2042.45 person steps/second, time left: 02:41:39.9434453
+Simulating timestep 40028, datetime: 3/21/2025 7:08:00 PM, elapsed time: 05:10:52.3184680, speed: 1.81 steps/second, 1185.35 household steps/second, 2419.57 person steps/second, time left: 02:15:18.4687232
+Simulating timestep 40134, datetime: 3/21/2025 8:54:00 PM, elapsed time: 05:12:03.3229395, speed: 1.49 steps/second, 977.83 household steps/second, 1995.96 person steps/second, time left: 02:42:50.4832198
+Simulating timestep 40204, datetime: 3/21/2025 10:04:00 PM, elapsed time: 05:13:05.5275574, speed: 1.13 steps/second, 737.08 household steps/second, 1504.55 person steps/second, time left: 03:34:59.4604776
+Simulating timestep 40275, datetime: 3/21/2025 11:15:00 PM, elapsed time: 05:14:05.5461454, speed: 1.18 steps/second, 774.84 household steps/second, 1581.63 person steps/second, time left: 03:23:30.8239952
+Simulating timestep 40444, datetime: 3/22/2025 2:04:00 AM, elapsed time: 05:15:06.2256417, speed: 2.79 steps/second, 1824.26 household steps/second, 3723.71 person steps/second, time left: 01:25:25.8017111
+Simulating timestep 40549, datetime: 3/22/2025 3:49:00 AM, elapsed time: 05:16:06.3020647, speed: 1.75 steps/second, 1144.79 household steps/second, 2336.77 person steps/second, time left: 02:15:08.0284793
+Simulating timestep 40673, datetime: 3/22/2025 5:53:00 AM, elapsed time: 05:17:06.5376815, speed: 2.06 steps/second, 1348.37 household steps/second, 2752.33 person steps/second, time left: 01:53:43.6266870
+Simulating timestep 40804, datetime: 3/22/2025 8:04:00 AM, elapsed time: 05:18:08.7334199, speed: 2.11 steps/second, 1379.60 household steps/second, 2816.06 person steps/second, time left: 01:50:06.9915692
+Simulating timestep 40850, datetime: 3/22/2025 8:50:00 AM, elapsed time: 05:19:10.2971085, speed: 0.75 steps/second, 489.41 household steps/second, 999.00 person steps/second, time left: 05:09:22.7904539
+Simulating timestep 40934, datetime: 3/22/2025 10:14:00 AM, elapsed time: 05:20:10.3058857, speed: 1.40 steps/second, 916.87 household steps/second, 1871.53 person steps/second, time left: 02:44:08.5833628
+Simulating timestep 41101, datetime: 3/22/2025 1:01:00 PM, elapsed time: 05:21:10.6736165, speed: 2.77 steps/second, 1811.98 household steps/second, 3698.65 person steps/second, time left: 01:22:03.0426692
+Simulating timestep 41233, datetime: 3/22/2025 3:13:00 PM, elapsed time: 05:22:10.8641668, speed: 2.19 steps/second, 1436.44 household steps/second, 2932.09 person steps/second, time left: 01:42:29.9238780
+Simulating timestep 41326, datetime: 3/22/2025 4:46:00 PM, elapsed time: 05:23:11.4806284, speed: 1.53 steps/second, 1004.93 household steps/second, 2051.27 person steps/second, time left: 02:25:30.0740502
+Simulating timestep 41429, datetime: 3/22/2025 6:29:00 PM, elapsed time: 05:24:22.5125916, speed: 1.45 steps/second, 949.78 household steps/second, 1938.72 person steps/second, time left: 02:32:45.8817756
+Simulating timestep 41537, datetime: 3/22/2025 8:17:00 PM, elapsed time: 05:25:35.5900013, speed: 1.48 steps/second, 968.01 household steps/second, 1975.93 person steps/second, time left: 02:28:40.1804821
+Simulating timestep 41685, datetime: 3/22/2025 10:45:00 PM, elapsed time: 05:26:35.5996693, speed: 2.47 steps/second, 1615.41 household steps/second, 3297.40 person steps/second, time left: 01:28:05.3109620
+Simulating timestep 41709, datetime: 3/22/2025 11:09:00 PM, elapsed time: 05:27:35.6339706, speed: 0.40 steps/second, 261.85 household steps/second, 534.49 person steps/second, time left: 09:02:26.0955922
+Simulating timestep 41869, datetime: 3/23/2025 1:49:00 AM, elapsed time: 05:28:41.0574476, speed: 2.45 steps/second, 1601.87 household steps/second, 3269.77 person steps/second, time left: 01:27:34.7318932
+Simulating timestep 42031, datetime: 3/23/2025 4:31:00 AM, elapsed time: 05:29:41.0985712, speed: 2.70 steps/second, 1767.29 household steps/second, 3607.43 person steps/second, time left: 01:18:22.8507244
+Simulating timestep 42132, datetime: 3/23/2025 6:12:00 AM, elapsed time: 05:30:42.1834460, speed: 1.65 steps/second, 1083.00 household steps/second, 2210.65 person steps/second, time left: 02:06:53.2317225
+Simulating timestep 42213, datetime: 3/23/2025 7:33:00 AM, elapsed time: 05:31:48.5591783, speed: 1.22 steps/second, 799.31 household steps/second, 1631.58 person steps/second, time left: 02:50:48.9047392
+Simulating timestep 42286, datetime: 3/23/2025 8:46:00 AM, elapsed time: 05:32:56.9131264, speed: 1.07 steps/second, 699.52 household steps/second, 1427.88 person steps/second, time left: 03:14:02.6437078
+Simulating timestep 42435, datetime: 3/23/2025 11:15:00 AM, elapsed time: 05:33:59.7704277, speed: 2.37 steps/second, 1552.64 household steps/second, 3169.29 person steps/second, time left: 01:26:22.5633991
+Simulating timestep 42613, datetime: 3/23/2025 2:13:00 PM, elapsed time: 05:35:00.1414195, speed: 2.95 steps/second, 1931.23 household steps/second, 3942.06 person steps/second, time left: 01:08:26.2449310
+Simulating timestep 42689, datetime: 3/23/2025 3:29:00 PM, elapsed time: 05:36:09.2533928, speed: 1.10 steps/second, 720.28 household steps/second, 1470.25 person steps/second, time left: 03:02:20.6072470
+Simulating timestep 42829, datetime: 3/23/2025 5:49:00 PM, elapsed time: 05:37:10.4800823, speed: 2.29 steps/second, 1497.71 household steps/second, 3057.16 person steps/second, time left: 01:26:40.3326060
+Simulating timestep 42957, datetime: 3/23/2025 7:57:00 PM, elapsed time: 05:38:10.5754415, speed: 2.13 steps/second, 1395.12 household steps/second, 2847.74 person steps/second, time left: 01:32:02.6696114
+Simulating timestep 42994, datetime: 3/23/2025 8:34:00 PM, elapsed time: 05:39:18.6809826, speed: 0.54 steps/second, 355.84 household steps/second, 726.36 person steps/second, time left: 05:59:43.9344577
+Simulating timestep 43092, datetime: 3/23/2025 10:12:00 PM, elapsed time: 05:40:19.1283628, speed: 1.62 steps/second, 1061.92 household steps/second, 2167.60 person steps/second, time left: 01:59:32.2667037
+Simulating timestep 43125, datetime: 3/23/2025 10:45:00 PM, elapsed time: 05:41:22.6732596, speed: 0.52 steps/second, 340.15 household steps/second, 694.33 person steps/second, time left: 06:12:07.3660120
+Simulating timestep 43327, datetime: 3/24/2025 2:07:00 AM, elapsed time: 05:42:25.0746283, speed: 3.24 steps/second, 2120.31 household steps/second, 4328.01 person steps/second, time left: 00:58:39.4989782
+Simulating timestep 43489, datetime: 3/24/2025 4:49:00 AM, elapsed time: 05:43:29.3289138, speed: 2.52 steps/second, 1651.41 household steps/second, 3370.89 person steps/second, time left: 01:14:14.5671632
+Simulating timestep 43602, datetime: 3/24/2025 6:42:00 AM, elapsed time: 05:44:35.5240143, speed: 1.71 steps/second, 1118.13 household steps/second, 2282.36 person steps/second, time left: 01:48:32.8949323
+Simulating timestep 43690, datetime: 3/24/2025 8:10:00 AM, elapsed time: 05:45:43.7355302, speed: 1.29 steps/second, 845.02 household steps/second, 1724.87 person steps/second, time left: 02:22:29.6934133
+Simulating timestep 43748, datetime: 3/24/2025 9:08:00 AM, elapsed time: 05:46:43.8688759, speed: 0.96 steps/second, 631.76 household steps/second, 1289.57 person steps/second, time left: 03:09:35.5701555
+Simulating timestep 43866, datetime: 3/24/2025 11:06:00 AM, elapsed time: 05:47:44.2937155, speed: 1.95 steps/second, 1279.11 household steps/second, 2610.95 person steps/second, time left: 01:32:38.0610933
+Simulating timestep 44009, datetime: 3/24/2025 1:29:00 PM, elapsed time: 05:48:52.3067239, speed: 2.10 steps/second, 1377.16 household steps/second, 2811.09 person steps/second, time left: 01:24:54.3170137
+Simulating timestep 44106, datetime: 3/24/2025 3:06:00 PM, elapsed time: 05:49:53.9267655, speed: 1.57 steps/second, 1031.08 household steps/second, 2104.66 person steps/second, time left: 01:52:22.6301189
+Simulating timestep 44224, datetime: 3/24/2025 5:04:00 PM, elapsed time: 05:51:03.6526415, speed: 1.69 steps/second, 1108.48 household steps/second, 2262.66 person steps/second, time left: 01:43:22.0575804
+Simulating timestep 44354, datetime: 3/24/2025 7:14:00 PM, elapsed time: 05:52:04.8869757, speed: 2.12 steps/second, 1390.56 household steps/second, 2838.44 person steps/second, time left: 01:21:22.7316024
+Simulating timestep 44386, datetime: 3/24/2025 7:46:00 PM, elapsed time: 05:53:06.2963357, speed: 0.52 steps/second, 341.32 household steps/second, 696.70 person steps/second, time left: 05:30:31.3851950
+Simulating timestep 44456, datetime: 3/24/2025 8:56:00 PM, elapsed time: 05:54:09.0659396, speed: 1.12 steps/second, 730.45 household steps/second, 1491.01 person steps/second, time left: 02:33:23.8173489
+Simulating timestep 44572, datetime: 3/24/2025 10:52:00 PM, elapsed time: 05:55:11.7428074, speed: 1.85 steps/second, 1212.25 household steps/second, 2474.47 person steps/second, time left: 01:31:23.1452968
+Simulating timestep 44763, datetime: 3/25/2025 2:03:00 AM, elapsed time: 05:56:12.2607446, speed: 3.16 steps/second, 2067.24 household steps/second, 4219.69 person steps/second, time left: 00:52:34.8539303
+Simulating timestep 44905, datetime: 3/25/2025 4:25:00 AM, elapsed time: 05:57:13.0262510, speed: 2.34 steps/second, 1530.64 household steps/second, 3124.37 person steps/second, time left: 01:10:00.0946853
+Simulating timestep 45042, datetime: 3/25/2025 6:42:00 AM, elapsed time: 05:58:15.0009046, speed: 2.21 steps/second, 1447.93 household steps/second, 2955.55 person steps/second, time left: 01:12:58.0342886
+Simulating timestep 45142, datetime: 3/25/2025 8:22:00 AM, elapsed time: 05:59:15.0930044, speed: 1.66 steps/second, 1089.99 household steps/second, 2224.92 person steps/second, time left: 01:35:55.6213188
+Simulating timestep 45181, datetime: 3/25/2025 9:01:00 AM, elapsed time: 06:00:22.5185459, speed: 0.58 steps/second, 378.86 household steps/second, 773.34 person steps/second, time left: 04:34:51.5959068
+Simulating timestep 45322, datetime: 3/25/2025 11:22:00 AM, elapsed time: 06:01:22.5989614, speed: 2.35 steps/second, 1537.19 household steps/second, 3137.74 person steps/second, time left: 01:06:44.5088288
+Simulating timestep 45483, datetime: 3/25/2025 2:03:00 PM, elapsed time: 06:02:35.6639411, speed: 2.20 steps/second, 1443.30 household steps/second, 2946.10 person steps/second, time left: 01:09:51.9330278
+Simulating timestep 45597, datetime: 3/25/2025 3:57:00 PM, elapsed time: 06:03:35.7447425, speed: 1.90 steps/second, 1242.83 household steps/second, 2536.88 person steps/second, time left: 01:20:08.0451857
+Simulating timestep 45722, datetime: 3/25/2025 6:02:00 PM, elapsed time: 06:04:45.5226514, speed: 1.79 steps/second, 1173.37 household steps/second, 2395.10 person steps/second, time left: 01:23:42.8929942
+Simulating timestep 45875, datetime: 3/25/2025 8:35:00 PM, elapsed time: 06:05:53.9478615, speed: 2.24 steps/second, 1464.59 household steps/second, 2989.56 person steps/second, time left: 01:05:55.6927015
+Simulating timestep 46057, datetime: 3/25/2025 11:37:00 PM, elapsed time: 06:06:54.2492787, speed: 3.02 steps/second, 1976.90 household steps/second, 4035.29 person steps/second, time left: 00:47:50.2811934
+Simulating timestep 46232, datetime: 3/26/2025 2:32:00 AM, elapsed time: 06:07:55.7643448, speed: 2.84 steps/second, 1863.36 household steps/second, 3803.54 person steps/second, time left: 00:49:43.6564631
+Simulating timestep 46359, datetime: 3/26/2025 4:39:00 AM, elapsed time: 06:08:56.2505107, speed: 2.10 steps/second, 1375.27 household steps/second, 2807.24 person steps/second, time left: 01:06:22.0852999
+Simulating timestep 46538, datetime: 3/26/2025 7:38:00 AM, elapsed time: 06:10:07.9145574, speed: 2.50 steps/second, 1636.04 household steps/second, 3339.51 person steps/second, time left: 00:54:35.7275424
+Simulating timestep 46636, datetime: 3/26/2025 9:16:00 AM, elapsed time: 06:11:09.0657868, speed: 1.60 steps/second, 1049.69 household steps/second, 2142.66 person steps/second, time left: 01:24:04.3524333
+Simulating timestep 46828, datetime: 3/26/2025 12:28:00 PM, elapsed time: 06:12:09.1461575, speed: 3.20 steps/second, 2093.20 household steps/second, 4272.68 person steps/second, time left: 00:41:09.5535706
+Simulating timestep 46962, datetime: 3/26/2025 2:42:00 PM, elapsed time: 06:13:11.8082536, speed: 2.14 steps/second, 1400.69 household steps/second, 2859.11 person steps/second, time left: 01:00:27.8547876
+Simulating timestep 47090, datetime: 3/26/2025 4:50:00 PM, elapsed time: 06:14:11.8328111, speed: 2.13 steps/second, 1396.76 household steps/second, 2851.10 person steps/second, time left: 00:59:38.0263572
+Simulating timestep 47255, datetime: 3/26/2025 7:35:00 PM, elapsed time: 06:15:12.0062604, speed: 2.74 steps/second, 1796.06 household steps/second, 3666.15 person steps/second, time left: 00:45:22.3927213
+Simulating timestep 47346, datetime: 3/26/2025 9:06:00 PM, elapsed time: 06:16:13.7392603, speed: 1.47 steps/second, 965.53 household steps/second, 1970.86 person steps/second, time left: 01:23:22.4081457
+Simulating timestep 47493, datetime: 3/26/2025 11:33:00 PM, elapsed time: 06:17:15.4114168, speed: 2.38 steps/second, 1561.24 household steps/second, 3186.84 person steps/second, time left: 00:50:32.0045920
+Simulating timestep 47675, datetime: 3/27/2025 2:35:00 AM, elapsed time: 06:18:17.0628135, speed: 2.95 steps/second, 1933.61 household steps/second, 3946.93 person steps/second, time left: 00:39:46.4510425
+Simulating timestep 47789, datetime: 3/27/2025 4:29:00 AM, elapsed time: 06:19:17.0763709, speed: 1.90 steps/second, 1244.22 household steps/second, 2539.73 person steps/second, time left: 01:00:48.7190029
+Simulating timestep 47995, datetime: 3/27/2025 7:55:00 AM, elapsed time: 06:20:29.8426369, speed: 2.83 steps/second, 1854.29 household steps/second, 3785.02 person steps/second, time left: 00:39:35.5006740
+Simulating timestep 48082, datetime: 3/27/2025 9:22:00 AM, elapsed time: 06:21:41.4508953, speed: 1.21 steps/second, 795.79 household steps/second, 1624.38 person steps/second, time left: 01:31:03.6278075
+Simulating timestep 48261, datetime: 3/27/2025 12:21:00 PM, elapsed time: 06:22:41.4526421, speed: 2.98 steps/second, 1954.03 household steps/second, 3988.60 person steps/second, time left: 00:36:05.0909641
+Simulating timestep 48393, datetime: 3/27/2025 2:33:00 PM, elapsed time: 06:23:51.1904301, speed: 1.89 steps/second, 1239.79 household steps/second, 2530.68 person steps/second, time left: 00:55:42.6589748
+Simulating timestep 48570, datetime: 3/27/2025 5:30:00 PM, elapsed time: 06:24:57.3970791, speed: 2.67 steps/second, 1751.11 household steps/second, 3574.40 person steps/second, time left: 00:38:20.4005161
+Simulating timestep 48731, datetime: 3/27/2025 8:11:00 PM, elapsed time: 06:26:05.9023407, speed: 2.35 steps/second, 1539.37 household steps/second, 3142.20 person steps/second, time left: 00:42:28.3106318
+Simulating timestep 48829, datetime: 3/27/2025 9:49:00 PM, elapsed time: 06:27:15.1964496, speed: 1.41 steps/second, 926.34 household steps/second, 1890.87 person steps/second, time left: 01:09:25.4244441
+Simulating timestep 48971, datetime: 3/28/2025 12:11:00 AM, elapsed time: 06:28:15.2059291, speed: 2.37 steps/second, 1549.92 household steps/second, 3163.73 person steps/second, time left: 00:40:29.5387158
+Simulating timestep 49135, datetime: 3/28/2025 2:55:00 AM, elapsed time: 06:29:20.3877839, speed: 2.52 steps/second, 1648.00 household steps/second, 3363.94 person steps/second, time left: 00:36:59.7601162
+Simulating timestep 49356, datetime: 3/28/2025 6:36:00 AM, elapsed time: 06:30:31.1058154, speed: 3.13 steps/second, 2046.93 household steps/second, 4178.24 person steps/second, time left: 00:28:36.4322215
+Simulating timestep 49443, datetime: 3/28/2025 8:03:00 AM, elapsed time: 06:31:36.5080404, speed: 1.33 steps/second, 871.30 household steps/second, 1778.52 person steps/second, time left: 01:06:06.9832336
+Simulating timestep 49572, datetime: 3/28/2025 10:12:00 AM, elapsed time: 06:32:36.7184564, speed: 2.14 steps/second, 1403.33 household steps/second, 2864.50 person steps/second, time left: 00:40:02.8156710
+Simulating timestep 49762, datetime: 3/28/2025 1:22:00 PM, elapsed time: 06:33:36.7655540, speed: 3.16 steps/second, 2072.54 household steps/second, 4230.51 person steps/second, time left: 00:26:06.9132100
+Simulating timestep 49863, datetime: 3/28/2025 3:03:00 PM, elapsed time: 06:34:48.7370352, speed: 1.40 steps/second, 919.18 household steps/second, 1876.26 person steps/second, time left: 00:57:41.0443979
+Simulating timestep 50028, datetime: 3/28/2025 5:48:00 PM, elapsed time: 06:35:58.7634910, speed: 2.36 steps/second, 1543.35 household steps/second, 3150.31 person steps/second, time left: 00:33:11.2977612
+Simulating timestep 50107, datetime: 3/28/2025 7:07:00 PM, elapsed time: 06:36:58.7692772, speed: 1.32 steps/second, 862.33 household steps/second, 1760.21 person steps/second, time left: 00:58:23.8821739
+Simulating timestep 50220, datetime: 3/28/2025 9:00:00 PM, elapsed time: 06:37:59.1247163, speed: 1.87 steps/second, 1226.32 household steps/second, 2503.19 person steps/second, time left: 00:40:03.5351853
+Simulating timestep 50283, datetime: 3/28/2025 10:03:00 PM, elapsed time: 06:39:10.1086981, speed: 0.89 steps/second, 581.33 household steps/second, 1186.62 person steps/second, time left: 01:23:19.3004324
+Simulating timestep 50337, datetime: 3/28/2025 10:57:00 PM, elapsed time: 06:40:11.3610783, speed: 0.88 steps/second, 577.45 household steps/second, 1178.70 person steps/second, time left: 01:22:51.6515262
+Simulating timestep 50542, datetime: 3/29/2025 2:22:00 AM, elapsed time: 06:41:19.3928224, speed: 3.01 steps/second, 1973.71 household steps/second, 4028.78 person steps/second, time left: 00:23:06.5201309
+Simulating timestep 50628, datetime: 3/29/2025 3:48:00 AM, elapsed time: 06:42:25.7972048, speed: 1.30 steps/second, 848.29 household steps/second, 1731.54 person steps/second, time left: 00:52:39.6131718
+Simulating timestep 50796, datetime: 3/29/2025 6:36:00 AM, elapsed time: 06:43:26.0472357, speed: 2.79 steps/second, 1826.39 household steps/second, 3728.06 person steps/second, time left: 00:23:27.2685788
+Simulating timestep 50880, datetime: 3/29/2025 8:00:00 AM, elapsed time: 06:44:29.0870647, speed: 1.33 steps/second, 872.78 household steps/second, 1781.54 person steps/second, time left: 00:48:01.8207542
+Simulating timestep 50944, datetime: 3/29/2025 9:04:00 AM, elapsed time: 06:45:29.2415591, speed: 1.06 steps/second, 696.87 household steps/second, 1422.47 person steps/second, time left: 00:59:09.1151696
+Simulating timestep 51002, datetime: 3/29/2025 10:02:00 AM, elapsed time: 06:46:37.8017050, speed: 0.85 steps/second, 554.11 household steps/second, 1131.07 person steps/second, time left: 01:13:14.9417664
+Simulating timestep 51155, datetime: 3/29/2025 12:35:00 PM, elapsed time: 06:47:38.9092896, speed: 2.50 steps/second, 1639.98 household steps/second, 3347.55 person steps/second, time left: 00:23:43.8466607
+Simulating timestep 51219, datetime: 3/29/2025 1:39:00 PM, elapsed time: 06:48:43.1975069, speed: 1.00 steps/second, 652.06 household steps/second, 1331.01 person steps/second, time left: 00:58:36.7663869
+Simulating timestep 51325, datetime: 3/29/2025 3:25:00 PM, elapsed time: 06:49:43.4669919, speed: 1.76 steps/second, 1151.99 household steps/second, 2351.47 person steps/second, time left: 00:32:10.3292601
+Simulating timestep 51452, datetime: 3/29/2025 5:32:00 PM, elapsed time: 06:50:43.9124728, speed: 2.10 steps/second, 1376.20 household steps/second, 2809.13 person steps/second, time left: 00:25:55.4002486
+Simulating timestep 51543, datetime: 3/29/2025 7:03:00 PM, elapsed time: 06:51:44.4517047, speed: 1.50 steps/second, 984.57 household steps/second, 2009.72 person steps/second, time left: 00:35:13.5509862
+Simulating timestep 51654, datetime: 3/29/2025 8:54:00 PM, elapsed time: 06:52:44.5086839, speed: 1.85 steps/second, 1210.60 household steps/second, 2471.10 person steps/second, time left: 00:27:38.8711552
+Simulating timestep 51703, datetime: 3/29/2025 9:43:00 PM, elapsed time: 06:53:52.6817926, speed: 0.72 steps/second, 470.79 household steps/second, 960.98 person steps/second, time left: 01:09:57.5156928
+Simulating timestep 51904, datetime: 3/30/2025 1:04:00 AM, elapsed time: 06:54:54.0097281, speed: 3.28 steps/second, 2146.74 household steps/second, 4381.97 person steps/second, time left: 00:14:19.2013252
+Simulating timestep 52021, datetime: 3/30/2025 3:01:00 AM, elapsed time: 06:55:54.0216716, speed: 1.95 steps/second, 1277.00 household steps/second, 2606.63 person steps/second, time left: 00:23:04.3780812
+Simulating timestep 52181, datetime: 3/30/2025 5:41:00 AM, elapsed time: 06:56:54.6669761, speed: 2.64 steps/second, 1728.08 household steps/second, 3527.40 person steps/second, time left: 00:16:02.3651757
+Simulating timestep 52290, datetime: 3/30/2025 7:30:00 AM, elapsed time: 06:58:01.1170340, speed: 1.64 steps/second, 1074.42 household steps/second, 2193.12 person steps/second, time left: 00:24:41.4095476
+Simulating timestep 52429, datetime: 3/30/2025 9:49:00 AM, elapsed time: 06:59:16.7521304, speed: 1.84 steps/second, 1203.74 household steps/second, 2457.10 person steps/second, time left: 00:20:46.6187471
+Simulating timestep 52605, datetime: 3/30/2025 12:45:00 PM, elapsed time: 07:00:27.6540329, speed: 2.48 steps/second, 1625.91 household steps/second, 3318.84 person steps/second, time left: 00:14:12.0313851
+Simulating timestep 52667, datetime: 3/30/2025 1:47:00 PM, elapsed time: 07:01:28.6519015, speed: 1.02 steps/second, 665.76 household steps/second, 1358.97 person steps/second, time left: 00:33:39.8165199
+Simulating timestep 52803, datetime: 3/30/2025 4:03:00 PM, elapsed time: 07:02:28.6690422, speed: 2.27 steps/second, 1484.24 household steps/second, 3029.67 person steps/second, time left: 00:14:05.9769023
+Simulating timestep 52934, datetime: 3/30/2025 6:14:00 PM, elapsed time: 07:03:33.0301386, speed: 2.04 steps/second, 1333.18 household steps/second, 2721.32 person steps/second, time left: 00:14:37.4726577
+Simulating timestep 53030, datetime: 3/30/2025 7:50:00 PM, elapsed time: 07:04:33.1298688, speed: 1.60 steps/second, 1046.26 household steps/second, 2135.65 person steps/second, time left: 00:17:38.0056670
+Simulating timestep 53118, datetime: 3/30/2025 9:18:00 PM, elapsed time: 07:05:38.3701101, speed: 1.35 steps/second, 883.50 household steps/second, 1803.43 person steps/second, time left: 00:19:47.6689382
+Simulating timestep 53342, datetime: 3/31/2025 1:02:00 AM, elapsed time: 07:06:48.6626754, speed: 3.19 steps/second, 2087.28 household steps/second, 4260.59 person steps/second, time left: 00:07:12.4247990
+Simulating timestep 53497, datetime: 3/31/2025 3:37:00 AM, elapsed time: 07:07:50.0706749, speed: 2.52 steps/second, 1653.29 household steps/second, 3374.72 person steps/second, time left: 00:08:04.5289250
+Simulating timestep 53667, datetime: 3/31/2025 6:27:00 AM, elapsed time: 07:08:55.2308527, speed: 2.61 steps/second, 1708.87 household steps/second, 3488.17 person steps/second, time left: 00:06:43.6098071
+Simulating timestep 53760, datetime: 3/31/2025 8:00:00 AM, elapsed time: 07:09:55.7949885, speed: 1.54 steps/second, 1005.79 household steps/second, 2053.05 person steps/second, time left: 00:10:25.1781760
+Simulating timestep 53868, datetime: 3/31/2025 9:48:00 AM, elapsed time: 07:11:04.3870296, speed: 1.57 steps/second, 1031.31 household steps/second, 2105.14 person steps/second, time left: 00:09:01.1149909
+Simulating timestep 54022, datetime: 3/31/2025 12:22:00 PM, elapsed time: 07:12:15.1880162, speed: 2.18 steps/second, 1424.70 household steps/second, 2908.12 person steps/second, time left: 00:05:20.9031730
+Simulating timestep 54149, datetime: 3/31/2025 2:29:00 PM, elapsed time: 07:13:25.6568032, speed: 1.80 steps/second, 1180.45 household steps/second, 2409.56 person steps/second, time left: 00:05:16.8321053
+Simulating timestep 54335, datetime: 3/31/2025 5:35:00 PM, elapsed time: 07:14:25.7117039, speed: 3.10 steps/second, 2028.64 household steps/second, 4140.91 person steps/second, time left: 00:02:04.3071869
+Simulating timestep 54463, datetime: 3/31/2025 7:43:00 PM, elapsed time: 07:15:37.4030372, speed: 1.79 steps/second, 1169.46 household steps/second, 2387.12 person steps/second, time left: 00:02:23.9427551
+Simulating timestep 54568, datetime: 3/31/2025 9:28:00 PM, elapsed time: 07:16:37.7984068, speed: 1.74 steps/second, 1138.75 household steps/second, 2324.43 person steps/second, time left: 00:01:27.4294874
+Main loop: 07:17:20.7731532, MPI communication: 06:03:54.2748145 (83.21 %), speed: 2.09 steps/second, 1365.87 household steps/second, 2788.05 person steps/second
+Calling MPI Barrier
+MPI Barrier is over after 00:00:01.3573387
+Finished main simulation in 07:18:29.9892905
+Calling MPI Barrier
+MPI Barrier is over after 00:00:00.0001457
+Finished postprocessing in  00:04:32.9628279
+Finished city simulation in 07:41:18.2321216

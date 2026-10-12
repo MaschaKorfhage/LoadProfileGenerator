@@ -1,0 +1,3 @@
+Timestep,Datetime,People present,People arriving,People leaving
+42831,2025-03-23T17:51:00.0000000,1,1,0
+42958,2025-03-23T19:58:00.0000000,0,0,1
