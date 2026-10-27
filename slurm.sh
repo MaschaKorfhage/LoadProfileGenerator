@@ -4,17 +4,17 @@
 #SBATCH --job-name=CitySim
 #SBATCH --partition=c23mm
 #SBATCH --cpus-per-task=1
-#SBATCH --mem-per-cpu=2G
+#SBATCH --mem-per-cpu=30G
 #SBATCH --mail-user=mascha.korfhage@gmail.com
 #SBATCH --mail-type=ALL
 #SBATCH -A thes2412
 
 
 # bitte anpassen
-#SBATCH --time=1:00:00
-#SBATCH --ntasks=1
+#SBATCH --time=20:00:00
+#SBATCH --ntasks=24
 
-SCENARIO="test_scenario"
+SCENARIO="scenario_jeulich_ist"
 INPUTDIR="/home/gzi37280/CityScenarioGenerator/scenarios/$SCENARIO"
 
 
