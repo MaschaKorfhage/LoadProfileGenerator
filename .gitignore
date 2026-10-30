@@ -249,3 +249,7 @@ ModelManifest.xml
 .fake/
 
 /.sonarqube
+
+# Old Results
+/OldResults/*/poi_presence/*
+!/OldResults/*/poi_presence/Pharmacy*.csv
